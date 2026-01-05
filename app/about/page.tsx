@@ -1,3 +1,5 @@
+"use client";
+
 import Header from "@/components/Header";
 import AboutImg from "@/public/images/about-img1.jpg";
 import Image from "next/image";
@@ -10,8 +12,13 @@ import ArchitectureImg from "@/public/images/architecture.jpg";
 import InteriorsImg from "@/public/images/interiors.jpg";
 import ConsultingImg from "@/public/images/consulting.jpg";
 import JourneyImg from "@/public/images/journey.jpg";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />
