@@ -1,6 +1,15 @@
 import Header from "@/components/Header";
 import AboutImg from "@/public/images/about-img1.jpg";
 import Image from "next/image";
+import StudioImg from "@/public/images/contact.jpg";
+import TeamImg from "@/public/images/aboutUs-team.jpg";
+import OfficeImg from "@/public/images/office.jpg";
+import AtulImg from "@/public/images/atulSharma.jpg";
+import NavjotImg from "@/public/images/navjyot.jpg";
+import ArchitectureImg from "@/public/images/architecture.jpg";
+import InteriorsImg from "@/public/images/interiors.jpg";
+import ConsultingImg from "@/public/images/consulting.jpg";
+import JourneyImg from "@/public/images/journey.jpg";
 
 export default function About() {
   return (
@@ -44,17 +53,15 @@ export default function About() {
                 function, and human experience.
               </p>
             </div>
-            <div className="bg-gray-100 h-[500px] flex items-center justify-center text-gray-400">
-              {/* IMAGE PLACEHOLDER */}
-              [Studio Image]
+            <div className=" h-[500px] overflow-hidden fit-content object-cover flex items-center justify-center text-gray-400">
+              <Image src={StudioImg} alt="studio" />
             </div>
           </div>
         </section>
 
         {/* Who We Are - Full Width Image */}
-        <section className="bg-gray-100 h-[60vh] flex items-center justify-center text-gray-400">
-          {/* IMAGE PLACEHOLDER */}
-          [Team Image - Full Width]
+        <section className=" w-full flex items-center justify-center text-gray-400">
+          <Image src={TeamImg} alt="studio" />
         </section>
 
         {/* Who We Are Content */}
@@ -76,9 +83,8 @@ export default function About() {
         {/* Our Journey */}
         <section className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="bg-gray-100 h-[500px] flex items-center justify-center text-gray-400 order-2 md:order-1">
-              {/* IMAGE PLACEHOLDER */}
-              [Project Image]
+            <div className="h-[500px] flex items-center justify-center text-gray-400 order-2 md:order-1">
+              <Image className="h-[500px]" src={JourneyImg} alt="studio" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-5xl font-light text-[#563433] mb-8">
@@ -151,9 +157,8 @@ export default function About() {
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="space-y-4">
-              <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                {/* IMAGE PLACEHOLDER */}
-                [Architecture]
+              <div className="bg-gray-100 h-64 flex items-center object-cover justify-center text-gray-400 mb-4">
+                <Image className="h-64" src={ArchitectureImg} alt="studio" />
               </div>
               <h3 className="text-2xl font-light text-[#563433]">
                 Architecture
@@ -164,8 +169,7 @@ export default function About() {
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                {/* IMAGE PLACEHOLDER */}
-                [Interiors]
+                <Image src={InteriorsImg} alt="studio" />
               </div>
               <h3 className="text-2xl font-light text-[#563433]">Interiors</h3>
               <p className="text-gray-600">
@@ -174,8 +178,7 @@ export default function About() {
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                {/* IMAGE PLACEHOLDER */}
-                [Consulting]
+                <Image className="h-64" src={ConsultingImg} alt="studio" />
               </div>
               <h3 className="text-2xl font-light text-[#563433]">
                 Strategy & Consulting
@@ -195,9 +198,13 @@ export default function About() {
             </h2>
             <div className="grid md:grid-cols-2 gap-16">
               <div className="text-center">
-                <div className="bg-gray-200 h-96 mb-6 flex items-center justify-center text-gray-400">
-                  {/* IMAGE PLACEHOLDER */}
-                  [Navjot Paul Singh]
+                <div className="mb-6 flex items-center justify-center text-gray-400">
+                  <Image
+                    src={NavjotImg}
+                    alt="studio"
+                    height={400}
+                    width={400}
+                  />
                 </div>
                 <h3 className="text-3xl font-light text-[#563433] mb-4">
                   Navjot Paul Singh
@@ -209,9 +216,8 @@ export default function About() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="bg-gray-200 h-96 mb-6 flex items-center justify-center text-gray-400">
-                  {/* IMAGE PLACEHOLDER */}
-                  [Atul Sharma]
+                <div className=" mb-6 flex items-center justify-center text-gray-400">
+                  <Image src={AtulImg} alt="studio" height={400} width={400} />
                 </div>
                 <h3 className="text-3xl font-light text-[#563433] mb-4">
                   Atul Sharma
@@ -237,9 +243,8 @@ export default function About() {
             residential, commercial, institutional, and leisure sectors — and
             collaborates with clients both in India and internationally.
           </p>
-          <div className="bg-gray-100 h-[400px] flex items-center justify-center text-gray-400">
-            {/* IMAGE PLACEHOLDER */}
-            [Map or Office Image]
+          <div className="flex items-center justify-center text-gray-400">
+            <Image src={OfficeImg} alt="studio" />
           </div>
         </section>
 
