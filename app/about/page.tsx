@@ -15,9 +15,9 @@ import JourneyImg from "@/public/images/journey.jpg";
 import { useEffect } from "react";
 
 export default function About() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <>
