@@ -7,7 +7,7 @@ export const projects = [
     description:
       "Architecture Rooted in Renewal - A riverside retreat where landscape, material, and mindful spaces come together",
     image: "/images/hero-img1.jpg",
-    imageone: "/images/img5.jpg",
+    imageone: "/images/wellness.jpg",
     imagetwo: "/images/hero-img2.jpg",
     client: "Wellness Centre",
     area: "--",
@@ -26,7 +26,7 @@ export const projects = [
     description:
       "A Retreat for Togetherness — A home that balances privacy, openness, and shared living",
     image: "/images/farmhouse1.jpg",
-    imageone: "/images/img1.jpg",
+    imageone: "/images/farmhouse.jpg",
     imagetwo: "/images/farmhouse2.jpg",
     client: "Farmhouse Group",
     area: "--",
@@ -45,7 +45,7 @@ export const projects = [
     description:
       "A Place for Collaboration — Architecture that blends performance, sustainability, and well-being",
     image: "/images/office1.jpg",
-    imageone: "/images/img3.jpg",
+    imageone: "/images/office-building.jpg",
     imagetwo: "/images/office2.jpg",
     client: "Corporate Group",
     area: "--",
