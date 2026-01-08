@@ -13,11 +13,35 @@ import InteriorsImg from "@/public/images/interiors.jpg";
 import ConsultingImg from "@/public/images/consulting.jpg";
 import JourneyImg from "@/public/images/journey.jpg";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export default function About() {
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
+
+  const pathname = usePathname();
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [pathname]);
+
+  useEffect(() => {
+    // Scroll to top immediately when component mounts
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    // Force scroll after render
+    requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    });
+  }, []);
 
   return (
     <>

@@ -649,7 +649,7 @@ function ZoomedView({
 
       <button
         onClick={handleBackClick}
-        className="absolute top-8 right-8 z-10 text-white text-4xl hover:scale-110 transition-transform"
+        className="absolute top-8 cursor-pointer right-8 z-10 text-white text-4xl hover:scale-110 transition-transform"
       >
         ×
       </button>
