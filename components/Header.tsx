@@ -9,8 +9,8 @@ import logo from "../public/images/website-video.gif";
 
 const navItems = [
   { name: "About Us", path: "/about" },
-  { name: "Contact Us", path: "/contact" },
   { name: "Careers", path: "/careers" },
+  { name: "Contact Us", path: "/contact" },
 ];
 
 export default function Header() {

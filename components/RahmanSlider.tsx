@@ -270,6 +270,9 @@
 //   );
 // }
 
+
+// IMP CODE WORKING CODE
+
 "use client";
 
 import { useLayoutEffect, useRef, useState, useEffect } from "react";
@@ -1034,3 +1037,5 @@ function ZoomedView({
 //     </div>
 //   );
 // }
+
+
