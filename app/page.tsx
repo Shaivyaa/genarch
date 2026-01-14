@@ -135,7 +135,7 @@ export default function Home() {
 
         <main>{showSlider && <RahmanSlider />}</main>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
