@@ -1,5 +1,11 @@
 // import { Instagram, Facebook, Linkedin, Twitter } from "lucide-react";
 
+import Image from "next/image";
+import instagram from "@/public/images/instagram.png";
+import facebook from "@/public/images/facebook.png";
+import linkedin from "@/public/images/linkedin.png";
+
+
 export default function Footer() {
   return (
     <footer className="bg-transparent border-t border-gray-200 py-12">
@@ -14,7 +20,7 @@ export default function Footer() {
               className="text-black hover:text-gray-600 transition-colors"
               aria-label="Instagram"
             >
-              {/* <Instagram size={20} /> */}
+              <Image src={instagram} alt="instagram" height={32} width={32} />
             </a>
             <a
               href="https://facebook.com"
@@ -23,7 +29,7 @@ export default function Footer() {
               className="text-black hover:text-gray-600 transition-colors"
               aria-label="Facebook"
             >
-              {/* <Facebook size={20} /> */}
+              <Image src={facebook} alt="instagram" height={32} width={32} />
             </a>
             <a
               href="https://linkedin.com"
@@ -32,17 +38,17 @@ export default function Footer() {
               className="text-black hover:text-gray-600 transition-colors"
               aria-label="LinkedIn"
             >
-              {/* <Linkedin size={20} /> */}
+              <Image src={linkedin} alt="instagram" height={32} width={32} />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-gray-600 transition-colors"
               aria-label="Twitter"
             >
-              {/* <Twitter size={20} /> */}
-            </a>
+              <Image src={linkedin} alt="instagram" height={32} width={32} />
+            </a> */}
           </div>
 
           {/* Copyright Text */}

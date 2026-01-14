@@ -581,6 +581,7 @@ import Image from "next/image";
 import { projects } from "@/data/projects";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import Footer from "@/components/Footer";
 
 export default function ProjectPage() {
   const params = useParams();
@@ -861,6 +862,8 @@ export default function ProjectPage() {
           </div>
         </div>
       </main>
+
+      <Footer />
     </>
   );
 }
