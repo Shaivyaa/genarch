@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex items-center space-x-6">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/genarchpl/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-gray-600 transition-colors"
@@ -23,7 +23,7 @@ export default function Footer() {
               <Image src={instagram} alt="instagram" height={32} width={32} />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/genarchpl/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-gray-600 transition-colors"
@@ -32,7 +32,7 @@ export default function Footer() {
               <Image src={facebook} alt="instagram" height={32} width={32} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/genesis-architects-pvt-ltd/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:text-gray-600 transition-colors"
