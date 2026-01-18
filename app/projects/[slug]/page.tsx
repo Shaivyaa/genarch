@@ -863,6 +863,18 @@ export default function ProjectPage() {
         </div>
       </main>
 
+      <div className="flex justify-end m-[16px]">
+        <button
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className="group cursor-pointer relative overflow-hidden bg-[#563433] rounded-4xl border-2 border-[#563433] hover:border-[#563433] px-4 py-2 text-[12px]"
+        >
+          <span className="relative text-[#ffffff] text-[15px] hover:border-white z-10 group-hover:text-[#563433] transition-colors">
+            ↑
+          </span>
+          <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+        </button>
+      </div>
+
       <Footer />
     </>
   );

@@ -8,7 +8,7 @@ import linkedin from "@/public/images/linkedin.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-transparent border-t border-gray-200 py-12">
+    <footer className="bg-transparent border-t border-gray-200 py-[20px]">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col items-center space-y-6">
           {/* Social Icons */}
