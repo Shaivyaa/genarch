@@ -109,6 +109,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import logo from "../public/images/logo.svg";
+import "../app/globals.css";
 
 const navItems = [
   { name: "About Us", path: "/about" },
@@ -128,7 +129,9 @@ export default function Header() {
         <div className="px-5 flex justify-between items-center">
           {/* Logo */}
           <Link href="/">
-            <Image src={logo} alt="Logo" width={150} height={70} />
+            <div className="container">
+              <h1 className="logo-heading">Genarch</h1>
+            </div>
           </Link>
 
           {/* Chocolate Bar Button */}

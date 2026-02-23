@@ -22,6 +22,7 @@ body {
   /* background: var(--background); */
   /* color: var(--foreground); */
   font-family: var(--font-poppins);
+  font-family: "larken", sans-serif;
 }
 
 body {
@@ -52,4 +53,77 @@ html {
 
 .panel * {
   pointer-events: auto;
+}
+
+.container .logo-heading:nth-child(1) {
+  color: #355c7d;
+  font-size: 30px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100px;
+  animation: type 2s steps(40, end) forwards;
+  font-family: "larken" !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container .logo-heading:nth-child(2) {
+  opacity: 0;
+  margin: 0 auto auto auto;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  font-family: "larken" !important;
+  width: 100px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  overflow: hidden;
+  animation:
+    shring-animation 2.2s steps(40, end) 2s forwards,
+    blink 0.5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%,
+  99% {
+    border-right: 1px solid orange;
+  }
+  100% {
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }

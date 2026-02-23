@@ -56,6 +56,7 @@ export const projects = [
     details:
       "Designed as the corporate head office for one of India’s leading business groups, this development in Gurugram is envisioned as a contemporary workplace campus that reflects innovation, responsibility, and a strong organizational identity. The project comprises two architecturally aligned buildings unified by a garden-inspired landscape. Achieving GRIHA Gold compliance, the design integrates environmental performance with spatial quality. Mechanical louvers reduce solar heat gain while allowing generous daylight, and inner courtyards act as collaborative spill-out zones that promote interaction and informal exchange. Green terraces on nearly every floor provide moments of pause and connection to nature, blurring the boundaries between indoors and outdoors. Together, these elements create a workplace that supports productivity, sustainability, and human well-being—an environment designed for both performance and longevity.",
   },
+
   {
     id: "4",
     slug: "project-four",
@@ -78,20 +79,58 @@ export const projects = [
   {
     id: "5",
     slug: "project-five",
-    title: "DHARAV SCHOOL – JUNIOR WING",
-    subtitle: "Institutional | Gurugram",
+    title: "Dubai Villa",
+    subtitle: "Residential & Lifestyle | Dubai",
     description:
-      "Little Minds, Timeless Spaces — An environment where learning begins with curiosity",
-    image: "/images/school1.jpeg",
-    imageone: "/images/img4.jpeg",
-    imagetwo: "/images/school2.jpeg",
-    client: "Dharav School",
+      "A French-inspired architecture based luxury villa merging classical elegance with contemporary comfort.",
+    image: "/services-images/dubai-villa1.jpg",
+    imageone: "/services-images/dubai-villa2.jpg",
+    imagetwo: "/services-images/dubai-villa3.jpg",
+    client: "Dubai Private Villa",
     area: "--",
-    status: "Completed",
+    status: "Work In Progress",
     team: "Genarch Design Team",
-    imageleft: "/images/school3.jpeg",
-    imageright: "/images/school4.jpeg",
+    imageleft: "/services-images/dubai-villa4.jpg",
+    imageright: "/services-images/dubai-villa5.jpg",
     details:
-      "Located in the heart of Gurugram, the Junior Wing at Dharav School is designed as a carefully crafted learning ecosystem—rooted in heritage yet contemporary in function. Natural light, pastel tones, and thoughtfully scaled spaces create an environment that feels welcoming, familiar, and enduring. Brick façades, dappled greens, and sunlit interiors come together to form spaces children are excited to enter each day. Theme-based classrooms—such as Traffic, Marine, and Jungle—introduce narrative-driven settings that spark imagination and contextual learning. Every zone supports interactive, play-based education, designed to evolve with age and ability from early years through primary education. The architecture quietly supports growth, creativity, and confidence, creating spaces where little minds can flourish.",
+      "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor–outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort-style luxury. Carefully adapted to Dubai climatic context, the architecture utilises light-toned exterior finishes, deep shaded openings, and energy-efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
+  },
+  {
+    id: "6",
+    slug: "project-six",
+    title: "Costa Coffee",
+    subtitle: "Hospitaility & Entertainment | Retail Interior",
+    description:
+      "A modern industrial café softened by biophilic warmth and community-focused design.",
+    image: "/services-images/costa-goa1.jpg",
+    imageone: "/services-images/costa-goa2.jpg",
+    imagetwo: "/services-images/costa-goa3.jpg",
+    client: "Costa Coffee",
+    area: "--",
+    status: "Work In Progress",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/costa-goa4.jpg",
+    imageright: "/services-images/costa-goa5.jpg",
+    details:
+      "This coffee outlet is designed around a modern industrial–biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
+  },
+  {
+    id: "7",
+    slug: "project-seven",
+    title: "Dharav School – Senior Wing",
+    subtitle: "Commercial | Gurgaon",
+    description:
+      "A neoclassical academic landmark defined by symmetry, scale, and institutional grandeur.",
+    image: "/services-images/dharav-senior1.jpg",
+    imageone: "/services-images/dharav-senior2.jpeg",
+    imagetwo: "/services-images/dharav-senior3.jpeg",
+    client: "Dharav School – Senior Wing",
+    area: "--",
+    status: "Under Construction",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/dharav-senior4.jpg",
+    imageright: "/services-images/dharav-senior5.jpg",
+    details:
+      "Designed as a landmark educational development, the Dharav School campus adopts a formal neoclassical architectural language that conveys institutional strength, symmetry, and timeless academic character. The façade is articulated  in rich red brick masonry complemented by finely detailed Gwalior stone accents, creating a distinguished and heritage-inspired academic presence. A grand central entrance portico, defined by triple-height classical columns, establishes a strong visual focal point, while dormer windows along the sloped roofline introduce rhythm and architectural balance. The gated forecourt further reinforces the school’s prestigious and welcoming institutional identity. The larger campus masterplan integrates the Junior Block, Senior Block, Auditorium Building, and an extensive 2 lakh sq.ft. basement parking facility. All primary academic structures are organised around a central open courtyard, ensuring optimal natural light penetration and cross ventilation across learning environments. Interiors are developed using high-quality finishes, supported by advanced laboratory infrastructure and modern sports amenities. The campus includes expansive outdoor playfields for football, tennis, skating, and cricket, along with a dedicated 30,000 sq.ft. covered sports complex for indoor sports. Together, these elements create a holistic academic environment that balances learning, wellness, and recreational development within a thoughtfully designed educational ecosystem.",
   },
 ];

@@ -1,0 +1,62 @@
+export const servicesdata = [
+  {
+    id: "5",
+    slug: "project-five",
+    title: "Dubai Villa",
+    category: ["Residential & Lifestyle"],
+    subtitle: "Residential & Lifestyle | Dubai",
+    description:
+      "A French-inspired architecture based luxury villa merging classical elegance with contemporary comfort.",
+    image: "/services-images/dubai-villa1.jpg",
+    imageone: "/services-images/dubai-villa2.jpg",
+    imagetwo: "/services-images/dubai-villa3.jpg",
+    client: "Dubai Private Villa",
+    area: "--",
+    status: "Work In Progress",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/dubai-villa4.jpg",
+    imageright: "/services-images/dubai-villa5.jpg",
+    details:
+      "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor–outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort-style luxury. Carefully adapted to Dubai climatic context, the architecture utilises light-toned exterior finishes, deep shaded openings, and energy-efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
+  },
+  {
+    id: "6",
+    slug: "project-six",
+    title: "Costa Coffee",
+    category: ["Hospitaility & Entertainment"],
+    subtitle: "Hospitaility & Entertainment | Retail Interior",
+    description:
+      "A modern industrial café softened by biophilic warmth and community-focused design.",
+    image: "/services-images/costa-goa1.jpg",
+    imageone: "/services-images/costa-goa2.jpg",
+    imagetwo: "/services-images/costa-goa3.jpg",
+    client: "Costa Coffee",
+    area: "--",
+    status: "Completed",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/costa-goa4.jpg",
+    imageright: "/services-images/costa-goa5.jpg",
+    details:
+      "This coffee outlet is designed around a modern industrial–biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
+  },
+  {
+    id: "7",
+    slug: "project-seven",
+    title: "Dharav School – Senior Wing",
+    category: ["Commercial"],
+    subtitle: "Commercial | Gurgaon",
+    description:
+      "A neoclassical academic landmark defined by symmetry, scale, and institutional grandeur.",
+    image: "/services-images/dharav-senior1.jpg",
+    imageone: "/services-images/dharav-senior2.jpeg",
+    imagetwo: "/services-images/dharav-senior3.jpeg",
+    client: "Dharav School – Senior Wing",
+    area: "--",
+    status: "Under Construction",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/dharav-senior4.jpg",
+    imageright: "/services-images/dharav-senior5.jpg",
+    details:
+      "Designed as a landmark educational development, the Dharav School campus adopts a formal neoclassical architectural language that conveys institutional strength, symmetry, and timeless academic character. The façade is articulated  in rich red brick masonry complemented by finely detailed Gwalior stone accents, creating a distinguished and heritage-inspired academic presence. A grand central entrance portico, defined by triple-height classical columns, establishes a strong visual focal point, while dormer windows along the sloped roofline introduce rhythm and architectural balance. The gated forecourt further reinforces the school’s prestigious and welcoming institutional identity. The larger campus masterplan integrates the Junior Block, Senior Block, Auditorium Building, and an extensive 2 lakh sq.ft. basement parking facility. All primary academic structures are organised around a central open courtyard, ensuring optimal natural light penetration and cross ventilation across learning environments. Interiors are developed using high-quality finishes, supported by advanced laboratory infrastructure and modern sports amenities. The campus includes expansive outdoor playfields for football, tennis, skating, and cricket, along with a dedicated 30,000 sq.ft. covered sports complex for indoor sports. Together, these elements create a holistic academic environment that balances learning, wellness, and recreational development within a thoughtfully designed educational ecosystem.",
+  },
+];

@@ -122,6 +122,7 @@ export default function Home() {
           content="Modern web solutions for the digital age"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/cdv2fku.css" />
       </Head>
 
       {isLoading && <Loader onComplete={handleLoadingComplete} />}
