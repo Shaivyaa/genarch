@@ -56,7 +56,7 @@ html {
 }
 
 .container .logo-heading:nth-child(1) {
-  color: #355c7d;
+  color: #563433;
   font-size: 30px;
   text-align: left;
   white-space: nowrap;
@@ -71,7 +71,7 @@ html {
 .container .logo-heading:nth-child(2) {
   opacity: 0;
   margin: 0 auto auto auto;
-  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  /* background: linear-gradient(to right, #f8b195, #f67280, #c06c84); */
   font-weight: 500;
   font-style: normal;
   font-size: 100px;

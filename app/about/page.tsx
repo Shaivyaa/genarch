@@ -15,6 +15,7 @@ import JourneyImg from "@/public/images/journey.jpg";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import costaImg from "@/public/images/Costa.svg";
 
 export default function About() {
   // useEffect(() => {
@@ -357,6 +358,17 @@ export default function About() {
               institutions, and clients across sectors — ranging from corporate
               entities to private patrons.
             </p>
+          </div>
+          <div className="flex max-w-4xl m-[50_auto_0_auto] flex-wrap items-center justify-center gap-[20px]">
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={costaImg} alt="costa" />
           </div>
         </section>
       </main>
