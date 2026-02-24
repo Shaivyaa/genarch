@@ -1,110 +1,296 @@
-// // app/contact/page.tsx
-// import Header from "@/components/Header";
-
-// export default function Contact() {
-//   return (
-//     <>
-//       <Header />
-//       <main className="pt-20 min-h-screen">
-//         <section className="py-20">
-//           <div className="container mx-auto px-6">
-//             <h1 className="text-4xl md:text-6xl font-bold mb-12">Contact Us</h1>
-//             <div className="max-w-2xl">
-//               <form className="space-y-6">
-//                 <div>
-//                   <label
-//                     htmlFor="name"
-//                     className="block text-sm font-medium text-gray-700"
-//                   >
-//                     Name
-//                   </label>
-//                   <input
-//                     type="text"
-//                     id="name"
-//                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
-//                   />
-//                 </div>
-//                 <div>
-//                   <label
-//                     htmlFor="email"
-//                     className="block text-sm font-medium text-gray-700"
-//                   >
-//                     Email
-//                   </label>
-//                   <input
-//                     type="email"
-//                     id="email"
-//                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
-//                   />
-//                 </div>
-//                 <div>
-//                   <label
-//                     htmlFor="message"
-//                     className="block text-sm font-medium text-gray-700"
-//                   >
-//                     Message
-//                   </label>
-//                   <textarea
-//                     id="message"
-//                     rows={4}
-//                     className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
-//                   ></textarea>
-//                 </div>
-//                 <button
-//                   type="submit"
-//                   className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"
-//                 >
-//                   Send Message
-//                 </button>
-//               </form>
-//             </div>
-//           </div>
-//         </section>
-//       </main>
-//     </>
-//   );
-// }
-
+"use client";
 import Header from "@/components/Header";
+import Image from "next/image";
+import AboutImg from "@/public/images/about-img1.jpg";
+import { useState } from "react";
 
-export default function About() {
+export default function Contact() {
+  // Form state type
+  const [form, setForm] = useState<{
+    name: string;
+    email: string;
+    contact: string;
+    feedback: string;
+  }>({
+    name: "",
+    email: "",
+    contact: "",
+    feedback: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+
+  // Change handler
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  // Submit handler
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
   return (
     <>
       <Header />
-      <main className="p-[80_80] w-full m-[0_auto] min-h-screen">
-        <section className="py-20  m-[0_auto] w-full">
-          <div className="container text-center w-full mx-auto px-6">
-            <h1 className="text-4xl text-center md:text-6xl font-bold mb-12 text-[#563433]">
+
+      <main className="w-full min-h-screen bg-white">
+        {/* Hero */}
+        <section className="relative h-[70vh] bg-gray-100">
+          {/* IMAGE PLACEHOLDER - Hero Image */}
+          <div className="absolute overflow-hidden inset-0 flex items-center justify-center text-gray-400 text-sm">
+            <Image src={AboutImg} alt="about" />
+          </div>
+          <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+            <h1 className="text-6xl md:text-8xl font-light text-white tracking-wide">
               Contact Us
             </h1>
-            <div className="max-w-4xl w-full mx-auto text-center">
-              <p className="text-lg text-gray-700 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est
-                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
           </div>
         </section>
+
+        {/* Main Grid */}
+        <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-[1fr_1.4fr] gap-20 items-start">
+          {/* LEFT — Info */}
+          <div>
+            <p className="text-[0.65rem] font-medium tracking-[0.3em] uppercase text-[#c4a882] mb-8">
+              Get in Touch
+            </p>
+            <h2
+              className="text-4xl font-light text-[#563433] leading-snug mb-8"
+              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+            >
+              Lets build something
+              <br />
+              remarkable together.
+            </h2>
+            <div className="w-10 h-px bg-[#563433] opacity-40 mb-10" />
+
+            {/* Address */}
+            <div className="mb-8">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2">
+                Our Studio
+              </p>
+              <p className="text-sm font-light text-gray-500 leading-relaxed">
+                371, First Floor, Rangpuri
+                <br />
+                Adjacent to Celebration Garden
+                <br />
+                New Delhi – 110037
+              </p>
+            </div>
+
+            {/* Email */}
+            <div className="mb-8">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2">
+                Email
+              </p>
+              <a
+                href="mailto:contact@genarch.in"
+                className="text-sm font-light text-[#563433] border-b border-transparent hover:border-[#563433] transition-all duration-200"
+              >
+                contact@genarch.in
+              </a>
+            </div>
+
+            {/* Tel */}
+            <div className="mb-8">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2">
+                Tel / Fax
+              </p>
+              <a
+                href="tel:+911125062077"
+                className="text-sm font-light text-gray-500 border-b border-transparent hover:border-gray-400 transition-all duration-200"
+              >
+                +91 11 2506 2077–79
+              </a>
+            </div>
+
+            {/* Direct Contact */}
+            <div>
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-3">
+                Or Call Directly
+              </p>
+              <div className="flex flex-col gap-3">
+                <div>
+                  <p className="text-sm font-normal text-[#563433]">
+                    Naresh Pareek
+                  </p>
+                  <p className="text-sm font-light text-gray-500">
+                    <a
+                      href="tel:+919310098551"
+                      className="hover:text-[#563433] transition-colors"
+                    >
+                      93100-98551
+                    </a>
+                    <span className="mx-2 text-gray-300">·</span>
+                    <a
+                      href="tel:+919811698551"
+                      className="hover:text-[#563433] transition-colors"
+                    >
+                      98116-98551
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* RIGHT — Form */}
+          <div className="relative bg-[#faf9f7] border border-[#ede8e0] p-10 md:p-12">
+            {/* top accent bar */}
+            <div className="absolute top-0 left-10 right-10 h-0.5 bg-[#563433]" />
+
+            {submitted ? (
+              <div className="text-center py-8">
+                <div className="w-12 h-12 rounded-full border border-[#563433] flex items-center justify-center mx-auto mb-6">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M4 10l4.5 4.5 8-8"
+                      stroke="#563433"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  className="text-3xl font-light text-[#563433] mb-3"
+                  style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+                >
+                  Message Received
+                </h3>
+                <p className="text-sm font-light text-gray-500 leading-relaxed">
+                  Thank you for reaching out.
+                  <br />
+                  We will be in touch with you shortly.
+                </p>
+              </div>
+            ) : (
+              <form onSubmit={handleSubmit}>
+                <h3
+                  className="text-3xl font-light text-[#563433] mb-1"
+                  style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+                >
+                  Send a Message
+                </h3>
+                <p className="text-xs font-light text-gray-400 tracking-wide mb-8">
+                  We respond to all enquiries within 1–2 business days.
+                </p>
+
+                {/* Name */}
+                <div className="mb-7">
+                  <label
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    htmlFor="name"
+                  >
+                    Full Name
+                  </label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Your name"
+                    value={form.name}
+                    onChange={handleChange}
+                    required
+                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200"
+                  />
+                </div>
+
+                {/* Email */}
+                <div className="mb-7">
+                  <label
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    htmlFor="email"
+                  >
+                    Email Address
+                  </label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="your@email.com"
+                    value={form.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200"
+                  />
+                </div>
+
+                {/* Contact */}
+                <div className="mb-7">
+                  <label
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    htmlFor="contact"
+                  >
+                    Contact Number
+                  </label>
+                  <input
+                    id="contact"
+                    name="contact"
+                    type="tel"
+                    placeholder="XXXXX XXXXX"
+                    value={form.contact}
+                    onChange={handleChange}
+                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200"
+                  />
+                </div>
+
+                {/* Feedback */}
+                <div className="mb-7">
+                  <label
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    htmlFor="feedback"
+                  >
+                    Your Message
+                  </label>
+                  <textarea
+                    id="feedback"
+                    name="feedback"
+                    placeholder="Tell us about your project or enquiry..."
+                    value={form.feedback}
+                    onChange={handleChange}
+                    required
+                    rows={4}
+                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200 resize-none"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="mt-4 inline-flex items-center gap-4 bg-[#563433] hover:bg-[#3d2524] text-white text-[0.65rem] font-medium tracking-[0.3em] uppercase px-8 py-4 transition-all duration-300 group"
+                >
+                  Send Message
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    className="transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    <path
+                      d="M2 8h12M9 3l5 5-5 5"
+                      stroke="white"
+                      strokeWidth="1.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+              </form>
+            )}
+          </div>
+        </div>
+
+        {/* Bottom Strip */}
+        <div className="bg-[#563433] py-5 flex items-center justify-center">
+          <p className="text-[0.7rem] font-light tracking-[0.2em] text-white/50 text-center">
+            Genarch &nbsp;·&nbsp; New Delhi, India &nbsp;·&nbsp;
+            contact@genarch.in
+          </p>
+        </div>
       </main>
     </>
   );

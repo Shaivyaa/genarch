@@ -14,6 +14,7 @@ import ConsultingImg from "@/public/images/consulting.jpg";
 import JourneyImg from "@/public/images/journey.jpg";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function About() {
   // useEffect(() => {
@@ -90,137 +91,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Who We Are - Full Width Image */}
-        <section className=" w-full flex items-center justify-center text-gray-400">
-          <Image src={TeamImg} alt="studio" />
-        </section>
-
-        {/* Who We Are Content */}
-        <section className="max-w-4xl mx-auto px-6 py-24 text-center">
-          <h2 className="text-5xl font-light text-[#563433] mb-12">
-            Who We Are
-          </h2>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Genarch combines diverse design sensibilities with a strong
-            technical foundation. Our teams bring together talents from across
-            India, enriching the practice with varied cultural and regional
-            perspectives. This diversity empowers us to work confidently across
-            typologies, scales, and geographies — from dynamic corporate
-            headquarters to serene wellness retreats, vibrant hospitality spaces
-            to thoughtful educational environments.
-          </p>
-        </section>
-
-        {/* Our Journey */}
-        <section className="max-w-6xl mx-auto px-6 py-24">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="h-[500px] flex items-center justify-center text-gray-400 order-2 md:order-1">
-              <Image className="h-[500px]" src={JourneyImg} alt="studio" />
-            </div>
-            <div className="order-1 md:order-2">
-              <h2 className="text-5xl font-light text-[#563433] mb-8">
-                Our Journey
-              </h2>
-              <p className="text-gray-600 leading-relaxed mb-6">
-                Started as Genesis Architects in 2001 by Navjot Paul Singh and
-                Atul Sharma, the practice quickly built a reputation for
-                attention to detail, client partnership, and design excellence.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Navjots broad range of work and Atuls strategic thinking helped
-                shape a studio that looks beyond the ordinary, delivering
-                outcomes that consistently go beyond the brief. While the name
-                has evolved to Genarch to reflect a more cohesive identity, our
-                core values remain unchanged: integrity in design, clarity of
-                process, and dedication to creative outcomes.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Design Philosophy */}
-        <section className="bg-[#563433] text-white py-24">
-          <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-5xl font-light mb-16">Our Design Philosophy</h2>
-            <div className="space-y-8 text-lg leading-relaxed">
-              <p className="opacity-90">
-                At Genarch, architecture is a disciplined yet creative pursuit.
-              </p>
-              <div className="grid md:grid-cols-2 gap-8 pt-8">
-                <div className="text-left">
-                  <p className="opacity-80">
-                    Design begins with context — understanding place, program,
-                    and people.
-                  </p>
-                </div>
-                <div className="text-left">
-                  <p className="opacity-80">
-                    Good architecture is informed by invisible decisions — the
-                    ones that ensure comfort, performance, and longevity.
-                  </p>
-                </div>
-                <div className="text-left">
-                  <p className="opacity-80">
-                    Materials are chosen with intent — not for decoration, but
-                    for meaning and durability.
-                  </p>
-                </div>
-                <div className="text-left">
-                  <p className="opacity-80">
-                    Form is a result of a thoughtful process — not the starting
-                    point.
-                  </p>
-                </div>
-              </div>
-              <p className="opacity-90 pt-8">
-                This design mindset shapes how we approach every project,
-                ensuring solutions that are thoughtful, responsible, and
-                enduring.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Services */}
-        <section className="max-w-6xl mx-auto px-6 py-24">
-          <h2 className="text-5xl font-light text-[#563433] mb-16 text-center">
-            Our Services
-          </h2>
-          <div className="grid md:grid-cols-3 gap-12">
-            <div className="space-y-4">
-              <div className="bg-gray-100 h-64 flex items-center object-cover justify-center text-gray-400 mb-4">
-                <Image className="h-64" src={ArchitectureImg} alt="studio" />
-              </div>
-              <h3 className="text-2xl font-light text-[#563433]">
-                Architecture
-              </h3>
-              <p className="text-gray-600">
-                Commercial, Residential, Institutional
-              </p>
-            </div>
-            <div className="space-y-4">
-              <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                <Image src={InteriorsImg} alt="studio" />
-              </div>
-              <h3 className="text-2xl font-light text-[#563433]">Interiors</h3>
-              <p className="text-gray-600">
-                Workplace, Hospitality, Retail, Wellness
-              </p>
-            </div>
-            <div className="space-y-4">
-              <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                <Image className="h-64" src={ConsultingImg} alt="studio" />
-              </div>
-              <h3 className="text-2xl font-light text-[#563433]">
-                Strategy & Consulting
-              </h3>
-              <p className="text-gray-600">
-                Spatial strategy, Design consulting, Concept development
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* Leadership */}
         <section className="bg-gray-50 py-24">
           <div className="max-w-6xl mx-auto px-6">
@@ -264,6 +134,27 @@ export default function About() {
           </div>
         </section>
 
+        {/* Who We Are Content */}
+        <section className="max-w-4xl mx-auto px-6 py-24 text-center">
+          <h2 className="text-5xl font-light text-[#563433] mb-12">
+            Who We Are
+          </h2>
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Genarch combines diverse design sensibilities with a strong
+            technical foundation. Our teams bring together talents from across
+            India, enriching the practice with varied cultural and regional
+            perspectives. This diversity empowers us to work confidently across
+            typologies, scales, and geographies — from dynamic corporate
+            headquarters to serene wellness retreats, vibrant hospitality spaces
+            to thoughtful educational environments.
+          </p>
+        </section>
+
+        {/* Who We Are - Full Width Image */}
+        <section className=" w-full flex items-center justify-center text-gray-400">
+          <Image src={TeamImg} alt="studio" />
+        </section>
+
         {/* Location */}
         <section className="max-w-4xl mx-auto px-6 py-24 text-center">
           <h2 className="text-5xl font-light text-[#563433] mb-12">
@@ -279,8 +170,184 @@ export default function About() {
           </div>
         </section>
 
+        {/* Our Journey */}
+        <section className="max-w-6xl mx-auto px-6 py-24">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="h-[500px] flex items-center justify-center text-gray-400 order-2 md:order-1">
+              <Image className="h-[500px]" src={JourneyImg} alt="studio" />
+            </div>
+            <div className="order-1 md:order-2">
+              <h2 className="text-5xl font-light text-[#563433] mb-8">
+                Our Journey
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-6">
+                Started as Genesis Architects in 2001 by Navjot Paul Singh and
+                Atul Sharma, the practice quickly built a reputation for
+                attention to detail, client partnership, and design excellence.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Navjots broad range of work and Atuls strategic thinking helped
+                shape a studio that looks beyond the ordinary, delivering
+                outcomes that consistently go beyond the brief. While the name
+                has evolved to Genarch to reflect a more cohesive identity, our
+                core values remain unchanged: integrity in design, clarity of
+                process, and dedication to creative outcomes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Services */}
+        <section className="max-w-6xl mx-auto px-6 py-24">
+          <h2 className="text-5xl font-light text-[#563433] mb-16 text-center">
+            Our Services
+          </h2>
+          <div className="grid md:grid-cols-3 gap-12">
+            <div className="space-y-4">
+              <div className="bg-gray-100 h-64 flex items-center object-cover justify-center text-gray-400 mb-4">
+                <Image className="h-64" src={ArchitectureImg} alt="studio" />
+              </div>
+              <Link
+                className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                href={"/services"}
+              >
+                <h3 className="text-[22px] font-light text-[#563433]">
+                  Commercial
+                </h3>
+                <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    className="transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    <path
+                      d="M2 8h12M9 3l5 5-5 5"
+                      stroke="black"
+                      strokeWidth="1.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              {/* <p className="text-gray-600">
+                Commercial, Residential, Institutional
+              </p> */}
+            </div>
+            <div className="space-y-4">
+              <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
+                <Image src={InteriorsImg} alt="studio" />
+              </div>
+              <Link
+                className="flex w-[100%] items-center gap-2 group"
+                href={"/services"}
+              >
+                <h3 className="text-[22px] font-light text-[#563433]">
+                  Hospitality & Entertainment
+                </h3>
+                <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    className="transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    <path
+                      d="M2 8h12M9 3l5 5-5 5"
+                      stroke="black"
+                      strokeWidth="1.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              {/* <p className="text-gray-600">Hospitality and Entertainment</p> */}
+            </div>
+            <div className="space-y-4">
+              <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
+                <Image className="h-64" src={ConsultingImg} alt="studio" />
+              </div>
+              <Link
+                className="flex w-[100%]  items-center gap-2 group"
+                href={"/services"}
+              >
+                <h3 className="text-[22px] font-light text-[#563433]">
+                  Residential & Lifestyle
+                </h3>
+                <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    className="transition-transform duration-300 group-hover:translate-x-1"
+                  >
+                    <path
+                      d="M2 8h12M9 3l5 5-5 5"
+                      stroke="black"
+                      strokeWidth="1.2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </Link>
+              {/* <p className="text-gray-600">
+                Spatial strategy, Design consulting, Concept development
+              </p> */}
+            </div>
+          </div>
+        </section>
+
+        {/* Design Philosophy */}
+        <section className="bg-[#e5e5e5] text-[#563433] py-24">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-5xl font-light mb-16">Our Design Philosophy</h2>
+            <div className="space-y-8 text-lg leading-relaxed">
+              <p className="opacity-90">
+                At Genarch, architecture is a disciplined yet creative pursuit.
+              </p>
+              <div className="grid md:grid-cols-2 gap-8 pt-8">
+                <div className="text-left">
+                  <p className="opacity-80">
+                    Design begins with context — understanding place, program,
+                    and people.
+                  </p>
+                </div>
+                <div className="text-left">
+                  <p className="opacity-80">
+                    Good architecture is informed by invisible decisions — the
+                    ones that ensure comfort, performance, and longevity.
+                  </p>
+                </div>
+                <div className="text-left">
+                  <p className="opacity-80">
+                    Materials are chosen with intent — not for decoration, but
+                    for meaning and durability.
+                  </p>
+                </div>
+                <div className="text-left">
+                  <p className="opacity-80">
+                    Form is a result of a thoughtful process — not the starting
+                    point.
+                  </p>
+                </div>
+              </div>
+              <p className="opacity-90 pt-8">
+                This design mindset shapes how we approach every project,
+                ensuring solutions that are thoughtful, responsible, and
+                enduring.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Clients */}
-        <section className="bg-[#563433] text-white py-24">
+        <section className="bg-[#ffffff] text-[#563433] py-24">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-5xl font-light mb-12">
               Clients & Collaborations

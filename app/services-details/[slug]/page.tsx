@@ -28,118 +28,16 @@ export default function ProjectPage() {
 
   return (
     <>
-      {/* <div className="relative w-full h-screen overflow-hidden bg-white">
-        <div className="absolute top-6 left-6 z-10 transition-opacity duration-500 ">
-          <button
-            onClick={handleBackClick}
-            className="group cursor-pointer relative overflow-hidden rounded-4xl border border-black hover:border-white px-2 py-2 text-[12px]"
-          >
-            <span className="relative hover:border-white z-10 group-hover:text-black transition-colors">
-              ← Back to Projects
-            </span>
-            <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-          </button>
-        </div>
-
-        
-        <div ref={heroImageRef} className="w-full h-full">
-          <Image
-            src={project.image}
-            alt={project.title}
-            fill
-            priority
-            className="object-cover"
-          />
-        </div>
-      </div> */}
-
-      {/* MAIN CONTENT */}
-      {/* <main className="min-h-screen bg-white p-8 md:p-20 pt-24">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl text-center font-bold text-[#563433] mb-6">
-            {project.title}
-          </h1>
-
-          <div className="relative w-full h-[60vh] mb-10 rounded-xl overflow-hidden">
-            <Image
-              src={project.image}
-              alt={project.title}
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <div className="max-w-3xl mx-auto text-center py-10">
-            <p className="text-3xl mb-4">{project.subtitle}</p>
-            <p className="text-xl">{project.description}</p>
-          </div>
-
-          <div className="flex flex-col md:flex-row gap-10 items-center mb-16">
-            <div className="relative w-full md:w-1/3 h-[50vh] rounded-xl overflow-hidden">
-              <Image
-                src={project.imageleft || project.image}
-                alt=""
-                fill
-                className="object-cover"
-              />
-            </div>
-
-            <div className="w-full md:w-1/3 text-center space-y-6">
-              <div>
-                {" "}
-                <strong>Featured Expertise</strong>
-              </div>
-             
-            </div>
-
-            <div className="relative w-full md:w-1/3 h-[50vh] rounded-xl overflow-hidden">
-              <Image
-                src={project.imageright || project.image}
-                alt=""
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
-          <p className="text-xl text-justify justify-center max-w-5xl mx-auto mb-16">
-            {project.details}
-          </p>
-
-          <div className="relative w-full h-[60vh] rounded-xl overflow-hidden">
-            <Image
-              src={project.imagetwo || project.image}
-              alt=""
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      </main> */}
-
-      {/* Scroll to Top Button */}
-      {/* <div className="flex justify-end m-[16px]">
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="group cursor-pointer relative overflow-hidden bg-[#563433] rounded-4xl border-2 border-[#563433] hover:border-[#563433] px-4 py-2 text-[12px]"
-        >
-          <span className="relative text-[#ffffff] text-[15px] hover:border-white z-10 group-hover:text-[#563433] transition-colors">
-            ↑
-          </span>
-          <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
-        </button>
-      </div> */}
-
       <div className="relative w-full h-screen overflow-hidden bg-white">
         <div className="absolute top-6 left-6 z-10 transition-opacity duration-500 ">
           <button
             onClick={handleBackClick}
-            className="group cursor-pointer relative overflow-hidden rounded-4xl border border-black hover:border-white px-2 py-2 text-[12px]"
+            className="group cursor-pointer bg-[#563433] text-[#e5e5e5] relative overflow-hidden rounded-4xl p-[12px] text-[12px]"
           >
-            <span className="relative hover:border-white z-10 group-hover:text-black transition-colors">
+            <span className="relative z-10 group-hover:text-[#563433] transition-colors duration-300">
               ← Back to Projects
             </span>
-            <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+            <span className="absolute inset-0 bg-[#563433] group-hover:bg-[#ffffff] translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </button>
         </div>
 

@@ -45,6 +45,11 @@ const slides = [
     image: "/services-images/dharav-senior.jpg",
     slug: "project-seven",
   },
+  {
+    title: "KINDERGARTEN",
+    image: "/services-images/kindergarten.jpg",
+    slug: "project-eight",
+  },
 ];
 
 export default function RahmanSlider() {

@@ -8,6 +8,34 @@ import AboutImg from "@/public/images/about-img1.jpg";
 
 const projectsData = [
   {
+    id: 1,
+    title: "Wellness Center",
+    slug: "project-one",
+    category: ["Residential & Lifestyle"],
+    image: "/images/wellness.jpg",
+  },
+  {
+    id: 2,
+    title: "Farmhouse",
+    slug: "project-two",
+    category: ["Residential & Lifestyle"],
+    image: "/images/farmhouse.jpg",
+  },
+  {
+    id: 3,
+    title: "Corporate Office Building",
+    slug: "project-three",
+    category: ["Commercial"],
+    image: "/images/office-building.jpg",
+  },
+  {
+    id: 4,
+    title: "Dharav School – Junior Wing",
+    slug: "project-four",
+    category: ["Commercial"],
+    image: "/images/school1.jpeg",
+  },
+  {
     id: 5,
     title: "Dubai Villa",
     slug: "project-five",
@@ -23,10 +51,17 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Dharav School – Senior Wing~",
+    title: "Dharav School – Senior Wing",
     slug: "project-seven",
     category: ["Commercial"],
     image: "/services-images/dharav-senior.jpg",
+  },
+  {
+    id: 8,
+    title: "Kindergarten & Playschool",
+    slug: "project-eight",
+    category: ["Commercial"],
+    image: "/services-images/kindergarten.jpg",
   },
 ];
 
@@ -96,14 +131,14 @@ export default function Projects() {
           </div>
           <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
             <h1 className="text-6xl md:text-8xl font-light text-white tracking-wide">
-              Our Services
+              Our Projects
             </h1>
           </div>
         </section>
 
         {/* Category Filter */}
         <section className="sticky text-center my-[30px] mx-auto w-[100%]">
-          <div className="container">
+          <div className=" w-[100%]">
             {/* <button
                 onClick={() => setIsFilterOpen(!isFilterOpen)}
               className="text-[#563433] font-medium text-lg mb-4"
@@ -112,7 +147,7 @@ export default function Projects() {
               {isFilterOpen ? "−" : "+"}
             </button> */}
 
-            <div className="flex flex-wrap items-center justify-center gap-3 mb-4">
+            <div className="w-[100%] flex flex-wrap items-center justify-center gap-3 mb-4">
               {categories.map((category) => (
                 <button
                   key={category}

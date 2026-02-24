@@ -133,4 +133,22 @@ export const projects = [
     details:
       "Designed as a landmark educational development, the Dharav School campus adopts a formal neoclassical architectural language that conveys institutional strength, symmetry, and timeless academic character. The façade is articulated  in rich red brick masonry complemented by finely detailed Gwalior stone accents, creating a distinguished and heritage-inspired academic presence. A grand central entrance portico, defined by triple-height classical columns, establishes a strong visual focal point, while dormer windows along the sloped roofline introduce rhythm and architectural balance. The gated forecourt further reinforces the school’s prestigious and welcoming institutional identity. The larger campus masterplan integrates the Junior Block, Senior Block, Auditorium Building, and an extensive 2 lakh sq.ft. basement parking facility. All primary academic structures are organised around a central open courtyard, ensuring optimal natural light penetration and cross ventilation across learning environments. Interiors are developed using high-quality finishes, supported by advanced laboratory infrastructure and modern sports amenities. The campus includes expansive outdoor playfields for football, tennis, skating, and cricket, along with a dedicated 30,000 sq.ft. covered sports complex for indoor sports. Together, these elements create a holistic academic environment that balances learning, wellness, and recreational development within a thoughtfully designed educational ecosystem.",
   },
+  {
+    id: "8",
+    slug: "project-eight",
+    title: "Kindergarten & Playschool",
+    subtitle: "Commercial | Palampur",
+    description: "Where little steps begin their biggest journeys.",
+    image: "/services-images/kindergarten1.jpeg",
+    imageone: "/services-images/kindergarten2.jpg",
+    imagetwo: "/services-images/kindergarten3.jpg",
+    client: "Kindergarten & Playschool",
+    area: "--",
+    status: "Under Construction",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/kindergarten4.jpg",
+    imageright: "/services-images/kindergarten5.jpg",
+    details:
+      "Designed by Genarch, this kindergarten and playschool is envisioned as a vibrant first world of discovery for young learners. Playful forms, bright colours, and ample natural light create an engaging, safe, and nurturing environment where little steps mark the start of big journeys. The architecture balances foundational educational values with contemporary expression, integrating indoor and outdoor spaces that encourage movement, curiosity, and social interaction. Thoughtfully planned layouts support cognitive and motor development, fostering exploration and creativity while shaping children’s earliest experiences of learning, play, and belonging",
+  },
 ];

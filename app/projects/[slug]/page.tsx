@@ -176,12 +176,12 @@ export default function ProjectPage() {
         >
           <button
             onClick={handleBackClick}
-            className="group cursor-pointer relative overflow-hidden rounded-4xl border border-black hover:border-white px-2 py-2 text-[12px]"
+            className="group cursor-pointer bg-[#563433] text-[#e5e5e5] relative overflow-hidden rounded-4xl p-[12px] text-[12px]"
           >
-            <span className="relative hover:border-white z-10 group-hover:text-black transition-colors">
+            <span className="relative z-10 group-hover:text-[#563433] transition-colors duration-300">
               ← Back to Projects
             </span>
-            <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+            <span className="absolute inset-0 bg-[#563433] group-hover:bg-[#ffffff] translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </button>
         </div>
 
