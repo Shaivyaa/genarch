@@ -2,8 +2,8 @@ export const servicesdata = [
   {
     id: "1",
     slug: "project-one",
-    title: "WELLNESS CENTRE, NADAUN",
     category: ["Residential & Lifestyle"],
+    title: "WELLNESS CENTRE, NADAUN",
     subtitle: "Wellness Center | Himachal Pradesh",
     description:
       "Architecture Rooted in Renewal - A riverside retreat where landscape, material, and mindful spaces come together",
@@ -22,8 +22,8 @@ export const servicesdata = [
   {
     id: "2",
     slug: "project-two",
-    title: "FARMHOUSE, GREATER NOIDA",
     category: ["Residential & Lifestyle"],
+    title: "FARMHOUSE, GREATER NOIDA",
     subtitle: "Residential | Greater Noida",
     description:
       "A Retreat for Togetherness — A home that balances privacy, openness, and shared living",
@@ -42,8 +42,8 @@ export const servicesdata = [
   {
     id: "3",
     slug: "project-three",
-    title: "CORPORATE OFFICE BUILDING, GURUGRAM",
     category: ["Commercial"],
+    title: "CORPORATE OFFICE BUILDING, GURUGRAM",
     subtitle: "Commercial | Gurugram",
     description:
       "A Place for Collaboration — Architecture that blends performance, sustainability, and well-being",
@@ -63,8 +63,8 @@ export const servicesdata = [
   {
     id: "4",
     slug: "project-four",
-    title: "DHARAV SCHOOL – JUNIOR WING",
     category: ["Commercial"],
+    title: "DHARAV SCHOOL – JUNIOR WING",
     subtitle: "Institutional | Gurugram",
     description:
       "Little Minds, Timeless Spaces — An environment where learning begins with curiosity",
@@ -83,8 +83,8 @@ export const servicesdata = [
   {
     id: "5",
     slug: "project-five",
-    title: "Dubai Villa",
     category: ["Residential & Lifestyle"],
+    title: "Dubai Villa",
     subtitle: "Residential & Lifestyle | Dubai",
     description:
       "A French-inspired architecture based luxury villa merging classical elegance with contemporary comfort.",
@@ -103,8 +103,8 @@ export const servicesdata = [
   {
     id: "6",
     slug: "project-six",
-    title: "Costa Coffee",
     category: ["Hospitaility & Entertainment"],
+    title: "Costa Coffee",
     subtitle: "Hospitaility & Entertainment | Retail Interior",
     description:
       "A modern industrial café softened by biophilic warmth and community-focused design.",
@@ -113,7 +113,7 @@ export const servicesdata = [
     imagetwo: "/services-images/costa-goa3.jpg",
     client: "Costa Coffee",
     area: "--",
-    status: "Completed",
+    status: "Work In Progress",
     team: "Genarch Design Team",
     imageleft: "/services-images/costa-goa4.jpg",
     imageright: "/services-images/costa-goa5.jpg",
@@ -123,8 +123,8 @@ export const servicesdata = [
   {
     id: "7",
     slug: "project-seven",
-    title: "Dharav School – Senior Wing",
     category: ["Commercial"],
+    title: "Dharav School – Senior Wing",
     subtitle: "Commercial | Gurgaon",
     description:
       "A neoclassical academic landmark defined by symmetry, scale, and institutional grandeur.",
@@ -143,19 +143,19 @@ export const servicesdata = [
   {
     id: "8",
     slug: "project-eight",
-    title: "Kindergarten & Playschool",
     category: ["Commercial"],
+    title: "Kindergarten & Playschool",
     subtitle: "Commercial | Palampur",
     description: "Where little steps begin their biggest journeys.",
-    image: "/services-images/kindergarten1.jpeg",
+    image: "/services-images/kindergarten1.jpg",
     imageone: "/services-images/kindergarten2.jpg",
     imagetwo: "/services-images/kindergarten3.jpg",
     client: "Kindergarten & Playschool",
     area: "--",
     status: "Under Construction",
     team: "Genarch Design Team",
-    imageleft: "/services-images/kindergarten4.jpg",
-    imageright: "/services-images/kindergarten5.jpg",
+    imageleft: "/services-images/kindergarten-left.jpg",
+    imageright: "/services-images/kindergarten-right-new.jpg",
     details:
       "Designed by Genarch, this kindergarten and playschool is envisioned as a vibrant first world of discovery for young learners. Playful forms, bright colours, and ample natural light create an engaging, safe, and nurturing environment where little steps mark the start of big journeys. The architecture balances foundational educational values with contemporary expression, integrating indoor and outdoor spaces that encourage movement, curiosity, and social interaction. Thoughtfully planned layouts support cognitive and motor development, fostering exploration and creativity while shaping children’s earliest experiences of learning, play, and belonging",
   },

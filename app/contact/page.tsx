@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import AboutImg from "@/public/images/about-img1.jpg";
 import { useState } from "react";
+import Footer from "@/components/Footer";
 
 export default function Contact() {
   // Form state type
@@ -36,15 +37,19 @@ export default function Contact() {
     <>
       <Header />
 
-      <main className="w-full min-h-screen bg-white">
+      <main className="w-full bg-white">
         {/* Hero */}
-        <section className="relative h-[70vh] bg-gray-100">
-          {/* IMAGE PLACEHOLDER - Hero Image */}
-          <div className="absolute overflow-hidden inset-0 flex items-center justify-center text-gray-400 text-sm">
-            <Image src={AboutImg} alt="about" />
-          </div>
-          <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-            <h1 className="text-6xl md:text-8xl font-light text-white tracking-wide">
+        <section className="relative w-full ">
+          <Image
+            src={AboutImg}
+            alt="about"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="md:w-full h-[50vh]  md:h-[60vh] object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-4xl md:text-8xl font-bold md:font-light text-white tracking-wide">
               Contact Us
             </h1>
           </div>
@@ -54,7 +59,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-[1fr_1.4fr] gap-20 items-start">
           {/* LEFT — Info */}
           <div>
-            <p className="text-[0.65rem] font-medium tracking-[0.3em] uppercase text-[#c4a882] mb-8">
+            <p className="text-[0.65rem] font-medium tracking-[0.3em] uppercase text-[#563433] mb-8">
               Get in Touch
             </p>
             <h2
@@ -260,7 +265,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="mt-4 inline-flex items-center gap-4 bg-[#563433] hover:bg-[#3d2524] text-white text-[0.65rem] font-medium tracking-[0.3em] uppercase px-8 py-4 transition-all duration-300 group"
+                  className="mt-4 inline-flex items-center cursor-pointer gap-4 bg-[#563433] hover:bg-[#3d2524] text-white text-[0.65rem] font-medium tracking-[0.3em] uppercase px-8 py-4 transition-all duration-300 group"
                 >
                   Send Message
                   <svg
@@ -285,13 +290,14 @@ export default function Contact() {
         </div>
 
         {/* Bottom Strip */}
-        <div className="bg-[#563433] py-5 flex items-center justify-center">
+        {/* <div className="bg-[#563433] py-5 flex items-center justify-center">
           <p className="text-[0.7rem] font-light tracking-[0.2em] text-white/50 text-center">
             Genarch &nbsp;·&nbsp; New Delhi, India &nbsp;·&nbsp;
             contact@genarch.in
           </p>
-        </div>
+        </div> */}
       </main>
+      <Footer />
     </>
   );
 }

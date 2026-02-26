@@ -28,7 +28,7 @@ export default function ProjectPage() {
 
   return (
     <>
-      <div className="relative w-full h-screen overflow-hidden bg-white">
+      <div className="relative w-full lg:h-screen overflow-hidden bg-white">
         <div className="absolute top-6 left-6 z-10 transition-opacity duration-500 ">
           <button
             onClick={handleBackClick}
@@ -42,13 +42,14 @@ export default function ProjectPage() {
         </div>
 
         {/* Image Container */}
-        <div ref={heroImageRef} className="w-full h-full">
+        <div ref={heroImageRef} className="w-full">
           <Image
-            src={project.imageone || project.image}
+            src={project.image}
             alt={project.title}
-            fill
-            priority
-            className="object-cover"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="w-full h-auto "
           />
         </div>
 
@@ -62,12 +63,14 @@ export default function ProjectPage() {
             {project.title}
           </h1>
 
-          <div className="relative w-full h-[60vh] mb-10 rounded-xl overflow-hidden">
+          <div className="relative w-full rounded-xl overflow-hidden">
             <Image
-              src={project.image}
+              src={project.imageone}
               alt={project.title}
-              fill
-              className="object-cover"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto rounded-xl"
             />
           </div>
 
@@ -76,13 +79,15 @@ export default function ProjectPage() {
             <p className="text-xl">{project.description}</p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-10 items-center mb-16">
-            <div className="relative w-full md:w-1/3 h-[50vh] rounded-xl overflow-hidden">
+          <div className="flex flex-col md:flex-row mx-auto justify-center text-center gap-10 items-center mb-16">
+            <div className="relative w-full max-w-[358px] mx-auto rounded-xl overflow-hidden">
               <Image
-                src={project.imageleft || project.image}
+                src={project.imageleft}
                 alt=""
-                fill
-                className="object-cover"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
               />
             </div>
 
@@ -109,12 +114,14 @@ export default function ProjectPage() {
               </p>
             </div>
 
-            <div className="relative w-full md:w-1/3 h-[50vh] rounded-xl overflow-hidden">
+            <div className="relative w-full max-w-[358px] mx-auto rounded-xl overflow-hidden">
               <Image
-                src={project.imageright || project.image}
+                src={project.imageright}
                 alt=""
-                fill
-                className="object-cover"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
               />
             </div>
           </div>
@@ -123,12 +130,14 @@ export default function ProjectPage() {
             {project.details}
           </p>
 
-          <div className="relative w-full h-[60vh] rounded-xl overflow-hidden">
+          <div className="relative w-full rounded-xl overflow-hidden">
             <Image
-              src={project.imagetwo || project.image}
-              alt=""
-              fill
-              className="object-cover"
+              src={project.imagetwo}
+              alt={project.title}
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-full h-auto rounded-xl"
             />
           </div>
         </div>

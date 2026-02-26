@@ -242,16 +242,15 @@ export default function ProjectPage() {
             <p className="text-xl">{project.description}</p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-10 items-center mb-16">
-            <div className="relative w-full rounded-xl overflow-hidden">
+          <div className="flex flex-col md:flex-row mx-auto justify-center text-center gap-10 items-center mb-16">
+            <div className="relative w-full max-w-[358px] mx-auto rounded-xl overflow-hidden">
               <Image
                 src={project.imageleft}
                 alt=""
-                // fill
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full max-w-[358px] h-auto min-h-[315px] object-cover"
+                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
               />
             </div>
 
@@ -278,15 +277,14 @@ export default function ProjectPage() {
               </p>
             </div>
 
-            <div className="relative w-full rounded-xl overflow-hidden">
+            <div className="relative w-full max-w-[358px] mx-auto rounded-xl overflow-hidden">
               <Image
                 src={project.imageright}
                 alt=""
-                // fill
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full max-w-[358px] h-auto min-h-[315px] object-cover h-auto rounded-xl"
+                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
               />
             </div>
           </div>

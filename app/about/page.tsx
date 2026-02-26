@@ -8,14 +8,15 @@ import TeamImg from "@/public/images/aboutUs-team.jpg";
 import OfficeImg from "@/public/images/office.jpg";
 import AtulImg from "@/public/images/atulSharma.jpg";
 import NavjotImg from "@/public/images/navjyot.jpg";
-import ArchitectureImg from "@/public/images/architecture.jpg";
-import InteriorsImg from "@/public/images/interiors.jpg";
-import ConsultingImg from "@/public/images/consulting.jpg";
+import services1 from "@/public/services-images/kindergarten.jpg";
+import services2 from "@/public/services-images/costa-goa.jpg";
+import services3 from "@/public/services-images/dubai-villa.jpg";
 import JourneyImg from "@/public/images/journey.jpg";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import costaImg from "@/public/images/Costa.svg";
+import Footer from "@/components/Footer";
 
 export default function About() {
   // useEffect(() => {
@@ -48,15 +49,19 @@ export default function About() {
   return (
     <>
       <Header />
-      <main className="w-full min-h-screen bg-white">
+      <main className="w-full  bg-white">
         {/* Hero Section */}
-        <section className="relative h-[70vh] bg-gray-100">
-          {/* IMAGE PLACEHOLDER - Hero Image */}
-          <div className="absolute overflow-hidden inset-0 flex items-center justify-center text-gray-400 text-sm">
-            <Image src={AboutImg} alt="about" />
-          </div>
-          <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-            <h1 className="text-6xl md:text-8xl font-light text-white tracking-wide">
+        <section className="relative w-full ">
+          <Image
+            src={AboutImg}
+            alt="about"
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="md:w-full h-[50vh]  md:h-[60vh] object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h1 className="text-4xl md:text-8xl font-bold md:font-light text-white tracking-wide">
               About Us
             </h1>
           </div>
@@ -90,6 +95,27 @@ export default function About() {
               <Image src={StudioImg} alt="studio" />
             </div>
           </div>
+        </section>
+
+        {/* Who We Are Content */}
+        <section className="max-w-4xl mx-auto px-6 py-24 text-center">
+          <h2 className="text-5xl font-light text-[#563433] mb-12">
+            Who We Are
+          </h2>
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Genarch combines diverse design sensibilities with a strong
+            technical foundation. Our teams bring together talents from across
+            India, enriching the practice with varied cultural and regional
+            perspectives. This diversity empowers us to work confidently across
+            typologies, scales, and geographies — from dynamic corporate
+            headquarters to serene wellness retreats, vibrant hospitality spaces
+            to thoughtful educational environments.
+          </p>
+        </section>
+
+        {/* Who We Are - Full Width Image */}
+        <section className=" w-full flex items-center justify-center text-gray-400">
+          <Image src={TeamImg} alt="studio" />
         </section>
 
         {/* Leadership */}
@@ -135,27 +161,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Who We Are Content */}
-        <section className="max-w-4xl mx-auto px-6 py-24 text-center">
-          <h2 className="text-5xl font-light text-[#563433] mb-12">
-            Who We Are
-          </h2>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Genarch combines diverse design sensibilities with a strong
-            technical foundation. Our teams bring together talents from across
-            India, enriching the practice with varied cultural and regional
-            perspectives. This diversity empowers us to work confidently across
-            typologies, scales, and geographies — from dynamic corporate
-            headquarters to serene wellness retreats, vibrant hospitality spaces
-            to thoughtful educational environments.
-          </p>
-        </section>
-
-        {/* Who We Are - Full Width Image */}
-        <section className=" w-full flex items-center justify-center text-gray-400">
-          <Image src={TeamImg} alt="studio" />
-        </section>
-
         {/* Location */}
         <section className="max-w-4xl mx-auto px-6 py-24 text-center">
           <h2 className="text-5xl font-light text-[#563433] mb-12">
@@ -174,8 +179,8 @@ export default function About() {
         {/* Our Journey */}
         <section className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="h-[500px] flex items-center justify-center text-gray-400 order-2 md:order-1">
-              <Image className="h-[500px]" src={JourneyImg} alt="studio" />
+            <div className="h-auto flex items-center justify-center text-gray-400 order-2 md:order-1">
+              <Image className="h-auto" src={JourneyImg} alt="studio" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-5xl font-light text-[#563433] mb-8">
@@ -206,7 +211,11 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center object-cover justify-center text-gray-400 mb-4">
-                <Image className="h-64" src={ArchitectureImg} alt="studio" />
+                <Image
+                  className="h-64 object-cover"
+                  src={services1}
+                  alt="studio"
+                />
               </div>
               <Link
                 className="flex w-[100%] max-w-[170px] items-center gap-2 group"
@@ -239,7 +248,11 @@ export default function About() {
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                <Image src={InteriorsImg} alt="studio" />
+                <Image
+                  src={services2}
+                  className="h-64 object-cover"
+                  alt="studio"
+                />
               </div>
               <Link
                 className="flex w-[100%] items-center gap-2 group"
@@ -270,7 +283,11 @@ export default function About() {
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
-                <Image className="h-64" src={ConsultingImg} alt="studio" />
+                <Image
+                  className="h-64 object-cover"
+                  src={services3}
+                  alt="studio"
+                />
               </div>
               <Link
                 className="flex w-[100%]  items-center gap-2 group"
@@ -361,17 +378,10 @@ export default function About() {
           </div>
           <div className="flex max-w-4xl m-[50_auto_0_auto] flex-wrap items-center justify-center gap-[20px]">
             <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
-            <Image height={140} width={140} src={costaImg} alt="costa" />
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
