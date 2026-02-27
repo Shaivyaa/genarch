@@ -87,7 +87,7 @@ export default function ProjectPage() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
+                className="w-full h-auto min-h-[427px] object-cover rounded-xl"
               />
             </div>
 
@@ -121,7 +121,7 @@ export default function ProjectPage() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
+                className="w-full h-auto min-h-[427px] object-cover rounded-xl"
               />
             </div>
           </div>
