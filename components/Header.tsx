@@ -113,10 +113,10 @@ import "../app/globals.css";
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "About Us", path: "/about" },
   { name: "Our Projects", path: "/services" },
-  { name: "Careers", path: "/careers" },
+  { name: "About Us", path: "/about" },
   { name: "Contact Us", path: "/contact" },
+  { name: "Careers", path: "/careers" },
 ];
 
 export default function Header() {

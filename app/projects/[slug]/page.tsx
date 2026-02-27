@@ -176,7 +176,7 @@ export default function ProjectPage() {
         >
           <button
             onClick={handleBackClick}
-            className="group cursor-pointer bg-[#563433] text-[#e5e5e5] relative overflow-hidden rounded-4xl p-[12px] text-[12px]"
+            className="group cursor-pointer bg-[#563433] border border-[#e5e5e5] text-[#e5e5e5] relative overflow-hidden rounded-4xl p-[12px] text-[12px]"
           >
             <span className="relative z-10 group-hover:text-[#563433] transition-colors duration-300">
               ← Back to Projects
@@ -250,7 +250,7 @@ export default function ProjectPage() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
+                className="w-full h-auto min-h-[427px] object-cover rounded-xl"
               />
             </div>
 
@@ -284,7 +284,7 @@ export default function ProjectPage() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-full h-auto min-h-[315px] object-cover rounded-xl"
+                className="w-full h-auto min-h-[427px] object-cover rounded-xl"
               />
             </div>
           </div>
