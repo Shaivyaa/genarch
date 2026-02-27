@@ -83,7 +83,7 @@ export const projects = [
     subtitle: "Residential & Lifestyle | Dubai",
     description:
       "A French-inspired architecture based luxury villa merging classical elegance with contemporary comfort.",
-    image: "/services-images/dubai-villa1-new.jpg",
+    image: "/services-images/dubai-villa1-neww.jpg",
     imageone: "/services-images/dubai-villa2-new.jpg",
     imagetwo: "/services-images/dubai-villa3-new.jpg",
     client: "Dubai Private Villa",
