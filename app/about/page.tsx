@@ -15,7 +15,16 @@ import JourneyImg from "@/public/images/journey.jpg";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import costaImg from "@/public/images/Costa.svg";
+import Img1 from "@/public/images/1.svg";
+import Img2 from "@/public/images/2.svg";
+import Img3 from "@/public/images/3.svg";
+import Img4 from "@/public/images/4.svg";
+import Img5 from "@/public/images/5.svg";
+import Img6 from "@/public/images/6.svg";
+import Img7 from "@/public/images/7.svg";
+import Img8 from "@/public/images/8.svg";
+import Img9 from "@/public/images/9.svg";
+
 import Footer from "@/components/Footer";
 
 export default function About() {
@@ -377,7 +386,15 @@ export default function About() {
             </p>
           </div>
           <div className="flex max-w-4xl m-[50_auto_0_auto] flex-wrap items-center justify-center gap-[20px]">
-            <Image height={140} width={140} src={costaImg} alt="costa" />
+            <Image height={140} width={140} src={Img1} alt="img" />
+            <Image height={140} width={140} src={Img2} alt="img" />
+            <Image height={140} width={140} src={Img3} alt="img" />
+            <Image height={140} width={140} src={Img4} alt="img" />
+            <Image height={140} width={140} src={Img5} alt="img" />
+            <Image height={140} width={140} src={Img6} alt="img" />
+            <Image height={140} width={140} src={Img7} alt="img" />
+            <Image height={140} width={140} src={Img8} alt="img" />
+            <Image height={140} width={140} src={Img9} alt="img" />
           </div>
         </section>
       </main>
