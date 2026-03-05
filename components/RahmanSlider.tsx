@@ -194,7 +194,7 @@
 //       slug,
 //       rect,
 //     });
-//   };
+//   };;
 
 //   const handleZoomedReadMore = () => {
 //     if (!zoomedProject) return;
@@ -419,6 +419,7 @@
 //   );
 // }
 
+
 "use client";
 
 import { useLayoutEffect, useRef, useState, useEffect } from "react";
@@ -487,8 +488,14 @@ export default function RahmanSlider() {
   const isInitializedRef = useRef(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  // typeof window check makes this SSR-safe; lazy initializer runs once on client
+  const [isMobile] = useState<boolean | null>(() => {
+    if (typeof window === "undefined") return null;
+    return window.innerWidth < 768;
+  });
+
   useLayoutEffect(() => {
-    if (isInitializedRef.current) return;
+    if (isMobile || isInitializedRef.current) return;
 
     window.scrollTo(0, 0);
     if ("scrollRestoration" in window.history) {
@@ -499,22 +506,16 @@ export default function RahmanSlider() {
     ScrollTrigger.clearScrollMemory();
     gsap.killTweensOf("*");
 
+    let ctx: gsap.Context | null = null;
+
     timeoutRef.current = setTimeout(() => {
       if (!pinRef.current) return;
 
-      const ctx = gsap.context(() => {
+      ctx = gsap.context(() => {
         const panels = gsap.utils.toArray<HTMLElement>(".panel");
 
-        const isMobile = window.innerWidth < 768;
-
-        const panelWidth = isMobile
-          ? window.innerWidth * 0.85 // 👈 smaller width for mobile
-          : window.innerWidth * 0.62; // 👈 unchanged for desktop
-
-        const panelHeight = isMobile
-          ? window.innerHeight * 0.55
-          : window.innerHeight * 0.6;
-
+        const panelWidth = window.innerWidth * 0.62;
+        const panelHeight = window.innerHeight * 0.6;
         const gap = 80;
 
         const totalWidth =
@@ -566,26 +567,26 @@ export default function RahmanSlider() {
         isInitializedRef.current = true;
         ScrollTrigger.refresh();
       }, pinRef);
-
-      return () => ctx.revert();
     }, 200);
 
     return () => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
       isInitializedRef.current = false;
+      ctx?.revert();
       ScrollTrigger.getAll().forEach((t) => t.kill());
       ScrollTrigger.clearScrollMemory();
     };
-  }, []);
+  }, [isMobile]);
 
   useEffect(() => {
+    if (isMobile) return;
     const handleResize = () => {
       ScrollTrigger.refresh();
     };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [isMobile]);
 
   const handleSlideClick = (
     slug: string,
@@ -624,6 +625,37 @@ export default function RahmanSlider() {
     }, 100);
   };
 
+  // Render nothing until we know the viewport (null = SSR, not yet hydrated)
+  if (isMobile === null) return null;
+
+  // ── MOBILE: plain vertical list, no GSAP ──────────────────────────────────
+  if (isMobile) {
+    return (
+      <>
+        <section className="bg-white py-8 px-4 flex flex-col gap-6">
+          {slides.map((slide, index) => (
+            <MobileSlide key={index} {...slide} />
+          ))}
+        </section>
+
+        {zoomedProject && (
+          <ZoomedView
+            title={zoomedProject.title}
+            image={zoomedProject.image}
+            rect={zoomedProject.rect}
+            onReadMore={handleZoomedReadMore}
+            onClose={() => setZoomedProject(null)}
+          />
+        )}
+
+        {isTransitioning && (
+          <div className="fixed inset-0 bg-white z-50 pointer-events-none" />
+        )}
+      </>
+    );
+  }
+
+  // ── DESKTOP: original horizontal GSAP slider ───────────────────────────────
   return (
     <>
       <section className="relative h-[450vh] bg-white">
@@ -662,6 +694,45 @@ export default function RahmanSlider() {
   );
 }
 
+// ── Mobile card (no GSAP, just a static clickable card) ───────────────────────
+function MobileSlide({
+  title,
+  image,
+  slug,
+  hero,
+}: {
+  title: string;
+  image: string;
+  slug: string;
+  hero?: boolean;
+}) {
+  const router = useRouter();
+
+  return (
+    <div
+      onClick={() => router.push(`/projects/${slug}`)}
+      className="relative w-full cursor-pointer overflow-hidden bg-black"
+      style={{ height: "55vw", minHeight: "200px" }}
+    >
+      <Image
+        src={image}
+        alt={title}
+        fill
+        priority={hero}
+        sizes="100vw"
+        className="object-cover"
+      />
+
+      <div className="absolute inset-0 bg-black/40" />
+
+      <div className="absolute bottom-6 left-6 text-white">
+        <h2 className="text-xl font-light">{title}</h2>
+      </div>
+    </div>
+  );
+}
+
+// ── Desktop slide (unchanged) ──────────────────────────────────────────────────
 function Slide({
   title,
   image,
@@ -719,6 +790,7 @@ function Slide({
   );
 }
 
+// ── ZoomedView (unchanged) ─────────────────────────────────────────────────────
 function ZoomedView({
   title,
   image,

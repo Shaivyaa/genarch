@@ -166,8 +166,8 @@ export default function Careers() {
                       </p>
                       <ul className="flex flex-col gap-2">
                         {job.requirements.map((req, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <span className="mt-1.5 w-1 h-1 rounded-full bg-[#563433] opacity-50 shrink-0" />
+                          <li key={i} className="flex  items-start gap-3">
+                            <span className="mt-2 w-1 h-1 rounded-full bg-[#563433] opacity-50 shrink-0" />
                             <span className="text-sm font-light text-gray-500 leading-relaxed">
                               {req}
                             </span>

@@ -189,7 +189,7 @@ export default function Projects() {
                     />
                     <div className="absolute inset-0 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <button className="relative overflow-hidden backdrop-blur-sm px-6 py-3 text-base">
-                        <span className="relative z-10 font-bold group-hover:text-[#e5e5e5] transition-colors">
+                        <span className="relative z-10 font-bold group-hover:text-[#ffffff] transition-colors">
                           Read More →
                         </span>
                       </button>
