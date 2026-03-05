@@ -879,7 +879,7 @@ export default function ProjectPage() {
           </div>
 
           <div className="max-w-3xl mx-auto text-center py-10">
-            <p className="text-3xl mb-4">{project.subtitle}</p>
+            <p className="text-2xl mb-4">{project.subtitle}</p>
             <p className="text-xl">{project.description}</p>
           </div>
 
