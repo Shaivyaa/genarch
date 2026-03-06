@@ -48,7 +48,7 @@ export default function Loader({ onComplete }: { onComplete: () => void }) {
         playsInline
         preload="auto"
         onEnded={handleEnd}
-        className="w-full h-full object-cover"
+        className="w-full  h-full object-cover"
         suppressHydrationWarning
       />
     </div>

@@ -60,14 +60,14 @@ export default function About() {
       <Header />
       <main className="w-full  bg-white">
         {/* Hero Section */}
-        <section className="relative w-full ">
+        <section className="relative w-full">
           <Image
             src={AboutImg}
             alt="about"
             width={0}
             height={0}
             sizes="100vw"
-            className="md:w-full h-[50vh]  md:h-[60vh] object-cover"
+            className="md:w-full h-[50vh] md:h-[60vh] object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-4xl md:text-8xl font-bold md:font-light text-white tracking-wide">
@@ -76,8 +76,440 @@ export default function About() {
           </div>
         </section>
 
+        <section className="max-w-6xl flex flex-col md:flex-row items-center md:items-start justify-around bg-[#e5e5e5] mx-auto my-[80px] rounded-[20px] p-[24px] md:p-[45px] gap-8 md:gap-0">
+          <div className="flex flex-col gap-[16px] p-[28px] rounded-[20px] z-10 bg-[#563433] w-full max-w-[500px] md:mr-[-300px] border-2 border-[#563433] items-center">
+            <h2 className="text-3xl font-light text-[#ffffff] mb-8 leading-tight">
+              A multidisciplinary design practice rooted in experience,
+              creativity, and architectural rigor.
+            </h2>
+            <p className="text-[#ffffff] text-[14px] leading-relaxed mb-6">
+              Genarch is a multidisciplinary design practice rooted in
+              experience, creativity, and architectural rigor. Founded in 2001
+              as Genesis Architects in New Delhi, the firm has evolved into a
+              sophisticated architectural and design institution with expertise
+              across commercial, institutional, hospitality, residential, and
+              experiential environments.
+            </p>
+            <p className="text-[#ffffff] text-[14px] leading-relaxed">
+              For over two decades, Genarch has upheld a philosophy of craft,
+              precision, and collaboration ensuring that every project is
+              conceived with clarity, thoughtfully resolved through discipline,
+              and realized with a deep respect for context, function, and human
+              experience.
+            </p>
+          </div>
+          <div className="w-full md:w-auto">
+            <Image
+              className="rounded-[20px] object-cover w-full md:w-[700px]"
+              width={700}
+              height={500}
+              src={StudioImg}
+              alt="studio"
+              style={{ height: "500px" }}
+            />
+          </div>
+        </section>
+
+        <section className="max-w-6xl flex flex-col md:flex-row items-center justify-between gap-[20px] mx-auto my-[80px] px-4 md:px-0">
+          <div className="w-full md:w-auto">
+            <Image
+              className="rounded-[20px] object-cover w-full md:w-[700px]"
+              width={700}
+              height={400}
+              src={TeamImg}
+              alt="studio"
+              style={{ height: "400px" }}
+            />
+          </div>
+          <div className="w-full flex flex-col items-center justify-center gap-[20px] bg-[#8e5353] md:max-w-[452px] min-h-[400px] rounded-[20px] p-[20px]">
+            <div className="text-[48px] text-center text-[#ffffff]">
+              Who We Are
+            </div>
+            <div className="text-[14px] text-center text-[#ffffff] leading-relaxed">
+              Genarch combines diverse design sensibilities with a strong
+              technical foundation. Our teams bring together talents from across
+              India, enriching the practice with varied cultural and regional
+              perspectives. This diversity empowers us to work confidently
+              across typologies, scales, and geographies — from dynamic
+              corporate headquarters to serene wellness retreats, vibrant
+              hospitality spaces to thoughtful educational environments.
+            </div>
+          </div>
+        </section>
+
+        <section className="py-24 rounded-[38px] bg-[#e5e5e5]">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="grid md:grid-cols-2 gap-12">
+              {[
+                {
+                  name: "Navjot Paul Singh",
+                  role: "Tax Expert",
+                  img: NavjotImg,
+                },
+                { name: "Atul Sharma", role: "Tax Expert", img: AtulImg },
+              ].map((member) => (
+                <div key={member.name}>
+                  <Image
+                    src={member.img}
+                    alt={member.name}
+                    width={600}
+                    height={400}
+                    className="w-full object-cover rounded-[28px] mb-4"
+                  />
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-[28px] text-[#563433] font-semibold">
+                        {member.name}
+                      </h3>
+                      <p className="text-[18px] text-[#8e5353] mt-1">
+                        {member.role}
+                      </p>
+                    </div>
+                    <div className="flex gap-2">
+                      <a
+                        href="#"
+                        className="w-8 h-8 rounded-full border border-gray-300 flex items-center justify-center hover:border-[#7B2D2D] transition-colors"
+                      >
+                        <svg
+                          className="w-3.5 h-3.5 text-gray-500"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+                          <circle cx="4" cy="4" r="2" />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-4xl mx-auto px-6 py-[45px] text-center">
+          <h2 className="text-5xl font-light text-[#563433] mb-12">
+            Where We Work
+          </h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-16">
+            Headquartered in New Delhi, Genarch operates nationally across
+            residential, commercial, institutional, and leisure sectors — and
+            collaborates with clients both in India and internationally.
+          </p>
+          <div className="flex items-center justify-center text-gray-400">
+            <Image className="rounded-[28px]" src={OfficeImg} alt="studio" />
+          </div>
+        </section>
+
+        <section className="max-w-6xl mx-auto px-6 py-[45px]">
+          <div className="grid md:grid-cols-2 gap-[16px] items-center">
+            <div className="h-auto flex items-center justify-center text-gray-400 order-2 md:order-1">
+              <Image
+                className="h-auto rounded-[28px]"
+                src={JourneyImg}
+                alt="studio"
+              />
+            </div>
+            <div className="order-1 p-[28px] rounded-[28px] bg-[#e5e5e5] md:order-2">
+              <h2 className="text-5xl font-light text-[#563433] mb-8">
+                Our Journey
+              </h2>
+              <p className="text-[#563433] leading-relaxed mb-6">
+                Started as Genesis Architects in 2001 by Navjot Paul Singh and
+                Atul Sharma, the practice quickly built a reputation for
+                attention to detail, client partnership, and design excellence.
+              </p>
+              <p className="text-[#563433] leading-relaxed">
+                Navjots broad range of work and Atuls strategic thinking helped
+                shape a studio that looks beyond the ordinary, delivering
+                outcomes that consistently go beyond the brief. While the name
+                has evolved to Genarch to reflect a more cohesive identity, our
+                core values remain unchanged: integrity in design, clarity of
+                process, and dedication to creative outcomes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="max-w-6xl mx-auto py-[45px] px-4">
+          <h2 className="text-5xl font-light text-[#563433] mb-16 text-center">
+            Our Services
+          </h2>
+
+          <div className="flex flex-col items-center justify-center gap-[20px]">
+            {/* Card 1 - Commercial */}
+            <div className="w-full flex flex-col md:flex-row items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px]">
+                <Image
+                  className="h-[250px] md:h-[350px] w-full max-w-[352px] rounded-[28px_28px_0_0] object-cover"
+                  src={services1}
+                  alt="studio"
+                />
+              </div>
+              <div className="w-full flex flex-col items-start justify-start gap-[20px] p-[0_0_0_0] md:p-[0_0_0_24px] border-l-0 md:border-l-2 border-[#563433]">
+                <div>
+                  <h3 className="text-[28px] text-[#563433]">Commercial</h3>
+                </div>
+                <div>
+                  From corporate towers to retail spaces, we shape commercial
+                  environments that inspire productivity and leave lasting
+                  impressions.
+                </div>
+                <Link
+                  className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                  href={"/services"}
+                >
+                  <h3 className="text-[22px] font-light text-[#563433]">
+                    View More
+                  </h3>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <path
+                        d="M2 8h12M9 3l5 5-5 5"
+                        stroke="black"
+                        strokeWidth="1.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Card 2 - Hospitality & Entertainment */}
+            <div className="w-full flex flex-col md:flex-row-reverse items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px]">
+                <Image
+                  className="h-[250px] md:h-[350px] w-full max-w-[352px] rounded-[28px_28px_0_0] object-cover"
+                  src={services2}
+                  alt="studio"
+                />
+              </div>
+              <div className="w-full flex flex-col items-start justify-start gap-[20px] p-[0_0_0_0] md:p-[0_24px_0_0] border-r-0 md:border-r-2 border-[#563433]">
+                <div>
+                  <h3 className="text-[28px] text-[#563433]">
+                    Hospitality & Entertainment
+                  </h3>
+                </div>
+                <div>
+                  From corporate towers to retail spaces, we shape commercial
+                  environments that inspire productivity and leave lasting
+                  impressions.
+                </div>
+                <Link
+                  className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                  href={"/services"}
+                >
+                  <h3 className="text-[22px] font-light text-[#563433]">
+                    View More
+                  </h3>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <path
+                        d="M2 8h12M9 3l5 5-5 5"
+                        stroke="black"
+                        strokeWidth="1.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Card 3 - Residential & Lifestyle */}
+            <div className="w-full flex flex-col md:flex-row items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px]">
+                <Image
+                  className="h-[250px] md:h-[350px] w-full max-w-[352px] rounded-[28px_28px_0_0] object-cover"
+                  src={services3}
+                  alt="studio"
+                />
+              </div>
+              <div className="w-full flex flex-col items-start justify-start gap-[20px] p-[0_0_0_0] md:p-[0_0_0_24px] border-l-0 md:border-l-2 border-[#563433]">
+                <div>
+                  <h3 className="text-[28px] text-[#563433]">
+                    Residential & Lifestyle
+                  </h3>
+                </div>
+                <div>
+                  From corporate towers to retail spaces, we shape commercial
+                  environments that inspire productivity and leave lasting
+                  impressions.
+                </div>
+                <Link
+                  className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                  href={"/services"}
+                >
+                  <h3 className="text-[22px] font-light text-[#563433]">
+                    View More
+                  </h3>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <path
+                        d="M2 8h12M9 3l5 5-5 5"
+                        stroke="black"
+                        strokeWidth="1.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#8e5353] my-[50px] py-[45px] px-6 overflow-hidden">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {/* Card 1 — Red / Featured */}
+              <div className="relative bg-[#563433] rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-white min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-80">
+                    Resolution
+                  </p>
+                  <h3 className="text-2xl font-bold leading-snug">
+                    Our Experts Deliver All Solutions
+                  </h3>
+                </div>
+              </div>
+
+              {/* Card 2 — White */}
+              <div className="relative bg-white rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-black min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg width="90" height="100" viewBox="0 0 90 100" fill="none">
+                    <path
+                      d="M45 5 L80 25 L80 65 L45 85 L10 65 L10 25 Z"
+                      fill="#333"
+                    />
+                    <path d="M45 5 L80 25 L45 45 Z" fill="#555" />
+                    <path d="M45 5 L10 25 L45 45 Z" fill="#222" />
+                    <path d="M10 25 L45 45 L10 65 Z" fill="#444" />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-50">
+                    Reputable
+                  </p>
+                  <h3 className="text-xl font-bold leading-snug">
+                    Develop, Engross & Fulfill Service
+                  </h3>
+                </div>
+              </div>
+
+              {/* Card 3 — White */}
+              <div className="relative bg-white rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-black min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg width="90" height="100" viewBox="0 0 90 100" fill="none">
+                    <path
+                      d="M60 20 C80 20 85 40 70 55 C55 70 35 65 25 50 C15 35 25 15 45 20 C50 21 55 18 60 20Z"
+                      fill="#1a1a1a"
+                      stroke="#333"
+                      strokeWidth="2"
+                    />
+                    <path
+                      d="M30 55 C20 65 18 80 30 85 C42 90 50 78 45 68"
+                      fill="#1a1a1a"
+                    />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-50">
+                    Assistance
+                  </p>
+                  <h3 className="text-xl font-bold leading-snug">
+                    24/7 Instantaneous Customer Service
+                  </h3>
+                </div>
+              </div>
+
+              {/* Card 4 — White */}
+              <div className="relative bg-white rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-black min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg width="60" height="110" viewBox="0 0 60 110" fill="none">
+                    <path
+                      d="M30 5 C45 5 55 15 50 25 C45 35 15 35 10 45 C5 55 15 65 30 65 C45 65 55 75 50 85 C45 95 15 95 10 105"
+                      stroke="#1a1a1a"
+                      strokeWidth="10"
+                      strokeLinecap="round"
+                      fill="none"
+                    />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-50">
+                    Reach
+                  </p>
+                  <h3 className="text-xl font-bold leading-snug">
+                    Conveniently Reachable Globally
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#ffffff] text-[#563433] py-[45px]">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-5xl font-light mb-12">
+              Clients & Collaborations
+            </h2>
+            <p className="text-xl opacity-90 leading-relaxed">
+              Over the years, Genarch has partnered with leading brands,
+              institutions, and clients across sectors — ranging from corporate
+              entities to private patrons.
+            </p>
+          </div>
+          <div className="flex max-w-4xl m-[50_auto_0_auto] flex-wrap items-center justify-center gap-[20px]">
+            <Image height={140} width={140} src={Img1} alt="img" />
+            <Image height={140} width={140} src={Img2} alt="img" />
+            <Image height={140} width={140} src={Img3} alt="img" />
+            <Image height={140} width={140} src={Img4} alt="img" />
+            <Image height={140} width={140} src={Img5} alt="img" />
+            <Image height={140} width={140} src={Img6} alt="img" />
+            <Image height={140} width={140} src={Img7} alt="img" />
+            <Image height={140} width={140} src={Img8} alt="img" />
+            <Image height={140} width={140} src={Img9} alt="img" />
+          </div>
+        </section>
+
         {/* Introduction */}
-        <section className="max-w-6xl mx-auto px-6 py-24">
+        {/* <section className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl font-light text-[#563433] mb-8 leading-tight">
@@ -104,10 +536,10 @@ export default function About() {
               <Image src={StudioImg} alt="studio" />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Who We Are Content */}
-        <section className="max-w-4xl mx-auto px-6 py-24 text-center">
+        {/* <section className="max-w-4xl mx-auto px-6 py-24 text-center">
           <h2 className="text-5xl font-light text-[#563433] mb-12">
             Who We Are
           </h2>
@@ -120,15 +552,15 @@ export default function About() {
             headquarters to serene wellness retreats, vibrant hospitality spaces
             to thoughtful educational environments.
           </p>
-        </section>
+        </section> */}
 
         {/* Who We Are - Full Width Image */}
-        <section className=" w-full flex items-center justify-center text-gray-400">
+        {/* <section className=" w-full flex items-center justify-center text-gray-400">
           <Image src={TeamImg} alt="studio" />
-        </section>
+        </section> */}
 
         {/* Leadership */}
-        <section className="bg-gray-50 py-24">
+        {/* <section className="bg-gray-50 py-24">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-5xl font-light text-[#563433] mb-16 text-center">
               Leadership
@@ -168,10 +600,10 @@ export default function About() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Location */}
-        <section className="max-w-4xl mx-auto px-6 py-24 text-center">
+        {/* <section className="max-w-4xl mx-auto px-6 py-24 text-center">
           <h2 className="text-5xl font-light text-[#563433] mb-12">
             Where We Work
           </h2>
@@ -183,10 +615,10 @@ export default function About() {
           <div className="flex items-center justify-center text-gray-400">
             <Image src={OfficeImg} alt="studio" />
           </div>
-        </section>
+        </section> */}
 
         {/* Our Journey */}
-        <section className="max-w-6xl mx-auto px-6 py-24">
+        {/* <section className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="h-auto flex items-center justify-center text-gray-400 order-2 md:order-1">
               <Image className="h-auto" src={JourneyImg} alt="studio" />
@@ -210,10 +642,10 @@ export default function About() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Services */}
-        <section className="max-w-6xl mx-auto px-6 py-24">
+        {/* <section className="max-w-6xl mx-auto px-6 py-24">
           <h2 className="text-5xl font-light text-[#563433] mb-16 text-center">
             Our Services
           </h2>
@@ -251,9 +683,7 @@ export default function About() {
                   </svg>
                 </span>
               </Link>
-              {/* <p className="text-gray-600">
-                Commercial, Residential, Institutional
-              </p> */}
+             
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
@@ -288,7 +718,6 @@ export default function About() {
                   </svg>
                 </span>
               </Link>
-              {/* <p className="text-gray-600">Hospitality and Entertainment</p> */}
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 h-64 flex items-center justify-center text-gray-400 mb-4">
@@ -323,15 +752,13 @@ export default function About() {
                   </svg>
                 </span>
               </Link>
-              {/* <p className="text-gray-600">
-                Spatial strategy, Design consulting, Concept development
-              </p> */}
+            
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Design Philosophy */}
-        <section className="bg-[#e5e5e5] text-[#563433] py-24">
+        {/* <section className="bg-[#e5e5e5] text-[#563433] py-24">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-5xl font-light mb-16">Our Design Philosophy</h2>
             <div className="space-y-8 text-lg leading-relaxed">
@@ -371,10 +798,10 @@ export default function About() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Clients */}
-        <section className="bg-[#ffffff] text-[#563433] py-24">
+        {/* <section className="bg-[#ffffff] text-[#563433] py-24">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-5xl font-light mb-12">
               Clients & Collaborations
@@ -396,7 +823,7 @@ export default function About() {
             <Image height={140} width={140} src={Img8} alt="img" />
             <Image height={140} width={140} src={Img9} alt="img" />
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </>
