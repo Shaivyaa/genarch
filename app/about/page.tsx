@@ -187,20 +187,6 @@ export default function About() {
           </div>
         </section>
 
-        <section className="max-w-4xl mx-auto px-6 py-[45px] text-center">
-          <h2 className="text-5xl font-light text-[#563433] mb-12">
-            Where We Work
-          </h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-16">
-            Headquartered in New Delhi, Genarch operates nationally across
-            residential, commercial, institutional, and leisure sectors — and
-            collaborates with clients both in India and internationally.
-          </p>
-          <div className="flex items-center justify-center text-gray-400">
-            <Image className="rounded-[28px]" src={OfficeImg} alt="studio" />
-          </div>
-        </section>
-
         <section className="max-w-6xl mx-auto px-6 py-[45px]">
           <div className="grid md:grid-cols-2 gap-[16px] items-center">
             <div className="h-auto flex items-center justify-center text-gray-400 order-2 md:order-1">
@@ -236,25 +222,20 @@ export default function About() {
             Our Services
           </h2>
 
-          <div className="flex flex-col items-center justify-center gap-[20px]">
-            {/* Card 1 - Commercial */}
-            <div className="w-full flex flex-col md:flex-row items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px]">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-[20px]">
+            <div className="w-full flex flex-col gap-[20px]  items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[352px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
                   src={services1}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px] p-[0_0_0_0] md:p-[0_0_0_24px] border-l-0 md:border-l-2 border-[#563433]">
+              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
                   <h3 className="text-[28px] text-[#563433]">Commercial</h3>
                 </div>
-                <div>
-                  From corporate towers to retail spaces, we shape commercial
-                  environments that inspire productivity and leave lasting
-                  impressions.
-                </div>
+
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
@@ -283,26 +264,21 @@ export default function About() {
               </div>
             </div>
 
-            {/* Card 2 - Hospitality & Entertainment */}
-            <div className="w-full flex flex-col md:flex-row-reverse items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px]">
+            <div className="w-full flex flex-col gap-[20px]  items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[352px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
                   src={services2}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px] p-[0_0_0_0] md:p-[0_24px_0_0] border-r-0 md:border-r-2 border-[#563433]">
+              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
                   <h3 className="text-[28px] text-[#563433]">
                     Hospitality & Entertainment
                   </h3>
                 </div>
-                <div>
-                  From corporate towers to retail spaces, we shape commercial
-                  environments that inspire productivity and leave lasting
-                  impressions.
-                </div>
+
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
@@ -331,26 +307,21 @@ export default function About() {
               </div>
             </div>
 
-            {/* Card 3 - Residential & Lifestyle */}
-            <div className="w-full flex flex-col md:flex-row items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px]">
+            <div className="w-full flex flex-col gap-[20px]  items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[352px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
                   src={services3}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px] p-[0_0_0_0] md:p-[0_0_0_24px] border-l-0 md:border-l-2 border-[#563433]">
+              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
                   <h3 className="text-[28px] text-[#563433]">
                     Residential & Lifestyle
                   </h3>
                 </div>
-                <div>
-                  From corporate towers to retail spaces, we shape commercial
-                  environments that inspire productivity and leave lasting
-                  impressions.
-                </div>
+
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
@@ -381,11 +352,15 @@ export default function About() {
           </div>
         </section>
 
-        <section className="bg-[#8e5353] my-[50px] py-[45px] px-6 overflow-hidden">
+        <section className="bg-[#8e5353] w-full my-[50px] py-[40px]  mx-auto  overflow-hidden">
+          <h2 className="text-5xl font-light text-[#ffffff] mb-16 text-center">
+            Our Design Philosophy
+          </h2>
+
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="flex flex-wrap items-center justify-center gap-5">
               {/* Card 1 — Red / Featured */}
-              <div className="relative bg-[#563433] rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-white min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+              <div className=" bg-[#563433]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
                 {/* 3D Triangle Shape */}
                 <div className="flex items-center justify-center h-[140px]">
                   <svg
@@ -401,83 +376,134 @@ export default function About() {
                 </div>
                 <div className="text-center flex flex-col gap-3">
                   <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-80">
-                    Resolution
+                    Balance
                   </p>
-                  <h3 className="text-2xl font-bold leading-snug">
-                    Our Experts Deliver All Solutions
-                  </h3>
                 </div>
               </div>
 
-              {/* Card 2 — White */}
-              <div className="relative bg-white rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-black min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+              <div className=" bg-[#ffffff]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
                 <div className="flex items-center justify-center h-[140px]">
-                  <svg width="90" height="100" viewBox="0 0 90 100" fill="none">
-                    <path
-                      d="M45 5 L80 25 L80 65 L45 85 L10 65 L10 25 Z"
-                      fill="#333"
-                    />
-                    <path d="M45 5 L80 25 L45 45 Z" fill="#555" />
-                    <path d="M45 5 L10 25 L45 45 Z" fill="#222" />
-                    <path d="M10 25 L45 45 L10 65 Z" fill="#444" />
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
                   </svg>
                 </div>
                 <div className="text-center flex flex-col gap-3">
-                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-50">
-                    Reputable
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase text-[#563433] opacity-80">
+                    Movement
                   </p>
-                  <h3 className="text-xl font-bold leading-snug">
-                    Develop, Engross & Fulfill Service
-                  </h3>
                 </div>
               </div>
 
-              {/* Card 3 — White */}
-              <div className="relative bg-white rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-black min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+              <div className=" bg-[#563433]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
                 <div className="flex items-center justify-center h-[140px]">
-                  <svg width="90" height="100" viewBox="0 0 90 100" fill="none">
-                    <path
-                      d="M60 20 C80 20 85 40 70 55 C55 70 35 65 25 50 C15 35 25 15 45 20 C50 21 55 18 60 20Z"
-                      fill="#1a1a1a"
-                      stroke="#333"
-                      strokeWidth="2"
-                    />
-                    <path
-                      d="M30 55 C20 65 18 80 30 85 C42 90 50 78 45 68"
-                      fill="#1a1a1a"
-                    />
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
                   </svg>
                 </div>
                 <div className="text-center flex flex-col gap-3">
-                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-50">
-                    Assistance
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-80">
+                    Rhythm
                   </p>
-                  <h3 className="text-xl font-bold leading-snug">
-                    24/7 Instantaneous Customer Service
-                  </h3>
                 </div>
               </div>
 
-              {/* Card 4 — White */}
-              <div className="relative bg-white rounded-[999px] flex flex-col items-center justify-between py-10 px-6 text-black min-h-[420px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+              <div className=" bg-[#ffffff]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
                 <div className="flex items-center justify-center h-[140px]">
-                  <svg width="60" height="110" viewBox="0 0 60 110" fill="none">
-                    <path
-                      d="M30 5 C45 5 55 15 50 25 C45 35 15 35 10 45 C5 55 15 65 30 65 C45 65 55 75 50 85 C45 95 15 95 10 105"
-                      stroke="#1a1a1a"
-                      strokeWidth="10"
-                      strokeLinecap="round"
-                      fill="none"
-                    />
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
                   </svg>
                 </div>
                 <div className="text-center flex flex-col gap-3">
-                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-50">
-                    Reach
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase text-[#563433] opacity-80">
+                    Emphasis
                   </p>
-                  <h3 className="text-xl font-bold leading-snug">
-                    Conveniently Reachable Globally
-                  </h3>
+                </div>
+              </div>
+
+              <div className=" bg-[#563433]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-80">
+                    Contrast
+                  </p>
+                </div>
+              </div>
+
+              <div className=" bg-[#ffffff]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase text-[#563433] opacity-80">
+                    Proportion
+                  </p>
+                </div>
+              </div>
+
+              <div className=" bg-[#563433]  flex flex-col items-center justify-around text-white w-full max-w-[250px] p-[10px] h-full min-h-[300px] rounded-[30px] group cursor-pointer transition-transform duration-300 hover:-translate-y-2">
+                {/* 3D Triangle Shape */}
+                <div className="flex items-center justify-center h-[140px]">
+                  <svg
+                    width="100"
+                    height="110"
+                    viewBox="0 0 100 110"
+                    fill="none"
+                  >
+                    <polygon points="50,5 95,95 5,95" fill="#555" />
+                    <polygon points="50,5 95,95 50,70" fill="#888" />
+                    <polygon points="50,5 5,95 50,70" fill="#333" />
+                  </svg>
+                </div>
+                <div className="text-center flex flex-col gap-3">
+                  <p className="tracking-[0.2em] text-xs font-semibold uppercase opacity-80">
+                    Unity
+                  </p>
                 </div>
               </div>
             </div>
