@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Crimson_Text } from "next/font/google";
 
 import "./globals.css";
 
-const poppins = Poppins({
-  weight: ["400", "500", "600", "700"],
+const poppins = Crimson_Text({
+  weight: ["400", "600", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   variable: "--font-poppins",
