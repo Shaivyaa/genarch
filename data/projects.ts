@@ -2,7 +2,7 @@ export const projects = [
   {
     id: "1",
     slug: "project-one",
-    title: "WELLNESS CENTRE, NADAUN",
+    title: "Wellness Center, Nadaun",
     subtitle: "Wellness Center | Himachal Pradesh",
     description:
       "Architecture Rooted in Renewal - A riverside retreat where landscape, material, and mindful spaces come together",
@@ -21,7 +21,7 @@ export const projects = [
   {
     id: "2",
     slug: "project-two",
-    title: "FARMHOUSE, GREATER NOIDA",
+    title: "Farmhouse, Greater Noida",
     subtitle: "Residential | Greater Noida",
     description:
       "A Retreat for Togetherness — A home that balances privacy, openness, and shared living",
@@ -40,7 +40,7 @@ export const projects = [
   {
     id: "3",
     slug: "project-three",
-    title: "CORPORATE OFFICE BUILDING, GURUGRAM",
+    title: "Corporate Office Building, Gurugram",
     subtitle: "Commercial | Gurugram",
     description:
       "A Place for Collaboration — Architecture that blends performance, sustainability, and well-being",
@@ -60,7 +60,7 @@ export const projects = [
   {
     id: "4",
     slug: "project-four",
-    title: "DHARAV SCHOOL – JUNIOR WING",
+    title: "Dharav School, Junior Wing",
     subtitle: "Institutional | Gurugram",
     description:
       "Little Minds, Timeless Spaces — An environment where learning begins with curiosity",

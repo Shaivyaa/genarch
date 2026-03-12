@@ -199,7 +199,7 @@ export default function Projects() {
 
                   {/* Project Info */}
                   <div className="space-y-2 text-center">
-                    <div className="flex flex-wrap items-center justify-center gap-2 text-[20px] text-[#8e5353] uppercase tracking-wide">
+                    <div className="flex flex-wrap items-center justify-center gap-2 text-[20px] text-[#8e5353]  tracking-wide">
                       {/* {project.category.map((cat, index) => (
                         <span key={index}>
                           {cat}

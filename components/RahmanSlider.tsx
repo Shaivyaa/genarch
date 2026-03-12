@@ -432,43 +432,43 @@ gsap.registerPlugin(ScrollTrigger);
 
 const slides = [
   {
-    title: "WELLNESS CENTRE, NADAUN",
+    title: "Wellness Center, Nadaun",
     image: "/images/img5.jpg",
     slug: "project-one",
     hero: true,
   },
   {
-    title: "FARMHOUSE, GREATER NOIDA",
+    title: "Farmhouse, Greater Noida",
     image: "/images/img1.jpg",
     slug: "project-two",
   },
   {
-    title: "CORPORATE OFFICE BUILDING, GURUGRAM",
+    title: "Corporate Office Building, Gurugram",
     image: "/images/img3.jpg",
     slug: "project-three",
   },
   {
-    title: "DHARAV SCHOOL – JUNIOR WING",
+    title: "Dharav School, Junior Wing",
     image: "/images/img4.jpeg",
     slug: "project-four",
   },
   {
-    title: "DUBAI VILLA",
+    title: "Dubai Villa",
     image: "/services-images/dubai-villa.jpg",
     slug: "project-five",
   },
   {
-    title: "COSTA COFFEE",
+    title: "Costa Coffee",
     image: "/services-images/costa-goa.jpg",
     slug: "project-six",
   },
   {
-    title: "DHARAV SCHOOL – SENIOR WING",
+    title: "Dharav School, Senior Wing",
     image: "/services-images/dharav-senior.jpg",
     slug: "project-seven",
   },
   {
-    title: "KINDERGARTEN",
+    title: "Kindergarten",
     image: "/services-images/kindergarten.jpg",
     slug: "project-eight",
   },
