@@ -13,7 +13,7 @@ const navItems = [
   { name: "Our Projects", path: "/services" },
   { name: "About Us", path: "/about" },
   { name: "Contact Us", path: "/contact" },
-  { name: "Careers", path: "/careers" },
+  // { name: "Careers", path: "/careers" },
 ];
 
 export default function Header() {
