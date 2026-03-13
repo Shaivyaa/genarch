@@ -1,7 +1,7 @@
 "use client";
 
 import Header from "@/components/Header";
-import AboutImg from "@/public/images/about-img1.jpg";
+import AboutImg from "@/public/images/about-us-banner.jpeg";
 import Image from "next/image";
 import StudioImg from "@/public/images/contact.jpg";
 import TeamImg from "@/public/images/aboutUs-team.jpg";
@@ -60,20 +60,20 @@ export default function About() {
       <Header />
       <main className="w-full  bg-white">
         {/* Hero Section */}
-        <section className="relative w-full">
+        <section className="relative mt-[60px] lg:mt-[0] w-full">
           <Image
             src={AboutImg}
             alt="about"
             width={0}
             height={0}
             sizes="100vw"
-            className="md:w-full h-[50vh] md:h-[60vh] object-cover"
+            className="md:w-full object-cover"
           />
-          <div className="absolute inset-0 flex items-center justify-center">
+          {/* <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-4xl md:text-8xl font-bold md:font-light text-white tracking-wide">
               About Us
             </h1>
-          </div>
+          </div> */}
         </section>
 
         <section className="max-w-6xl flex flex-col md:flex-row items-center md:items-start justify-around bg-[#e5e5e5] mx-auto my-[80px] rounded-[20px] p-[24px] md:p-[45px] gap-8 md:gap-0">

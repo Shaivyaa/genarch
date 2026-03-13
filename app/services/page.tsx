@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
 import Image from "next/image";
-import AboutImg from "@/public/images/about-img1.jpg";
+import AboutImg from "@/public/images/our-services-banner.jpeg";
 import Footer from "@/components/Footer";
 
 const projectsData = [
@@ -125,20 +125,20 @@ export default function Projects() {
           </div>
               </section> */}
 
-        <section className="relative w-full ">
+        <section className="relative mt-[60px] lg:mt-[0] w-full ">
           <Image
             src={AboutImg}
             alt="about"
             width={0}
             height={0}
             sizes="100vw"
-            className="md:w-full h-[50vh]  md:h-[60vh] object-cover"
+            className="md:w-full  object-cover"
           />
-          <div className="absolute inset-0 flex items-center justify-center">
+          {/* <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-4xl md:text-8xl font-bold md:font-light text-white tracking-wide">
               Our Projects
             </h1>
-          </div>
+          </div> */}
         </section>
 
         {/* Category Filter */}
