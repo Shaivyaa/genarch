@@ -143,30 +143,32 @@ export default function Contact() {
           </div>
 
           {/* RIGHT — Form */}
-          <div className="relative bg-[#faf9f7] border border-[#ede8e0] p-10 md:p-12">
+          <div className="relative bg-[#563433] border border-[#6b4a48] p-10 md:p-12 text-[#e5e5e5]">
             {/* top accent bar */}
-            <div className="absolute top-0 left-10 right-10 h-0.5 bg-[#563433]" />
+            <div className="absolute top-0 left-10 right-10 h-0.5 bg-[#e5e5e5]" />
 
             {submitted ? (
               <div className="text-center py-8">
-                <div className="w-12 h-12 rounded-full border border-[#563433] flex items-center justify-center mx-auto mb-6">
+                <div className="w-12 h-12 rounded-full border border-[#e5e5e5] flex items-center justify-center mx-auto mb-6">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M4 10l4.5 4.5 8-8"
-                      stroke="#563433"
+                      stroke="#e5e5e5"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
                   </svg>
                 </div>
+
                 <h3
-                  className="text-3xl font-light text-[#563433] mb-3"
+                  className="text-3xl font-light text-[#e5e5e5] mb-3"
                   style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
                 >
                   Message Received
                 </h3>
-                <p className="text-sm font-light text-gray-500 leading-relaxed">
+
+                <p className="text-sm font-light text-gray-300 leading-relaxed">
                   Thank you for reaching out.
                   <br />
                   We will be in touch with you shortly.
@@ -175,23 +177,25 @@ export default function Contact() {
             ) : (
               <form onSubmit={handleSubmit}>
                 <h3
-                  className="text-3xl font-light text-[#563433] mb-1"
+                  className="text-3xl font-light text-[#e5e5e5] mb-1"
                   style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
                 >
                   Send a Message
                 </h3>
-                <p className="text-xs font-light text-gray-400 tracking-wide mb-8">
+
+                <p className="text-xs font-light text-gray-300 tracking-wide mb-8">
                   We respond to all enquiries within 1–2 business days.
                 </p>
 
                 {/* Name */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="name"
                   >
                     Full Name
                   </label>
+
                   <input
                     id="name"
                     name="name"
@@ -200,18 +204,19 @@ export default function Contact() {
                     value={form.name}
                     onChange={handleChange}
                     required
-                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200"
+                    className="w-full bg-transparent border-0 border-b border-gray-500 focus:border-[#e5e5e5] outline-none py-2 text-sm font-light text-[#e5e5e5] placeholder-gray-400 transition-colors duration-200"
                   />
                 </div>
 
                 {/* Email */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="email"
                   >
                     Email Address
                   </label>
+
                   <input
                     id="email"
                     name="email"
@@ -220,18 +225,19 @@ export default function Contact() {
                     value={form.email}
                     onChange={handleChange}
                     required
-                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200"
+                    className="w-full bg-transparent border-0 border-b border-gray-500 focus:border-[#e5e5e5] outline-none py-2 text-sm font-light text-[#e5e5e5] placeholder-gray-400 transition-colors duration-200"
                   />
                 </div>
 
                 {/* Contact */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="contact"
                   >
                     Contact Number
                   </label>
+
                   <input
                     id="contact"
                     name="contact"
@@ -239,18 +245,19 @@ export default function Contact() {
                     placeholder="XXXXX XXXXX"
                     value={form.contact}
                     onChange={handleChange}
-                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200"
+                    className="w-full bg-transparent border-0 border-b border-gray-500 focus:border-[#e5e5e5] outline-none py-2 text-sm font-light text-[#e5e5e5] placeholder-gray-400 transition-colors duration-200"
                   />
                 </div>
 
-                {/* Feedback */}
+                {/* Message */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2"
+                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="feedback"
                   >
                     Your Message
                   </label>
+
                   <textarea
                     id="feedback"
                     name="feedback"
@@ -259,13 +266,13 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     rows={4}
-                    className="w-full bg-transparent border-0 border-b border-gray-200 focus:border-[#563433] outline-none py-2 text-sm font-light text-gray-800 placeholder-gray-300 transition-colors duration-200 resize-none"
+                    className="w-full bg-transparent border-0 border-b border-gray-500 focus:border-[#e5e5e5] outline-none py-2 text-sm font-light text-[#e5e5e5] placeholder-gray-400 transition-colors duration-200 resize-none"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="mt-4 inline-flex items-center cursor-pointer gap-4 bg-[#563433] hover:bg-[#3d2524] text-white text-[0.65rem] font-medium tracking-[0.3em] uppercase px-8 py-4 transition-all duration-300 group"
+                  className="mt-4 inline-flex items-center cursor-pointer gap-4 bg-[#e5e5e5] hover:bg-white text-[#563433] text-[0.65rem] font-medium tracking-[0.3em] uppercase px-8 py-4 transition-all duration-300 group"
                 >
                   Send Message
                   <svg
@@ -277,7 +284,7 @@ export default function Contact() {
                   >
                     <path
                       d="M2 8h12M9 3l5 5-5 5"
-                      stroke="white"
+                      stroke="#563433"
                       strokeWidth="1.2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
