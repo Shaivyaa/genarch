@@ -10,7 +10,7 @@ import "../app/globals.css";
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "Our Services", path: "/services" },
+  { name: "Our Projects", path: "/projects" },
   { name: "About Us", path: "/about" },
   { name: "Contact Us", path: "/contact" },
   // { name: "Careers", path: "/careers" },
