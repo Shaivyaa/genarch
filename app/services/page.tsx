@@ -78,6 +78,20 @@ const projectsData = [
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/pvr-ggn.jpg",
   },
+  {
+    id: 11,
+    title: "Absolute BBQ",
+    slug: "project-eleventh",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/bbq.jpg",
+  },
+  {
+    id: 12,
+    title: "Clubhouse",
+    slug: "project-twelfth",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/clubhouse.png",
+  },
 ];
 
 const categories = [

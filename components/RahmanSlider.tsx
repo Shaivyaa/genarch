@@ -482,6 +482,16 @@ const slides = [
     image: "/services-images/pvr-ggn-out.jpg",
     slug: "project-tenth",
   },
+  {
+    title: "Absolute BBQ",
+    image: "/services-images/bbq-out.jpg",
+    slug: "project-eleventh",
+  },
+  {
+    title: "Clubhouse",
+    image: "/services-images/Clubhouse-out.png",
+    slug: "project-twelfth",
+  },
 ];
 
 export default function RahmanSlider() {
