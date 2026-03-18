@@ -472,6 +472,16 @@ const slides = [
     image: "/services-images/kindergarten.jpg",
     slug: "project-eight",
   },
+  {
+    title: "PVR at DLF Midtown Plaza",
+    image: "/services-images/dharav-senior.jpg",
+    slug: "project-ninth",
+  },
+  {
+    title: "PVR at Elan Miracle Mall",
+    image: "/services-images/pvr-ggn-out.jpg",
+    slug: "project-tenth",
+  },
 ];
 
 export default function RahmanSlider() {
@@ -725,7 +735,7 @@ function MobileSlide({
 
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="absolute bottom-6 left-6 text-white">
+      <div className="absolute bottom-2 left-6 text-white">
         <h2 className="text-xl font-light">{title}</h2>
       </div>
     </div>
@@ -783,7 +793,7 @@ function Slide({
 
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="absolute bottom-14 left-14 text-white">
+      <div className="absolute bottom-4 left-14 text-white">
         <h2 className="text-3xl mb-4 font-light">{title}</h2>
       </div>
     </div>

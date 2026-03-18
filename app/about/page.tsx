@@ -920,7 +920,7 @@ export default function About() {
       <Header />
       <main className="w-full bg-white">
         {/* Hero Section */}
-        <section className="relative mt-[60px] lg:mt-[0] w-full">
+        <section className="relative mt-[60px] lg:mt-[100] w-full">
           <Image
             src={AboutImg}
             alt="about"
@@ -938,19 +938,13 @@ export default function About() {
               creativity, and architectural rigor.
             </h2>
             <p className="text-[#ffffff] text-[14px] leading-relaxed mb-6">
-              Genarch is a multidisciplinary design practice rooted in
-              experience, creativity, and architectural rigor. Founded in 2001
-              as Genesis Architects in New Delhi, the firm has evolved into a
-              sophisticated architectural and design institution with expertise
-              across commercial, institutional, hospitality, residential, and
-              experiential environments.
-            </p>
-            <p className="text-[#ffffff] text-[14px] leading-relaxed">
-              For over two decades, Genarch has upheld a philosophy of craft,
-              precision, and collaboration ensuring that every project is
-              conceived with clarity, thoughtfully resolved through discipline,
-              and realized with a deep respect for context, function, and human
-              experience.
+              Genarch Genesis Architects Pvt. Ltd. is a multidisciplinary
+              architecture and design practice driven by experience and a
+              process-led design approach. Working across institutional,
+              commercial, hospitality, residential, and experiential projects,
+              the firm combines diverse expertise with disciplined architectural
+              thinking. Each project is shaped by context, material integrity,
+              and a deep understanding of how spaces are experienced.
             </p>
           </div>
           <div className="w-full md:w-auto">
@@ -981,13 +975,12 @@ export default function About() {
               Who We Are
             </div>
             <div className="text-[14px] text-center text-[#ffffff] leading-relaxed">
-              Genarch combines diverse design sensibilities with a strong
-              technical foundation. Our teams bring together talents from across
-              India, enriching the practice with varied cultural and regional
-              perspectives. This diversity empowers us to work confidently
-              across typologies, scales, and geographies — from dynamic
-              corporate headquarters to serene wellness retreats, vibrant
-              hospitality spaces to thoughtful educational environments.
+              Genarch is a team of architects and designers committed to
+              creating spaces that balance creativity, functionality, and
+              purpose. The practice approaches every project with clarity and
+              rigor, ensuring thoughtful design solutions that respond to both
+              context and user needs. The focus remains on crafting environments
+              that are contemporary, efficient, and enduring.
             </div>
           </div>
         </section>
@@ -1056,17 +1049,14 @@ export default function About() {
                 Our Journey
               </h2>
               <p className="text-[#563433] leading-relaxed mb-6">
-                Started as Genesis Architects in 2001 by Navjot Paul Singh and
-                Atul Sharma, the practice quickly built a reputation for
-                attention to detail, client partnership, and design excellence.
-              </p>
-              <p className="text-[#563433] leading-relaxed">
-                Navjots broad range of work and Atuls strategic thinking helped
-                shape a studio that looks beyond the ordinary, delivering
-                outcomes that consistently go beyond the brief. While the name
-                has evolved to Genarch to reflect a more cohesive identity, our
-                core values remain unchanged: integrity in design, clarity of
-                process, and dedication to creative outcomes.
+                Founded by Atul Sharma, an alumnus of Chandigarh College of
+                Architecture, the practice builds on a strong legacy of
+                architectural expertise. With over 17 years of experience, he
+                has led a diverse range of projects including hotels, offices,
+                retail, and F&B spaces. Alongside him, Navjot, with over 17
+                years of architectural practice across India and overseas,
+                contributes a broad design perspective to the firm’s evolving
+                journey.
               </p>
             </div>
           </div>

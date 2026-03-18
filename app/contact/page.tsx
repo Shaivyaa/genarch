@@ -39,7 +39,7 @@ export default function Contact() {
 
       <main className="w-full bg-white">
         {/* Hero */}
-        <section className="relative mt-[60px] lg:mt-[0] w-full ">
+        <section className="relative mt-[60px] lg:mt-[90] w-full ">
           <Image
             src={AboutImg}
             alt="about"
@@ -74,10 +74,10 @@ export default function Contact() {
 
             {/* Address */}
             <div className="mb-8">
-              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-[#563433] mb-2">
                 Our Studio
               </p>
-              <p className="text-sm font-light text-gray-500 leading-relaxed">
+              <p className="text-sm font-light text-[#563433] leading-relaxed">
                 371, First Floor, Rangpuri
                 <br />
                 Adjacent to Celebration Garden
@@ -88,7 +88,7 @@ export default function Contact() {
 
             {/* Email */}
             <div className="mb-8">
-              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-[#563433] mb-2">
                 Email
               </p>
               <a
@@ -101,12 +101,12 @@ export default function Contact() {
 
             {/* Tel */}
             <div className="mb-8">
-              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-2">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-[#563433] mb-2">
                 Tel / Fax
               </p>
               <a
                 href="tel:+911125062077"
-                className="text-sm font-light text-gray-500 border-b border-transparent hover:border-gray-400 transition-all duration-200"
+                className="text-sm font-light text-[#563433] border-b border-transparent hover:border-gray-400 transition-all duration-200"
               >
                 +91 11 2506 2077–79
               </a>
@@ -114,7 +114,7 @@ export default function Contact() {
 
             {/* Direct Contact */}
             <div>
-              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-gray-400 mb-3">
+              <p className="text-[0.65rem] font-medium tracking-[0.25em] uppercase text-[#563433] mb-3">
                 Or Call Directly
               </p>
               <div className="flex flex-col gap-3">

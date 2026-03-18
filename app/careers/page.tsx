@@ -70,7 +70,7 @@ export default function Careers() {
 
       <main className="w-full bg-white">
         {/* Hero */}
-        <section className="relative mt-[60px] lg:mt-[0] w-full">
+        <section className="relative mt-[60px] lg:mt-[100] w-full">
           <Image
             src={AboutImg}
             alt="careers"

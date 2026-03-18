@@ -64,6 +64,20 @@ const projectsData = [
     category: ["Commercial"],
     image: "/services-images/kindergarten.jpg",
   },
+  {
+    id: 9,
+    title: "PVR at DLF Midtown Plaza",
+    slug: "project-ninth",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/dharav-senior.jpg",
+  },
+  {
+    id: 10,
+    title: "PVR at Elan Miracle Mall",
+    slug: "project-tenth",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/pvr-ggn.jpg",
+  },
 ];
 
 const categories = [
@@ -125,7 +139,7 @@ export default function Projects() {
           </div>
               </section> */}
 
-        <section className="relative mt-[60px] lg:mt-[0] w-full ">
+        <section className="relative mt-[60px] lg:mt-[100] w-full ">
           <Image
             src={AboutImg}
             alt="about"
