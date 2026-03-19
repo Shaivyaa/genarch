@@ -991,10 +991,10 @@ export default function About() {
               {[
                 {
                   name: "Navjot Paul Singh",
-                  role: "Tax Expert",
+                  role: "",
                   img: NavjotImg,
                 },
-                { name: "Atul Sharma", role: "Tax Expert", img: AtulImg },
+                { name: "Atul Sharma", role: "", img: AtulImg },
               ].map((member) => (
                 <div key={member.name}>
                   <Image
