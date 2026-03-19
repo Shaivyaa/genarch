@@ -80,7 +80,7 @@ const projectsData = [
   },
   {
     id: 11,
-    title: "Absolute BBQ",
+    title: "Absolute Barbeque",
     slug: "project-eleventh",
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/bbq-new.jpg",

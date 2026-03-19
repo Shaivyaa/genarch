@@ -483,7 +483,7 @@ const slides = [
     slug: "project-tenth",
   },
   {
-    title: "Absolute BBQ",
+    title: "Absolute Barbeque",
     image: "/services-images/bbq-out-new.jpg",
     slug: "project-eleventh",
   },
