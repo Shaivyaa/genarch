@@ -122,14 +122,14 @@ export default function Contact() {
                   <p className="text-sm font-normal text-[#563433]">
                     Naresh Pareek
                   </p>
-                  <p className="text-sm font-light text-gray-500">
+                  <p className="text-sm font-light text-[#563433]">
                     <a
                       href="tel:+919310098551"
                       className="hover:text-[#563433] transition-colors"
                     >
                       93100-98551
                     </a>
-                    <span className="mx-2 text-gray-300">·</span>
+                    <span className="mx-2 text-[#563433]">·</span>
                     <a
                       href="tel:+919811698551"
                       className="hover:text-[#563433] transition-colors"
