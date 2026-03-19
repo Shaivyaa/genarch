@@ -935,16 +935,13 @@ export default function About() {
           <div className="flex flex-col gap-[16px] p-[28px] rounded-[20px] z-10 bg-[#563433] w-full max-w-[500px] md:mr-[-300px] border-2 border-[#563433] items-center">
             <h2 className="text-3xl font-light text-[#ffffff] mb-8 leading-tight">
               A multidisciplinary design practice rooted in experience,
-              creativity, and architectural rigor.
+              creativity, and thoughtful architecture.
             </h2>
             <p className="text-[#ffffff] text-[14px] leading-relaxed mb-6">
-              Genarch Genesis Architects Pvt. Ltd. is a multidisciplinary
-              architecture and design practice driven by experience and a
-              process-led design approach. Working across institutional,
-              commercial, hospitality, residential, and experiential projects,
-              the firm combines diverse expertise with disciplined architectural
-              thinking. Each project is shaped by context, material integrity,
-              and a deep understanding of how spaces are experienced.
+              Genarch Genesis Architects Pvt. Ltd. is an architecture and design
+              practice working across institutional, commercial, hospitality,
+              residential, and experiential projects. Each space is shaped by
+              context, materials, and the way people experience it.
             </p>
           </div>
           <div className="w-full md:w-auto">
@@ -975,12 +972,10 @@ export default function About() {
               Who We Are
             </div>
             <div className="text-[14px] text-center text-[#ffffff] leading-relaxed">
-              Genarch is a team of architects and designers committed to
-              creating spaces that balance creativity, functionality, and
-              purpose. The practice approaches every project with clarity and
-              rigor, ensuring thoughtful design solutions that respond to both
-              context and user needs. The focus remains on crafting environments
-              that are contemporary, efficient, and enduring.
+              Genarch is a team of architects and designers creating spaces that
+              balance creativity and functionality. The practice focuses on
+              thoughtful design that responds to context, people, and the way
+              spaces are experienced.
             </div>
           </div>
         </section>
@@ -1050,13 +1045,9 @@ export default function About() {
               </h2>
               <p className="text-[#563433] leading-relaxed mb-6">
                 Founded by Atul Sharma, an alumnus of Chandigarh College of
-                Architecture, the practice builds on a strong legacy of
-                architectural expertise. With over 17 years of experience, he
-                has led a diverse range of projects including hotels, offices,
-                retail, and F&B spaces. Alongside him, Navjot, with over 17
-                years of architectural practice across India and overseas,
-                contributes a broad design perspective to the firm’s evolving
-                journey.
+                Architecture, the practice brings decades of architectural
+                experience. Alongside Navjot Pail Singh, the firm continues to
+                shape diverse projects across India and overseas.
               </p>
             </div>
           </div>
