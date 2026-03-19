@@ -985,11 +985,15 @@ export default function About() {
             <div className="grid md:grid-cols-2 gap-12">
               {[
                 {
+                  name: "Atul Sharma",
+                  role: "Architectural consultant with 24+ years of experience in design and concept strategy for retail, hospitality, offices and F&B projects. An alumnus of Chandigarh College of Architecture, he co-founded Genesis Architects Pvt. Ltd. in 2001.",
+                  img: AtulImg,
+                },
+                {
                   name: "Navjot Paul Singh",
-                  role: "",
+                  role: "Practising architect with 24+ years of experience across diverse projects in India and overseas. A Chandigarh College of Architecture graduate, he co-founded GAPL with Atul Sharma, focusing on architecture and interiors that exceed client expectations.",
                   img: NavjotImg,
                 },
-                { name: "Atul Sharma", role: "", img: AtulImg },
               ].map((member) => (
                 <div key={member.name}>
                   <Image
