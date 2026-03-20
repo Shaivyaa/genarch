@@ -489,7 +489,7 @@ const slides = [
   },
   {
     title: "Clubhouse",
-    image: "/services-images/Clubhouse-out.png",
+    image: "/services-images/clubhouse-out-new.jpg",
     slug: "project-twelfth",
   },
 ];

@@ -90,7 +90,7 @@ const projectsData = [
     title: "Clubhouse",
     slug: "project-twelfth",
     category: ["Hospitaility & Entertainment"],
-    image: "/services-images/clubhouse.png",
+    image: "/services-images/clubhouse-out-new.jpg",
   },
 ];
 
