@@ -439,7 +439,7 @@ const slides = [
   },
   {
     title: "Farmhouse, Greater Noida",
-    image: "/images/img1.jpg",
+    image: "/images/farmhouse-out-new.jpg",
     slug: "project-two",
   },
   {
@@ -449,7 +449,7 @@ const slides = [
   },
   {
     title: "Dharav School, Junior Wing",
-    image: "/images/img4.jpeg",
+    image: "/images/dharav-school-out.jpg",
     slug: "project-four",
   },
   {
@@ -479,17 +479,17 @@ const slides = [
   // },
   {
     title: "PVR at Elan Miracle Mall",
-    image: "/services-images/pvr-ggn-out.jpg",
+    image: "/services-images/pvr-ggn-out-new.jpg",
     slug: "project-tenth",
   },
   {
     title: "Absolute Barbeque",
-    image: "/services-images/bbq-out-new.jpg",
+    image: "/services-images/bbq-out-neww.jpg",
     slug: "project-eleventh",
   },
   {
     title: "Clubhouse",
-    image: "/services-images/clubhouse-out-new.jpg",
+    image: "/services-images/clubhouse-out-neww.jpg",
     slug: "project-twelfth",
   },
 ];
