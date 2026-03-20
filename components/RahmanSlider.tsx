@@ -459,7 +459,7 @@ const slides = [
   },
   {
     title: "Costa Coffee",
-    image: "/services-images/costa-goa.jpg",
+    image: "/services-images/costa-goa-neww.jpg",
     slug: "project-six",
   },
   {
@@ -472,11 +472,11 @@ const slides = [
     image: "/services-images/kindergarten.jpg",
     slug: "project-eight",
   },
-  {
-    title: "PVR at DLF Midtown Plaza",
-    image: "/services-images/dharav-senior.jpg",
-    slug: "project-ninth",
-  },
+  // {
+  //   title: "PVR at DLF Midtown Plaza",
+  //   image: "/services-images/dharav-senior.jpg",
+  //   slug: "project-ninth",
+  // },
   {
     title: "PVR at Elan Miracle Mall",
     image: "/services-images/pvr-ggn-out.jpg",

@@ -24,6 +24,19 @@ import Img6 from "@/public/images/6.svg";
 import Img7 from "@/public/images/7.svg";
 import Img8 from "@/public/images/8.svg";
 import Img9 from "@/public/images/9.svg";
+import Img10 from "@/public/images/10.svg";
+import Img11 from "@/public/images/11.svg";
+import Img12 from "@/public/images/12.svg";
+import Img13 from "@/public/images/13.svg";
+import Img14 from "@/public/images/14.svg";
+import Img15 from "@/public/images/15.svg";
+import Img16 from "@/public/images/16.svg";
+import Img17 from "@/public/images/17.svg";
+import Img18 from "@/public/images/18.svg";
+import Img19 from "@/public/images/19.svg";
+import Img20 from "@/public/images/20.svg";
+import Img21 from "@/public/images/21.svg";
+
 import balance from "@/public/images/balance.svg";
 import movement from "@/public/images/movement.svg";
 import rhythm from "@/public/images/rhythm.svg";
@@ -55,7 +68,29 @@ export default function About() {
     });
   }, []);
 
-  const clientLogos = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9];
+  const clientLogos = [
+    Img1,
+    Img2,
+    Img3,
+    Img4,
+    Img5,
+    Img6,
+    Img7,
+    Img8,
+    Img9,
+    Img10,
+    Img11,
+    Img12,
+    Img13,
+    Img14,
+    Img15,
+    Img16,
+    Img17,
+    Img18,
+    Img19,
+    Img20,
+    Img21,
+  ];
 
   return (
     <>

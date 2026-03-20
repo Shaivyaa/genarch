@@ -64,13 +64,13 @@ const projectsData = [
     category: ["Commercial"],
     image: "/services-images/kindergarten.jpg",
   },
-  {
-    id: 9,
-    title: "PVR at DLF Midtown Plaza",
-    slug: "project-ninth",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/dharav-senior.jpg",
-  },
+  // {
+  //   id: 9,
+  //   title: "PVR at DLF Midtown Plaza",
+  //   slug: "project-ninth",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/dharav-senior.jpg",
+  // },
   {
     id: 10,
     title: "PVR at Elan Miracle Mall",
