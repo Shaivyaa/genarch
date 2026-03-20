@@ -48,7 +48,7 @@ const projectsData = [
     title: "Costa Coffee",
     slug: "project-six",
     category: ["Hospitaility & Entertainment"],
-    image: "/services-images/costa-goa.jpg",
+    image: "/services-images/costa-goa-neww.jpg",
   },
   {
     id: 7,
