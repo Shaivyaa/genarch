@@ -227,4 +227,43 @@ export const projects = [
     details:
       "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all-day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
   },
+  {
+    id: "13",
+    slug: "project-thirteenth",
+    title: "Chaayos Outlet Design Adaptation",
+    subtitle: "Hospitaility & Entertainment ",
+    description:
+      "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
+    image: "/services-images/chaayos1.jpg",
+    imageone: "/services-images/chaayos3.jpg",
+    imagetwo: "/services-images/chaayos4.jpg",
+    client: "Chaayos",
+    area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/chaayos2.jpg",
+    imageright: "/services-images/chaayos5.jpg",
+    details:
+      "Genarch adapted and refined the design language for Chaayos outlets to reflect the brand’s contemporary yet rooted identity. Signature elements such as the green lattice façade, warm wooden interiors, and rattan lighting establish a recognizable visual character. Comfortable café-style seating and natural textures enhance the casual chai experience while maintaining consistency across outlets.",
+  },
+  {
+    id: "14",
+    slug: "project-fourteen",
+    category: ["Hospitaility & Entertainment"],
+    title: "Chili’s Restaurant Interior",
+    subtitle: "Hospitaility & Entertainment | Bangalore",
+    description:
+      "A vibrant dining space reflecting Chili’s bold and energetic brand experience.",
+    image: "/services-images/chillis-blr1.jpg",
+    imageone: "/services-images/chillis-blr2.jpg",
+    imagetwo: "/services-images/chillis-blr3.jpg",
+    client: "Chili’s",
+    area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/chillis-blr4.jpg",
+    imageright: "/services-images/chillis-blr5.jpg",
+    details:
+      "Genarch designed a contemporary interior for Chili’s that captures the brand’s lively casual dining atmosphere. Warm wood finishes, exposed brick textures, and vibrant booth seating create a welcoming yet dynamic environment, while an open bar counter with layered lighting adds visual energy. An industrial-style ceiling with statement fixtures further enhances the bold character of the space.",
+  },
 ];

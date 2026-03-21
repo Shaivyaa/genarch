@@ -92,6 +92,20 @@ const projectsData = [
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/clubhouse-out-new.jpg",
   },
+  {
+    id: 13,
+    title: "Chaayos Outlet Design Adaptation",
+    slug: "project-thirteenth",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/chaayos-out.jpg",
+  },
+  {
+    id: 14,
+    title: "Chili’s Restaurant Interior",
+    slug: "project-fourteen",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/chillis-blr-out.jpg",
+  },
 ];
 
 const categories = [

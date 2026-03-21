@@ -492,6 +492,16 @@ const slides = [
     image: "/services-images/clubhouse-out-neww.jpg",
     slug: "project-twelfth",
   },
+  {
+    title: "Chaayos Outlet Design Adaptation",
+    image: "/services-images/chaayos-out.jpg",
+    slug: "project-thirteenth",
+  },
+  {
+    title: "Chili’s Restaurant Interior",
+    image: "/services-images/chillis-blr-out.jpg",
+    slug: "project-fourteen",
+  },
 ];
 
 export default function RahmanSlider() {
