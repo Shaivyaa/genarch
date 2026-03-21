@@ -227,7 +227,7 @@ export default function About() {
               <p className="text-[#563433] leading-relaxed mb-6">
                 Founded by Atul Sharma, an alumnus of Chandigarh College of
                 Architecture, the practice brings decades of architectural
-                experience. Alongside Navjot Pail Singh, the firm continues to
+                experience. Alongside Navjot Paul Singh, the firm continues to
                 shape diverse projects across India and overseas.
               </p>
             </div>
