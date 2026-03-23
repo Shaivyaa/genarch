@@ -183,12 +183,8 @@ export default function Contact() {
                   Send a Message
                 </h3>
 
-                <p className="text-xs font-light text-gray-300 tracking-wide mb-8">
-                  We respond to all enquiries within 1–2 business days.
-                </p>
-
                 {/* Name */}
-                <div className="mb-7">
+                <div className="mb-7 mt-[40px]">
                   <label
                     className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="name"
