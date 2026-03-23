@@ -502,6 +502,51 @@ const slides = [
     image: "/services-images/chillis-blr-out.jpg",
     slug: "project-fourteen",
   },
+  {
+    title: "Cinnabon Café",
+    image: "/services-images/cinnabon-out.jpg",
+    slug: "project-fifteen",
+  },
+  {
+    title: "Haldiram’s Restaurant Interior",
+    image: "/services-images/haldiram-out.jpg",
+    slug: "project-sixteen",
+  },
+  {
+    title: "Popeyes Louisiana Kitchen",
+    image: "/services-images/popyes-out.jpg",
+    slug: "project-seventeen",
+  },
+  {
+    title: "Farzi Café – Airport Terminal",
+    image: "/services-images/farzi-out.jpg",
+    slug: "project-eighteen",
+  },
+  {
+    title: "Naivedyam Restaurant",
+    image: "/services-images/naivedyam-out.jpg",
+    slug: "project-nineteen",
+  },
+  {
+    title: "TGI Fridays – Outlet Design Adaptation",
+    image: "/services-images/tgi-out.jpg",
+    slug: "project-twenty",
+  },
+  {
+    title: "Third Wave Coffee – Lucknow Airport",
+    image: "/services-images/thirdwave-out.jpg",
+    slug: "project-twentyone",
+  },
+  {
+    title: "Corporate Office Interior – Medical Equipment Company",
+    image: "/services-images/medical-out.jpg",
+    slug: "project-twentytwo",
+  },
+  {
+    title: "Airport Lounge – Trivandrum Airport",
+    image: "/services-images/airport-tri-out.jpg",
+    slug: "project-twentythree",
+  },
 ];
 
 export default function RahmanSlider() {
