@@ -109,12 +109,12 @@ export default function About() {
         </section>
 
         <section className="max-w-6xl flex flex-col md:flex-row items-center md:items-start justify-around bg-[#e5e5e5] mx-auto my-[80px] rounded-[20px] p-[24px] md:p-[45px] gap-8 md:gap-0">
-          <div className="flex flex-col gap-[16px] p-[28px] rounded-[20px] z-10 bg-[#563433] w-full max-w-[500px] md:mr-[-300px] border-2 border-[#563433] items-center">
-            <h2 className="text-3xl font-light text-[#ffffff] mb-8 leading-tight">
+          <div className="flex flex-col gap-[15px]  p-[28px] rounded-[20px] z-10 bg-[#563433] w-full max-w-[500px] md:mr-[-300px] border-2 border-[#563433] items-center">
+            <h2 className="text-3xl font-light text-[#ffffff]  leading-tight">
               A multidisciplinary design practice rooted in experience,
               creativity, and thoughtful architecture.
             </h2>
-            <p className="text-[#ffffff] text-[14px] leading-relaxed mb-6">
+            <p className="text-[#ffffff] text-[14px] leading-relaxed">
               Genarch Genesis Architects Pvt. Ltd. is an architecture and design
               practice working across institutional, commercial, hospitality,
               residential, and experiential projects. Each space is shaped by
@@ -244,13 +244,15 @@ export default function About() {
               <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
                   className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
-                  src={services1}
+                  src={services2}
                   alt="studio"
                 />
               </div>
               <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Commercial</h3>
+                  <h3 className="text-[28px] text-[#563433]">
+                    Hospitality & Entertainment
+                  </h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
@@ -284,15 +286,13 @@ export default function About() {
               <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
                   className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
-                  src={services2}
+                  src={services1}
                   alt="studio"
                 />
               </div>
               <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">
-                    Hospitality & Entertainment
-                  </h3>
+                  <h3 className="text-[28px] text-[#563433]">Commercial</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"

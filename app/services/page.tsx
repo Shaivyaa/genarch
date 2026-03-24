@@ -173,8 +173,8 @@ const projectsData = [
 
 const categories = [
   "All",
-  "Commercial",
   "Hospitaility & Entertainment",
+  "Commercial",
   "Residential & Lifestyle",
 ];
 

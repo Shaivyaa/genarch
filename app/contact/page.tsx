@@ -59,7 +59,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-[1fr_1.4fr] gap-20 items-start">
           {/* LEFT — Info */}
           <div>
-            <p className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-[#563433] mb-8">
+            <p className="text-[18px] font-bold tracking-[0.3em] uppercase text-[#563433] mb-8">
               Get in Touch
             </p>
             <h2
@@ -74,7 +74,7 @@ export default function Contact() {
 
             {/* Address */}
             <div className="mb-8">
-              <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#563433] mb-2">
+              <p className="text-[15px] font-bold tracking-[0.25em] uppercase text-[#563433] mb-2">
                 Our Studio
               </p>
               <p className="text-sm font-light text-[#563433] leading-relaxed">
@@ -88,7 +88,7 @@ export default function Contact() {
 
             {/* Email */}
             <div className="mb-8">
-              <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#563433] mb-2">
+              <p className="text-[15px] font-bold tracking-[0.25em] uppercase text-[#563433] mb-2">
                 Email
               </p>
               <a
@@ -101,7 +101,7 @@ export default function Contact() {
 
             {/* Tel */}
             <div className="mb-8">
-              <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#563433] mb-2">
+              <p className="text-[15px] font-bold tracking-[0.25em] uppercase text-[#563433] mb-2">
                 Tel / Fax
               </p>
               <a
@@ -114,7 +114,7 @@ export default function Contact() {
 
             {/* Direct Contact */}
             <div>
-              <p className="text-[0.65rem] font-bold tracking-[0.25em] uppercase text-[#563433] mb-3">
+              <p className="text-[15px] font-bold tracking-[0.25em] uppercase text-[#563433] mb-3">
                 Or Call Directly
               </p>
               <div className="flex flex-col gap-3">
@@ -186,7 +186,7 @@ export default function Contact() {
                 {/* Name */}
                 <div className="mb-7 mt-[40px]">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
+                    className="block text-[12px] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="name"
                   >
                     Full Name
@@ -207,7 +207,7 @@ export default function Contact() {
                 {/* Email */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
+                    className="block text-[12px] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="email"
                   >
                     Email Address
@@ -228,7 +228,7 @@ export default function Contact() {
                 {/* Contact */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
+                    className="block text-[12px] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="contact"
                   >
                     Contact Number
@@ -248,7 +248,7 @@ export default function Contact() {
                 {/* Message */}
                 <div className="mb-7">
                   <label
-                    className="block text-[0.6rem] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
+                    className="block text-[12px] font-medium tracking-[0.25em] uppercase text-gray-300 mb-2"
                     htmlFor="feedback"
                   >
                     Your Message
