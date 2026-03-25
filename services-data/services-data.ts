@@ -131,7 +131,7 @@ export const servicesdata = [
     image: "/services-images/dharav-senior1.jpg",
     imageone: "/services-images/dharav-senior2.jpeg",
     imagetwo: "/services-images/dharav-senior3.jpg",
-    client: "Dharav School – Senior Wing",
+    client: "Dharav School",
     // area: "--",
     status: "Under Construction",
     team: "Genarch Design Team",
