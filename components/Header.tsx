@@ -27,9 +27,7 @@ export default function Header() {
         <div className="px-5 flex justify-between items-center">
           {/* Logo */}
           <Link href="/">
-            <div className="container">
-              <h1 className="logo-heading">Genarch</h1>
-            </div>
+            <video src="/videos/logo.mp4" autoPlay loop muted />
           </Link>
 
           {/* Chocolate Bar Button */}

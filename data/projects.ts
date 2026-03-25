@@ -192,7 +192,7 @@ export const projects = [
   {
     id: "11",
     slug: "project-eleventh",
-    title: "Absolute BBQ",
+    title: "Absolute Barbeque",
     subtitle: "Hospitaility & Entertainment | Noida",
     description:
       " A vibrant dining space inspired by the energy and rhythm of flame-led cooking.",
