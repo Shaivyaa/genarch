@@ -206,7 +206,7 @@ export const projects = [
     imageleft: "/services-images/bbq-left-new.jpg",
     imageright: "/services-images/bbq-right.jpg",
     details:
-      "Designed to capture the lively spirit of grill-based dining, the Absolute BBQ outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café-like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort making it a welcoming destination where food, conversation, and positive vibes come together.",
+      "Designed to capture the lively spirit of grill-based dining, the Absolute Barbeque outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café-like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort making it a welcoming destination where food, conversation, and positive vibes come together.",
   },
   {
     id: "12",
