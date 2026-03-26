@@ -98,9 +98,9 @@ export default function ProjectPage() {
                 {project.client}
               </p>
               <p>
-                <strong>Area</strong>
+                {/* <strong>Area</strong> */}
                 <br />
-                {project.area}
+                {/* {project.area} */}
               </p>
               <p>
                 <strong>Status</strong>
