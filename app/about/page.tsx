@@ -236,7 +236,7 @@ export default function About() {
 
         <section className="max-w-6xl mx-auto py-[45px] px-4">
           <h2 className="text-5xl font-light text-[#563433] mb-16 text-center">
-            Our Services
+            Our Projects
           </h2>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-[20px]">
