@@ -31,12 +31,12 @@ const slides = [
     slug: "project-four",
   },
   {
-    title: "Chaayos Outlet Design Adaptation",
+    title: "Chaayos",
     image: "/services-images/chaayos-out.jpg",
     slug: "project-five",
   },
   {
-    title: "Chilli’s Restaurant Interior",
+    title: "Chilli’s",
     image: "/services-images/chillis-blr-out.jpg",
     slug: "project-six",
   },
@@ -46,7 +46,7 @@ const slides = [
     slug: "project-seven",
   },
   {
-    title: "Haldiram’s Restaurant Interior",
+    title: "Haldiram’s ",
     image: "/services-images/haldiram-out.jpg",
     slug: "project-eight",
   },
@@ -62,11 +62,11 @@ const slides = [
   },
   {
     title: "Naivedyam Restaurant",
-    image: "/services-images/naivedyam-out.jpg",
+    image: "/services-images/naivedyam-out-img.jpg",
     slug: "project-eleven",
   },
   {
-    title: "TGI Fridays – Outlet Design Adaptation",
+    title: "TGI Fridays",
     image: "/services-images/tgi-out.jpg",
     slug: "project-twelve",
   },
@@ -87,7 +87,7 @@ const slides = [
     hero: true,
   },
   {
-    title: "Farmhouse, Greater Noida",
+    title: " Farmhouse at Greater Noida",
     image: "/images/farmhouse-out-new.jpg",
     slug: "project-sixteen",
   },
@@ -126,6 +126,16 @@ const slides = [
     title: "Airport Lounge – Trivandrum Airport",
     image: "/services-images/airport-tri-out.jpg",
     slug: "project-twentythree",
+  },
+  {
+    title: "Haldiram’s Restaurant Interior – Nagpur Airport",
+    image: "/services-images/haldiram-nagpur-out.jpg",
+    slug: "project-twentyfour",
+  },
+  {
+    title: "Delhi Daredevils Sports Bar – IGI Airport T3",
+    image: "/services-images/delhi-daredevils-out.jpg",
+    slug: "project-twentyfive",
   },
 ];
 

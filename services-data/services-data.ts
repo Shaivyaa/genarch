@@ -84,7 +84,7 @@ export const servicesdata = [
     id: "5",
     slug: "project-five",
     category: ["Hospitaility & Entertainment"],
-    title: "Chaayos Outlet Design Adaptation",
+    title: "Chaayos",
     subtitle: "Hospitaility & Entertainment ",
     description:
       "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
@@ -104,7 +104,7 @@ export const servicesdata = [
     id: "6",
     slug: "project-six",
     category: ["Hospitaility & Entertainment"],
-    title: "Chilli’s Restaurant Interior",
+    title: "Chilli’s",
     subtitle: "Hospitaility & Entertainment | Bangalore",
     description:
       "A vibrant dining space reflecting Chili’s bold and energetic brand experience.",
@@ -144,7 +144,7 @@ export const servicesdata = [
     id: "8",
     slug: "project-eight",
     category: ["Hospitaility & Entertainment"],
-    title: "Haldiram’s Restaurant Interior",
+    title: "Haldiram’s",
     subtitle: "Hospitaility & Entertainment",
     description:
       "A contemporary dining space celebrating Haldiram’s rich culinary heritage.",
@@ -224,11 +224,11 @@ export const servicesdata = [
     id: "12",
     slug: "project-twelve",
     category: ["Hospitaility & Entertainment"],
-    title: "TGI Fridays – Outlet Design Adaptation",
+    title: "TGI Fridays",
     subtitle: "Hospitaility & Entertainment",
     description:
       "Adapting TGI Fridays’ global design language into a vibrant and engaging dining environment.",
-    image: "/services-images/tgi1.jpg",
+    image: "/services-images/tgi4.jpg",
     imageone: "/services-images/tgi2.jpg",
     imagetwo: "/services-images/tgi3.jpg",
     client: "TGI Fridays",
@@ -304,7 +304,7 @@ export const servicesdata = [
     id: "16",
     slug: "project-sixteen",
     category: ["Residential & Lifestyle"],
-    title: "Noida Farmhouse",
+    title: " Farmhouse at Greater Noida",
     subtitle: "Residential & Lifestyle | Greater Noida",
     description:
       "A serene weekend retreat designed to balance privacy, nature, and shared family living.",
@@ -368,7 +368,7 @@ export const servicesdata = [
     title: "Dubai Villa",
     subtitle: "Residential & Lifestyle | Dubai",
     description:
-      "A French-inspired architecture based luxury villa merging classical elegance with contemporary comfort.",
+      "A French-inspired Neoclassical architecture based luxury villa merging classical elegance with contemporary comfort.",
     image: "/services-images/dubai-villa1-neww.jpg",
     imageone: "/services-images/dubai-villa2-new.jpg",
     imagetwo: "/services-images/dubai-villa3-new.jpg",
@@ -461,5 +461,45 @@ export const servicesdata = [
     imageright: "/services-images/airport-tri5.jpg",
     details:
       "Genarch designed this lounge at Trivandrum Airport to offer travelers a calm and comfortable space before their journey. Warm wood finishes, textured materials, and statement lighting create a sophisticated ambience. Thoughtfully planned lounge and dining seating zones, along with a clear spatial layout, ensure smooth movement and a seamless hospitality experience.",
+  },
+  {
+    id: "24",
+    slug: "project-twentyfour",
+    category: ["Hospitality & Entertainment"],
+    title: "Haldiram’s Restaurant Interior – Nagpur Airport",
+    subtitle: "Hospitality & Entertainment | Nagpur",
+    description:
+      "A contemporary dining space inspired by Nagpur’s “Orange City” identity.",
+    image: "/services-images/haldiram-nagpur1.jpg",
+    imageone: "/services-images/haldiram-nagpur2.jpg",
+    imagetwo: "/services-images/haldiram-nagpur3.jpeg",
+    client: "Haldiram’s",
+    // area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/haldiram-nagpur1.jpg",
+    imageright: "/services-images/haldiram-nagpur-out.jpg",
+    details:
+      "Genarch designed the Haldiram’s restaurant at Nagpur Airport as a vibrant dining space that reflects both the brand’s rich culinary heritage and the cultural identity of the city. Known as the “Orange City of India,” Nagpur became a key inspiration for the design language of the space. Orange accents have been thoughtfully integrated into the interiors to echo the city’s association with oranges while creating a warm and energetic dining atmosphere. Contemporary booths and flexible seating layouts ensure comfort and accessibility, while murals inspired by Indian culinary traditions add visual storytelling to the environment. Circular statement lighting with hanging greenery, warm wood finishes, and a balanced material palette complete the design, bringing together local context, brand identity, and modern hospitality design to create a welcoming dining experience for travellers at the airport",
+  },
+  {
+    id: "25",
+    slug: "project-twentyfive",
+    category: ["Hospitality & Entertainment"],
+    title: "Delhi Daredevils Sports Bar – IGI Airport T3",
+    subtitle: "Hospitality & Entertainment | New Delhi",
+    description:
+      "An IPL-themed sports bar bringing the excitement of cricket into the airport experience.",
+    image: "/services-images/delhi-daredevils1.jpg",
+    imageone: "/services-images/delhi-daredevils2.jpg",
+    imagetwo: "/services-images/delhi-daredevils3.jpg",
+    client: "Delhi Daredevils",
+    // area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/delhi-daredevils4.jpg",
+    imageright: "/services-images/delhi-daredevils-out.jpg",
+    details:
+      "Genarch designed this sports bar at IGI Airport Terminal 3 as a high-energy space where travelers can unwind between journeys. The design integrates cricket-inspired graphics and thematic elements with a vibrant bar layout and casual seating. Warm lighting and an open seating arrangement create an engaging atmosphere suited for airport dwell time, blending sports, entertainment, and travel into a lively stopover experience.",
   },
 ];

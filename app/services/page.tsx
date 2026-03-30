@@ -39,14 +39,14 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Chaayos Outlet Design Adaptation",
+    title: "Chaayos",
     slug: "project-five",
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/chaayos-out.jpg",
   },
   {
     id: 6,
-    title: "Chili’s Restaurant Interior",
+    title: "Chilli’s",
     slug: "project-six",
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/chillis-blr-out.jpg",
@@ -60,7 +60,7 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Haldiram’s Restaurant Interior",
+    title: "Haldiram’s",
     slug: "project-eight",
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/haldiram-out.jpg",
@@ -84,11 +84,11 @@ const projectsData = [
     title: "Naivedyam Restaurant",
     slug: "project-eleven",
     category: ["Hospitaility & Entertainment"],
-    image: "/services-images/naivedyam-out.jpg",
+    image: "/services-images/naivedyam-out-img.jpg",
   },
   {
     id: 12,
-    title: "TGI Fridays – Outlet Design Adaptation",
+    title: "TGI Fridays",
     slug: "project-twelve",
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/tgi-out.jpg",
@@ -116,7 +116,7 @@ const projectsData = [
   },
   {
     id: 16,
-    title: "Farmhouse",
+    title: " Farmhouse at Greater Noida",
     slug: "project-sixteen",
     category: ["Residential & Lifestyle"],
     image: "/images/farmhouse.jpg",
@@ -171,6 +171,20 @@ const projectsData = [
     slug: "project-twentythree",
     category: ["Commercial"],
     image: "/services-images/airport-tri-out.jpg",
+  },
+  {
+    id: 24,
+    title: "Haldiram’s Restaurant Interior – Nagpur Airport",
+    slug: "project-twentyfour",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/haldiram-nagpur-out.jpg",
+  },
+  {
+    id: 25,
+    title: "Delhi Daredevils Sports Bar – IGI Airport T3",
+    slug: "project-twentyfive",
+    category: ["Hospitaility & Entertainment"],
+    image: "/services-images/delhi-daredevils-out.jpg",
   },
 ];
 
