@@ -136,19 +136,28 @@ export default function About() {
         <section className="max-w-6xl flex flex-col md:flex-row items-center justify-between gap-[20px] mx-auto my-[80px] px-4 md:px-0">
           <div className="w-full md:w-auto">
             <Image
-              className="rounded-[20px] object-cover w-full md:w-[700px]"
-              width={700}
+              className="rounded-[20px] object-cover w-full md:w-[800px]"
+              width={800}
               height={400}
               src={TeamImg}
               alt="studio"
               style={{ height: "400px" }}
             />
           </div>
-          <div className="w-full flex flex-col items-center justify-center gap-[20px] bg-[#8e5353] md:max-w-[452px] min-h-[400px] rounded-[20px] p-[20px]">
-            <div className="text-[48px] text-center text-[#ffffff]">
-              Who We Are
+          <div className="w-full flex flex-col items-left justify-center gap-[20px]  md:max-w-[352px] min-h-[400px] rounded-[20px] p-[10px]">
+            <div className="flex flex-col gap-0">
+              {" "}
+              <div className="text-[70px] font-light leading-0 text-left text-[#8e5353]">
+                WHO
+              </div>
+              <div className="text-[88px] ml-[12px]  text-left text-[#8e5353]">
+                WE
+              </div>
+              <div className="text-[65px] ml-[12px] mt-[-10px] leading-0 text-left text-[#8e5353]">
+                ARE?
+              </div>
             </div>
-            <div className="text-[14px] text-center text-[#ffffff] leading-relaxed">
+            <div className="text-[14px] mt-[30px] text-left text-[#8e5353] leading-relaxed">
               Genarch is a team of architects and designers creating spaces that
               balance creativity and functionality. The practice focuses on
               thoughtful design that responds to context, people, and the way
