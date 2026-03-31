@@ -60,7 +60,7 @@ export const projects = [
   {
     id: "4",
     slug: "project-four",
-    title: "Clubhouse",
+    title: "Clubhouse at Palampur",
     subtitle: "Hospitaility & Entertainment | Palampur",
     description:
       "A community clubhouse designed to bring recreation and social life to a serene Himalayan town.",
@@ -117,7 +117,7 @@ export const projects = [
   {
     id: "7",
     slug: "project-seven",
-    title: "Cinnabon Café",
+    title: "Cinnabon",
     subtitle: "Hospitaility & Entertainment",
     description:
       "A warm café environment designed to reflect Cinnabon’s indulgent and comforting brand experience.",
@@ -136,14 +136,14 @@ export const projects = [
   {
     id: "8",
     slug: "project-eight",
-    title: "Haldiram’s",
+    title: "Haldirams",
     subtitle: "Hospitaility & Entertainment",
     description:
       "A contemporary dining space celebrating Haldiram’s rich culinary heritage.",
     image: "/services-images/haldiram1.jpg",
     imageone: "/services-images/haldiram2.jpg",
     imagetwo: "/services-images/haldiram3.jpg",
-    client: "Haldiram’s",
+    client: "Haldirams",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
@@ -155,7 +155,7 @@ export const projects = [
   {
     id: "9",
     slug: "project-nine",
-    title: "Popeyes Louisiana Kitchen",
+    title: "Popeyes",
     subtitle: "Hospitaility & Entertainment",
     description:
       " A vibrant quick-service dining space reflecting Popeyes’ bold and energetic brand identity.",
@@ -174,26 +174,26 @@ export const projects = [
   {
     id: "10",
     slug: "project-ten",
-    title: "Farzi Café – Airport Terminal",
+    title: "Farzi Cafe at Airport Terminal",
     subtitle: "Hospitaility & Entertainment",
     description:
-      "A refined airport dining space reflecting Farzi Café’s modern Indian bistro identity.",
+      "A refined airport dining space reflecting Farzi Cafe’s modern Indian bistro identity.",
     image: "/services-images/farzi1-new.jpg",
     imageone: "/services-images/farzi2.jpg",
     imagetwo: "/services-images/farzi3.jpg",
-    client: "Farzi Café",
+    client: "Farzi Cafe",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
     imageleft: "/services-images/farzi4.jpg",
     imageright: "/services-images/farzi5.jpg",
     details:
-      "Genarch designed the Farzi Café outlet within an airport terminal to create a distinctive dining experience for travelers. Rich wood finishes, layered textures, and green accents establish a warm and premium ambience, while contemporary lighting and ceiling detailing add visual depth. The open dining layout accommodates high airport footfall while maintaining a comfortable and engaging environment.",
+      "Genarch designed the Farzi Cafe outlet within an airport terminal to create a distinctive dining experience for travelers. Rich wood finishes, layered textures, and green accents establish a warm and premium ambience, while contemporary lighting and ceiling detailing add visual depth. The open dining layout accommodates high airport footfall while maintaining a comfortable and engaging environment.",
   },
   {
     id: "11",
     slug: "project-eleven",
-    title: "Naivedyam Restaurant",
+    title: "Naivedyam",
     subtitle: "Hospitaility & Entertainment",
     description:
       "A heritage-inspired dining space celebrating the richness of Indian culture and tradition.",
@@ -231,7 +231,7 @@ export const projects = [
   {
     id: "13",
     slug: "project-thirteen",
-    title: "Third Wave Coffee – Lucknow Airport",
+    title: "Third Wave Coffee at Lucknow Airport",
     subtitle: "Hospitaility & Entertainment | Lucknow",
     description:
       "A contemporary airport café designed for comfort, convenience, and a refined coffee experience.",
@@ -349,7 +349,7 @@ export const projects = [
     title: "Dubai Villa",
     subtitle: "Residential & Lifestyle | Dubai",
     description:
-      "A French-inspired Neoclassical architecture based luxury villa merging classical elegance with contemporary comfort.",
+      "Inspired by French Neoclassical architecture, luxury villa merging classical elegance with contemporary comfort.",
     image: "/services-images/dubai-villa1-neww.jpg",
     imageone: "/services-images/dubai-villa2-new.jpg",
     imagetwo: "/services-images/dubai-villa3-new.jpg",
@@ -385,7 +385,7 @@ export const projects = [
   {
     id: "21",
     slug: "project-twentyone",
-    title: "Kindergarten & Playschool",
+    title: "Kindergarten & Playschool at Palampur",
     subtitle: "Commercial | Palampur",
     description: "Where little steps begin their biggest journeys.",
     image: "/services-images/kindergarten1-new.jpg",
@@ -423,7 +423,7 @@ export const projects = [
   {
     id: "23",
     slug: "project-twentythree",
-    title: "Airport Lounge – Trivandrum Airport",
+    title: "Airport Lounge",
     subtitle: "Commercial | Trivandrum",
     description:
       " A premium airport lounge designed for comfort and a refined travel experience.",
@@ -442,14 +442,14 @@ export const projects = [
   {
     id: "24",
     slug: "project-twentyfour",
-    title: "Haldiram’s Restaurant Interior – Nagpur Airport",
+    title: "Haldirams at Nagpur Airport",
     subtitle: "Hospitality & Entertainment | Nagpur",
     description:
       "A contemporary dining space inspired by Nagpur’s “Orange City” identity.",
     image: "/services-images/haldiram-nagpur1.jpg",
     imageone: "/services-images/haldiram-nagpur2.jpg",
     imagetwo: "/services-images/haldiram-nagpur3.jpeg",
-    client: "Haldiram’s",
+    client: "Haldirams",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
@@ -461,7 +461,7 @@ export const projects = [
   {
     id: "25",
     slug: "project-twentyfive",
-    title: "Delhi Daredevils Sports Bar – IGI Airport T3",
+    title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     subtitle: "Hospitality & Entertainment | New Delhi",
     description:
       "An IPL-themed sports bar bringing the excitement of cricket into the airport experience.",

@@ -26,7 +26,7 @@ const slides = [
     slug: "project-three",
   },
   {
-    title: "Clubhouse",
+    title: "Clubhouse at Palampur",
     image: "/services-images/clubhouse-out-neww.jpg",
     slug: "project-four",
   },
@@ -41,27 +41,27 @@ const slides = [
     slug: "project-six",
   },
   {
-    title: "Cinnabon Café",
+    title: "Cinnabon",
     image: "/services-images/cinnabon-out.jpg",
     slug: "project-seven",
   },
   {
-    title: "Haldiram’s ",
+    title: "Haldirams",
     image: "/services-images/haldiram-out.jpg",
     slug: "project-eight",
   },
   {
-    title: "Popeyes Louisiana Kitchen",
+    title: "Popeyes",
     image: "/services-images/popyes-out.jpg",
     slug: "project-nine",
   },
   {
-    title: "Farzi Café – Airport Terminal",
+    title: "Farzi Cafe at Airport Terminal",
     image: "/services-images/farzi-out.jpg",
     slug: "project-ten",
   },
   {
-    title: "Naivedyam Restaurant",
+    title: "Naivedyam",
     image: "/services-images/naivedyam-out-img.jpg",
     slug: "project-eleven",
   },
@@ -71,7 +71,7 @@ const slides = [
     slug: "project-twelve",
   },
   {
-    title: "Third Wave Coffee – Lucknow Airport",
+    title: "Third Wave Coffee at Lucknow Airport",
     image: "/services-images/thirdwave-out.jpg",
     slug: "project-thirteen",
   },
@@ -113,27 +113,27 @@ const slides = [
     slug: "project-twenty",
   },
   {
-    title: "Kindergarten",
+    title: "Kindergarten & Playschool at Palampur",
     image: "/services-images/kindergarten.jpg",
     slug: "project-twentyone",
   },
   {
-    title: "Corporate Office Interior – Medical Equipment Company",
+    title: "Corporate Office Interior",
     image: "/services-images/medical-out.jpg",
     slug: "project-twentytwo",
   },
   {
-    title: "Airport Lounge – Trivandrum Airport",
+    title: "Airport Lounge",
     image: "/services-images/airport-tri-out.jpg",
     slug: "project-twentythree",
   },
   {
-    title: "Haldiram’s Restaurant Interior – Nagpur Airport",
+    title: "Haldirams at Nagpur Airport",
     image: "/services-images/haldiram-nagpur-out.jpg",
     slug: "project-twentyfour",
   },
   {
-    title: "Delhi Daredevils Sports Bar – IGI Airport T3",
+    title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     image: "/services-images/delhi-daredevils-out.jpg",
     slug: "project-twentyfive",
   },
