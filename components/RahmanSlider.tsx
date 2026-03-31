@@ -13,78 +13,79 @@ const slides = [
     title: "PVR at Elan Miracle Mall",
     image: "/services-images/pvr-ggn-out-new.jpg",
     slug: "project-one",
+    hero: true,
   },
   // {
   //   title: "PVR at DLF Midtown Plaza",
   //   image: "/services-images/dharav-senior.jpg",
   //   slug: "project-two",
   // },
-
-  {
-    title: "Absolute Barbeque",
-    image: "/services-images/bbq-out-neww.jpg",
-    slug: "project-three",
-  },
-  {
-    title: "Clubhouse at Palampur",
-    image: "/services-images/clubhouse-out-neww.jpg",
-    slug: "project-four",
-  },
   {
     title: "Chaayos",
     image: "/services-images/chaayos-out.jpg",
-    slug: "project-five",
-  },
-  {
-    title: "Chilli’s",
-    image: "/services-images/chillis-blr-out.jpg",
-    slug: "project-six",
-  },
-  {
-    title: "Cinnabon",
-    image: "/services-images/cinnabon-out.jpg",
-    slug: "project-seven",
-  },
-  {
-    title: "Haldirams",
-    image: "/services-images/haldiram-out.jpg",
-    slug: "project-eight",
-  },
-  {
-    title: "Popeyes",
-    image: "/services-images/popyes-out.jpg",
-    slug: "project-nine",
-  },
-  {
-    title: "Farzi Cafe at Airport Terminal",
-    image: "/services-images/farzi-out.jpg",
-    slug: "project-ten",
-  },
-  {
-    title: "Naivedyam",
-    image: "/services-images/naivedyam-out-img.jpg",
-    slug: "project-eleven",
-  },
-  {
-    title: "TGI Fridays",
-    image: "/services-images/tgi-out.jpg",
-    slug: "project-twelve",
+    slug: "project-three",
   },
   {
     title: "Third Wave Coffee at Lucknow Airport",
     image: "/services-images/thirdwave-out.jpg",
-    slug: "project-thirteen",
+    slug: "project-four",
   },
   {
     title: "Costa Coffee",
     image: "/services-images/costa-goa-neww.jpg",
+    slug: "project-five",
+  },
+  {
+    title: "Absolute Barbeque",
+    image: "/services-images/bbq-out-neww.jpg",
+    slug: "project-six",
+  },
+  {
+    title: "Clubhouse at Palampur",
+    image: "/services-images/clubhouse-out-neww.jpg",
+    slug: "project-seven",
+  },
+
+  {
+    title: "Chilli’s",
+    image: "/services-images/chillis-blr-out.jpg",
+    slug: "project-eight",
+  },
+  {
+    title: "Cinnabon",
+    image: "/services-images/cinnabon-out.jpg",
+    slug: "project-nine",
+  },
+  {
+    title: "Haldirams",
+    image: "/services-images/haldirams-out-new.jpeg",
+    slug: "project-ten",
+  },
+  {
+    title: "Popeyes",
+    image: "/services-images/popyes-out.jpg",
+    slug: "project-eleven",
+  },
+  {
+    title: "Farzi Cafe at Airport Terminal",
+    image: "/services-images/farzi-out.jpg",
+    slug: "project-twelve",
+  },
+  {
+    title: "Naivedyam",
+    image: "/services-images/naivedyam-out-img.jpg",
+    slug: "project-thirteen",
+  },
+  {
+    title: "TGI Fridays",
+    image: "/services-images/tgi-out.jpg",
     slug: "project-fourteen",
   },
+
   {
     title: "Wellness Center, Nadaun",
     image: "/images/img5.jpg",
     slug: "project-fifteen",
-    hero: true,
   },
   {
     title: " Farmhouse at Greater Noida",
@@ -124,18 +125,23 @@ const slides = [
   },
   {
     title: "Airport Lounge",
-    image: "/services-images/airport-tri-out.jpg",
+    image: "/services-images/airport-tri-out-new.jpeg",
     slug: "project-twentythree",
   },
   {
     title: "Haldirams at Nagpur Airport",
-    image: "/services-images/haldiram-nagpur-out.jpg",
+    image: "/services-images/haldiram-nagpur2.jpg",
     slug: "project-twentyfour",
   },
   {
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     image: "/services-images/delhi-daredevils-out.jpg",
     slug: "project-twentyfive",
+  },
+  {
+    title: "KFC, Mount Abu",
+    image: "/services-images/kfc-abu-out.jpeg",
+    slug: "project-twentysix",
   },
 ];
 

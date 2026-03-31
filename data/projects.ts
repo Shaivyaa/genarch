@@ -40,6 +40,63 @@ export const projects = [
   {
     id: "3",
     slug: "project-three",
+    title: "Chaayos",
+    subtitle: "Hospitaility & Entertainment ",
+    description:
+      "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
+    image: "/services-images/chaayos1.jpg",
+    imageone: "/services-images/chaayos3.jpg",
+    imagetwo: "/services-images/chaayos4.jpg",
+    client: "Chaayos",
+    // area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/chaayos2.jpg",
+    imageright: "/services-images/chaayos5.jpg",
+    details:
+      "Genarch adapted and refined the design language for Chaayos outlets to reflect the brand’s contemporary yet rooted identity. Signature elements such as the green lattice façade, warm wooden interiors, and rattan lighting establish a recognizable visual character. Comfortable café-style seating and natural textures enhance the casual chai experience while maintaining consistency across outlets.",
+  },
+  {
+    id: "4",
+    slug: "project-four",
+    title: "Third Wave Coffee at Lucknow Airport",
+    subtitle: "Hospitaility & Entertainment | Lucknow",
+    description:
+      "A contemporary airport café designed for comfort, convenience, and a refined coffee experience.",
+    image: "/services-images/thirdwave1.jpg",
+    imageone: "/services-images/thirdwave2.jpg",
+    imagetwo: "/services-images/thirdwave3.jpg",
+    client: "Third Wave Coffee",
+    // area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/thirdwave1.jpg",
+    imageright: "/services-images/thirdwave3.jpg",
+    details:
+      "Genarch designed the Third Wave Coffee outlet at Lucknow Airport as a welcoming stop for travelers before their journey. The space features a clean, minimal façade with warm neutral tones and contemporary seating suited for quick dwell times. A well-lit service counter highlights the coffee experience, while subtle textures and patterns enhance the modern café aesthetic.",
+  },
+  {
+    id: "5",
+    slug: "project-five",
+    title: "Costa Coffee",
+    subtitle: "Hospitaility & Entertainment | Retail Interior",
+    description:
+      "A modern industrial café softened by biophilic warmth and community-focused design.",
+    image: "/services-images/costa-goa1.jpg",
+    imageone: "/services-images/costa-goa2.jpg",
+    imagetwo: "/services-images/costa-goa3-new.jpg",
+    client: "Costa Coffee",
+    // area: "--",
+    status: "Completed",
+    team: "Genarch Design Team",
+    imageleft: "/services-images/costa-goa4.jpg",
+    imageright: "/services-images/costa-goa5.jpg",
+    details:
+      "This coffee outlet is designed around a modern industrial–biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
+  },
+  {
+    id: "6",
+    slug: "project-six",
     title: "Absolute Barbeque",
     subtitle: "Hospitaility & Entertainment | Noida",
     description:
@@ -58,8 +115,8 @@ export const projects = [
   },
 
   {
-    id: "4",
-    slug: "project-four",
+    id: "7",
+    slug: "project-seven",
     title: "Clubhouse at Palampur",
     subtitle: "Hospitaility & Entertainment | Palampur",
     description:
@@ -76,28 +133,10 @@ export const projects = [
     details:
       "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all-day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
   },
+
   {
-    id: "5",
-    slug: "project-five",
-    title: "Chaayos",
-    subtitle: "Hospitaility & Entertainment ",
-    description:
-      "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
-    image: "/services-images/chaayos1.jpg",
-    imageone: "/services-images/chaayos3.jpg",
-    imagetwo: "/services-images/chaayos4.jpg",
-    client: "Chaayos",
-    // area: "--",
-    status: "Completed",
-    team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/chaayos2.jpg",
-    imageright: "/services-images/chaayos5.jpg",
-    details:
-      "Genarch adapted and refined the design language for Chaayos outlets to reflect the brand’s contemporary yet rooted identity. Signature elements such as the green lattice façade, warm wooden interiors, and rattan lighting establish a recognizable visual character. Comfortable café-style seating and natural textures enhance the casual chai experience while maintaining consistency across outlets.",
-  },
-  {
-    id: "6",
-    slug: "project-six",
+    id: "8",
+    slug: "project-eight",
     title: "Chilli’s",
     subtitle: "Hospitaility & Entertainment | Bangalore",
     description:
@@ -115,8 +154,8 @@ export const projects = [
       "Genarch designed a contemporary interior for Chili’s that captures the brand’s lively casual dining atmosphere. Warm wood finishes, exposed brick textures, and vibrant booth seating create a welcoming yet dynamic environment, while an open bar counter with layered lighting adds visual energy. An industrial-style ceiling with statement fixtures further enhances the bold character of the space.",
   },
   {
-    id: "7",
-    slug: "project-seven",
+    id: "9",
+    slug: "project-nine",
     title: "Cinnabon",
     subtitle: "Hospitaility & Entertainment",
     description:
@@ -134,27 +173,27 @@ export const projects = [
       "Genarch designed a contemporary café space for Cinnabon that enhances the experience of enjoying freshly baked treats. Warm wood finishes, textured wall panels, and soft neutral seating with green accents create an inviting atmosphere. An open display counter highlights the baking process, while a clean ceiling grid and balanced material palette bring structure and clarity to the space.",
   },
   {
-    id: "8",
-    slug: "project-eight",
+    id: "10",
+    slug: "project-ten",
     title: "Haldirams",
     subtitle: "Hospitaility & Entertainment",
     description:
       "A contemporary dining space celebrating Haldiram’s rich culinary heritage.",
-    image: "/services-images/haldiram1.jpg",
-    imageone: "/services-images/haldiram2.jpg",
-    imagetwo: "/services-images/haldiram3.jpg",
+    image: "/services-images/haldirams1-new.jpeg",
+    imageone: "/services-images/haldirams2-new.jpeg",
+    imagetwo: "/services-images/haldirams3-new.jpeg",
     client: "Haldirams",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/haldiram4.jpg",
-    imageright: "/services-images/haldiram5.jpg",
+    imageleft: "/services-images/haldirams4-new.jpeg",
+    imageright: "/services-images/haldirams5-new.jpeg",
     details:
       "Genarch designed the Haldiram’s restaurant interior to blend traditional Indian food culture with a modern café-style environment. Contemporary booths and loose seating create a comfortable dining experience, while murals inspired by Indian culinary traditions add visual character. Circular statement lighting with hanging greenery and warm wood finishes complete the vibrant and welcoming dining atmosphere.",
   },
   {
-    id: "9",
-    slug: "project-nine",
+    id: "11",
+    slug: "project-eleven",
     title: "Popeyes",
     subtitle: "Hospitaility & Entertainment",
     description:
@@ -172,8 +211,8 @@ export const projects = [
       "Genarch designed the Popeyes outlet to reflect the brand’s lively personality through bold visual elements and efficient spatial planning. The bright orange façade ensures strong brand visibility, while contemporary booth seating with warm wood textures enhances comfort. Vibrant ceiling lights and graphic wall elements inspired by the brand story add energy to the space, creating a dynamic quick-service dining environment.",
   },
   {
-    id: "10",
-    slug: "project-ten",
+    id: "12",
+    slug: "project-twelve",
     title: "Farzi Cafe at Airport Terminal",
     subtitle: "Hospitaility & Entertainment",
     description:
@@ -191,8 +230,8 @@ export const projects = [
       "Genarch designed the Farzi Cafe outlet within an airport terminal to create a distinctive dining experience for travelers. Rich wood finishes, layered textures, and green accents establish a warm and premium ambience, while contemporary lighting and ceiling detailing add visual depth. The open dining layout accommodates high airport footfall while maintaining a comfortable and engaging environment.",
   },
   {
-    id: "11",
-    slug: "project-eleven",
+    id: "13",
+    slug: "project-thirteen",
     title: "Naivedyam",
     subtitle: "Hospitaility & Entertainment",
     description:
@@ -210,8 +249,8 @@ export const projects = [
       "Genarch designed the Naivedyam restaurant to reflect India’s architectural and cultural heritage through immersive interiors. Intricately carved wooden ceilings, cultural artwork, and decorative panels create a rich visual narrative, while grand chandelier lighting enhances the traditional ambience. The symmetrical layout inspired by classical Indian architecture brings together craftsmanship, warmth, and an authentic dining experience.",
   },
   {
-    id: "12",
-    slug: "project-twelve",
+    id: "14",
+    slug: "project-fourteen",
     title: "TGI Fridays",
     subtitle: "Hospitaility & Entertainment",
     description:
@@ -227,44 +266,6 @@ export const projects = [
     imageright: "/services-images/tgi1.jpg",
     details:
       "Genarch adapted the global design identity of TGI Fridays to create a lively and contemporary outlet experience. Signature brick walls, warm wood flooring, and bold red accents reinforce the brand’s recognisable character. An energetic bar counter with statement lighting and casual booth seating encourages social dining and creates a welcoming, dynamic atmosphere.",
-  },
-  {
-    id: "13",
-    slug: "project-thirteen",
-    title: "Third Wave Coffee at Lucknow Airport",
-    subtitle: "Hospitaility & Entertainment | Lucknow",
-    description:
-      "A contemporary airport café designed for comfort, convenience, and a refined coffee experience.",
-    image: "/services-images/thirdwave1.jpg",
-    imageone: "/services-images/thirdwave2.jpg",
-    imagetwo: "/services-images/thirdwave3.jpg",
-    client: "Third Wave Coffee",
-    // area: "--",
-    status: "Completed",
-    team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/thirdwave1.jpg",
-    imageright: "/services-images/thirdwave3.jpg",
-    details:
-      "Genarch designed the Third Wave Coffee outlet at Lucknow Airport as a welcoming stop for travelers before their journey. The space features a clean, minimal façade with warm neutral tones and contemporary seating suited for quick dwell times. A well-lit service counter highlights the coffee experience, while subtle textures and patterns enhance the modern café aesthetic.",
-  },
-  {
-    id: "14",
-    slug: "project-fourteen",
-    title: "Costa Coffee",
-    subtitle: "Hospitaility & Entertainment | Retail Interior",
-    description:
-      "A modern industrial café softened by biophilic warmth and community-focused design.",
-    image: "/services-images/costa-goa1.jpg",
-    imageone: "/services-images/costa-goa2.jpg",
-    imagetwo: "/services-images/costa-goa3-new.jpg",
-    client: "Costa Coffee",
-    // area: "--",
-    status: "Completed",
-    team: "Genarch Design Team",
-    imageleft: "/services-images/costa-goa4.jpg",
-    imageright: "/services-images/costa-goa5.jpg",
-    details:
-      "This coffee outlet is designed around a modern industrial–biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
   },
   {
     id: "15",
@@ -427,15 +428,15 @@ export const projects = [
     subtitle: "Commercial | Trivandrum",
     description:
       " A premium airport lounge designed for comfort and a refined travel experience.",
-    image: "/services-images/airport-tri1.jpg",
-    imageone: "/services-images/airport-tri2.jpg",
-    imagetwo: "/services-images/airport-tri3.jpg",
+    image: "/services-images/airport-tri1-new.jpeg",
+    imageone: "/services-images/airport-tri2-new.jpeg",
+    imagetwo: "/services-images/airport-tri3-new.jpeg",
     client: "Adani Group",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/airport-tri4.jpg",
-    imageright: "/services-images/airport-tri5.jpg",
+    imageleft: "/services-images/airport-tri4-new.jpeg",
+    imageright: "/services-images/airport-tri5-new.jpeg",
     details:
       "Genarch designed this lounge at Trivandrum Airport to offer travelers a calm and comfortable space before their journey. Warm wood finishes, textured materials, and statement lighting create a sophisticated ambience. Thoughtfully planned lounge and dining seating zones, along with a clear spatial layout, ensure smooth movement and a seamless hospitality experience.",
   },
@@ -476,5 +477,24 @@ export const projects = [
     imageright: "/services-images/delhi-daredevils-out.jpg",
     details:
       "Genarch designed this sports bar at IGI Airport Terminal 3 as a high-energy space where travelers can unwind between journeys. The design integrates cricket-inspired graphics and thematic elements with a vibrant bar layout and casual seating. Warm lighting and an open seating arrangement create an engaging atmosphere suited for airport dwell time, blending sports, entertainment, and travel into a lively stopover experience.",
+  },
+  {
+    id: "26",
+    slug: "project-twentysix",
+    title: "KFC, Mount Abu",
+    subtitle: "Hospitality & Entertainment | Mount Abu",
+    description:
+      " A bold architectural statement amplifying KFC’s iconic brand presence.",
+    image: "/services-images/kfc-abu1.jpeg",
+    imageone: "/services-images/kfc-abu2.jpeg",
+    imagetwo: "/services-images/kfc-abu3.jpeg",
+    client: "KFC",
+    // area: "--",
+    status: "Completed",
+    team: "Genarch Genesis Architects Pvt. Ltd.",
+    imageleft: "/services-images/kfc-abu4.jpg",
+    imageright: "/services-images/kfc-abu5.jpg",
+    details:
+      "Genarch designed the KFC outlet in Mount Abu to create a visually striking presence within its surroundings. A curved façade with vertical architectural elements and prominent illuminated signage enhances brand visibility, while double-height glazing introduces openness and transparency. Warm lighting highlights the structure at night, transforming the outlet into a distinctive archit",
   },
 ];
