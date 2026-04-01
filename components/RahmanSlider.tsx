@@ -58,7 +58,7 @@ const slides = [
   },
   {
     title: "Haldirams",
-    image: "/services-images/haldirams-out-new.jpeg",
+    image: "/services-images/haldirams-new.svg",
     slug: "project-ten",
   },
   {
@@ -130,7 +130,7 @@ const slides = [
   },
   {
     title: "Haldirams at Nagpur Airport",
-    image: "/services-images/haldiram-nagpur2.jpg",
+    image: "/services-images/haldiram-nagpur-out-new.svg",
     slug: "project-twentyfour",
   },
   {

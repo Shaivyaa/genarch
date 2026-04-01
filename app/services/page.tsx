@@ -80,7 +80,7 @@ const projectsData = [
     title: "Haldirams",
     slug: "project-ten",
     category: ["Hospitaility & Entertainment"],
-    image: "/services-images/haldirams-out-new.jpeg",
+    image: "/services-images/haldirams-new.svg",
   },
   {
     id: 11,
@@ -180,7 +180,7 @@ const projectsData = [
     title: "Haldirams at Nagpur Airport",
     slug: "project-twentyfour",
     category: ["Hospitaility & Entertainment"],
-    image: "/services-images/haldiram-nagpur2.jpg",
+    image: "/services-images/haldiram-nagpur-out-new.svg",
   },
   {
     id: 25,
