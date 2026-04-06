@@ -147,14 +147,8 @@ export default function About() {
           <div className="w-full flex flex-col items-left justify-center gap-[20px]  md:max-w-[352px] min-h-[400px] rounded-[20px] p-[10px]">
             <div className="flex flex-col gap-0">
               {" "}
-              <div className="text-[70px] font-light leading-0 text-left text-[#8e5353]">
-                WHO
-              </div>
-              <div className="text-[88px] ml-[12px]  text-left text-[#8e5353]">
-                WE
-              </div>
-              <div className="text-[65px] ml-[12px] mt-[-10px] leading-0 text-left text-[#8e5353]">
-                ARE?
+              <div className="text-[42px] font-light text-left text-[#8e5353]">
+                WHO WE ARE
               </div>
             </div>
             <div className="text-[14px] mt-[30px] text-left text-[#8e5353] leading-relaxed">
