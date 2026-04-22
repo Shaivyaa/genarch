@@ -143,7 +143,7 @@ export const projects = [
       "A vibrant dining space reflecting Chili’s bold and energetic brand experience.",
     image: "/services-images/chillis-blr1.jpg",
     imageone: "/services-images/chillis-blr2.jpg",
-    imagetwo: "/services-images/chilli-blr3.jpg",
+    imagetwo: "/services-images/chillis-blr3.jpg",
     client: "Chilli’s",
     // area: "--",
     status: "Completed",
@@ -217,7 +217,7 @@ export const projects = [
     subtitle: "Hospitaility & Entertainment",
     description:
       "A refined airport dining space reflecting Farzi Cafe’s modern Indian bistro identity.",
-    image: "/services-images/farzi1-new.jpg",
+    image: "/services-images/farzi5.jpg",
     imageone: "/services-images/farzi2.jpg",
     imagetwo: "/services-images/farzi3.jpg",
     client: "Farzi Cafe",
@@ -225,7 +225,7 @@ export const projects = [
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
     imageleft: "/services-images/farzi4.jpg",
-    imageright: "/services-images/farzi5.jpg",
+    imageright: "/services-images/farzi1-new.jpg",
     details:
       "Genarch designed the Farzi Cafe outlet within an airport terminal to create a distinctive dining experience for travelers. Rich wood finishes, layered textures, and green accents establish a warm and premium ambience, while contemporary lighting and ceiling detailing add visual depth. The open dining layout accommodates high airport footfall while maintaining a comfortable and engaging environment.",
   },

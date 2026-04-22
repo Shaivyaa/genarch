@@ -27,7 +27,7 @@ export default function Header() {
         <div className="px-5 flex justify-between items-center">
           {/* Logo */}
           <Link href="/">
-            <video src="/videos/logo.mp4" autoPlay loop muted />
+            <video src="/videos/logo.mp4" autoPlay muted />
           </Link>
 
           {/* Chocolate Bar Button */}
