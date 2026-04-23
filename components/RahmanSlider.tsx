@@ -454,8 +454,12 @@ function Slide({
 
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="absolute bottom-4 left-14 text-white">
-        <h2 className="text-3xl mb-4 font-light">{title}</h2>
+      <div className="absolute bottom-4 left-14 text-[#e5e5e5]">
+        {/* <h2 className="text-3xl mb-4 font-light">{title}</h2> */}
+        <h2 className="text-3xl mb-4 font-light relative inline-block group cursor-pointer">
+          {title}
+          <span className="absolute bottom-0 left-0 h-[2px] w-0 bg-gradient-to-r from-[#8e5353] to-[#e5e5e5] transition-all duration-500 group-hover:w-full" />
+        </h2>
       </div>
     </div>
   );
