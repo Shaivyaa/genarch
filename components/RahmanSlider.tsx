@@ -46,26 +46,26 @@ const slides = [
     slug: "project-seven",
   },
 
-  {
-    title: "Chilli’s",
-    image: "/services-images/chillis-blr-out.jpg",
-    slug: "project-eight",
-  },
-  {
-    title: "Cinnabon",
-    image: "/services-images/cinnabon-out.jpg",
-    slug: "project-nine",
-  },
-  {
-    title: "Haldirams",
-    image: "/services-images/haldirams-new.svg",
-    slug: "project-ten",
-  },
-  {
-    title: "Popeyes",
-    image: "/services-images/popyes-out.jpg",
-    slug: "project-eleven",
-  },
+  // {
+  //   title: "Chilli’s",
+  //   image: "/services-images/chillis-blr-out.jpg",
+  //   slug: "project-eight",
+  // },
+  // {
+  //   title: "Cinnabon",
+  //   image: "/services-images/cinnabon-out.jpg",
+  //   slug: "project-nine",
+  // },
+  // {
+  //   title: "Haldirams",
+  //   image: "/services-images/haldirams-new.svg",
+  //   slug: "project-ten",
+  // },
+  // {
+  //   title: "Popeyes",
+  //   image: "/services-images/popyes-out.jpg",
+  //   slug: "project-eleven",
+  // },
   {
     title: "Farzi Cafe at Airport Terminal",
     image: "/services-images/farzi-out.jpg",
@@ -128,21 +128,21 @@ const slides = [
     image: "/services-images/airport-tri-out-new.jpeg",
     slug: "project-twentythree",
   },
-  {
-    title: "Haldirams at Nagpur Airport",
-    image: "/services-images/haldiram-nagpur-out-new.svg",
-    slug: "project-twentyfour",
-  },
+  // {
+  //   title: "Haldirams at Nagpur Airport",
+  //   image: "/services-images/haldiram-nagpur-out-new.svg",
+  //   slug: "project-twentyfour",
+  // },
   {
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     image: "/services-images/delhi-daredevils-out.jpg",
     slug: "project-twentyfive",
   },
-  {
-    title: "KFC, Mount Abu",
-    image: "/services-images/kfc-abu-out.jpeg",
-    slug: "project-twentysix",
-  },
+  // {
+  //   title: "KFC, Mount Abu",
+  //   image: "/services-images/kfc-abu-out.jpeg",
+  //   slug: "project-twentysix",
+  // },
 ];
 
 export default function RahmanSlider() {
@@ -452,14 +452,15 @@ function Slide({
         className="object-cover"
       />
 
-      <div className="absolute inset-0 bg-black/40" />
+      {/* <div className="absolute inset-0 bg-black/40" /> */}
+      <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
       <div className="absolute bottom-4 left-14 text-[#e5e5e5]">
         {/* <h2 className="text-3xl mb-4 font-light">{title}</h2> */}
-        <h2 className="text-3xl mb-4 font-light relative inline-block group cursor-pointer">
+        <div className="text-[30px] bg-transparent  p-[3px] mb-4 font-bold relative inline-block group cursor-pointer">
           {title}
           <span className="absolute bottom-0 left-0 h-[2px] w-0 bg-gradient-to-r from-[#8e5353] to-[#e5e5e5] transition-all duration-500 group-hover:w-full" />
-        </h2>
+        </div>
       </div>
     </div>
   );

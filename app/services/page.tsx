@@ -61,34 +61,34 @@ const projectsData = [
     image: "/services-images/clubhouse-out-new.jpg",
   },
 
-  {
-    id: 8,
-    title: "Chilli’s",
-    slug: "project-eight",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/chillis-blr-out.jpg",
-  },
-  {
-    id: 9,
-    title: "Cinnabon",
-    slug: "project-nine",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/cinnabon-out.jpg",
-  },
-  {
-    id: 10,
-    title: "Haldirams",
-    slug: "project-ten",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/haldirams-new.svg",
-  },
-  {
-    id: 11,
-    title: "Popeyes",
-    slug: "project-eleven",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/popyes-out.jpg",
-  },
+  // {
+  //   id: 8,
+  //   title: "Chilli’s",
+  //   slug: "project-eight",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/chillis-blr-out.jpg",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Cinnabon",
+  //   slug: "project-nine",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/cinnabon-out.jpg",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Haldirams",
+  //   slug: "project-ten",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/haldirams-new.svg",
+  // },
+  // {
+  //   id: 11,
+  //   title: "Popeyes",
+  //   slug: "project-eleven",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/popyes-out.jpg",
+  // },
   {
     id: 12,
     title: "Farzi Cafe at Airport Terminal",
@@ -175,13 +175,13 @@ const projectsData = [
     category: ["Commercial"],
     image: "/services-images/airport-tri-out-new.jpeg",
   },
-  {
-    id: 24,
-    title: "Haldirams at Nagpur Airport",
-    slug: "project-twentyfour",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/haldiram-nagpur-out-new.svg",
-  },
+  // {
+  //   id: 24,
+  //   title: "Haldirams at Nagpur Airport",
+  //   slug: "project-twentyfour",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/haldiram-nagpur-out-new.svg",
+  // },
   {
     id: 25,
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
@@ -189,20 +189,23 @@ const projectsData = [
     category: ["Hospitaility & Entertainment"],
     image: "/services-images/delhi-daredevils-out.jpg",
   },
-  {
-    id: 26,
-    title: "KFC, Mount Abu",
-    slug: "project-twentysix",
-    category: ["Hospitaility & Entertainment"],
-    image: "/services-images/kfc-abu-out.jpeg",
-  },
+  // {
+  //   id: 26,
+  //   title: "KFC, Mount Abu",
+  //   slug: "project-twentysix",
+  //   category: ["Hospitaility & Entertainment"],
+  //   image: "/services-images/kfc-abu-out.jpeg",
+  // },
 ];
 
 const categories = [
   "All",
+  "Educational",
+  "Infrastructure",
+  "Residential",
   "Hospitaility & Entertainment",
+  "Institutional",
   "Commercial",
-  "Residential & Lifestyle",
 ];
 
 export default function Projects() {

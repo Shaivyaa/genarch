@@ -29,7 +29,7 @@ export default function ProjectPage() {
   return (
     <>
       <div className="relative w-full lg:h-screen overflow-hidden bg-white">
-        <div className="absolute top-6 left-6 z-10 transition-opacity duration-500 ">
+        <div className="fixed top-6 left-6 z-10 transition-opacity duration-500 ">
           <button
             onClick={handleBackClick}
             className="group cursor-pointer bg-[#563433] text-[#e5e5e5] relative overflow-hidden rounded-4xl p-[12px] text-[12px]"
@@ -104,9 +104,9 @@ export default function ProjectPage() {
                 {project.status}
               </p>
               <p>
-                <strong>Team</strong>
+                {/* <strong>Team</strong> */}
                 <br />
-                {project.team}
+                {/* {project.team} */}
               </p>
             </div>
 

@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WINDSURF | Modern Web Solutions</title>
+        <title>Genarch </title>
         <meta
           name="description"
           content="Modern web solutions for the digital age"

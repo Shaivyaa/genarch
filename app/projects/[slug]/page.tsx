@@ -167,7 +167,7 @@ export default function ProjectPage() {
       {/* HERO SECTION */}
       <div className="relative w-full lg:h-screen overflow-hidden bg-white">
         <div
-          className={`absolute top-6 left-6 z-10 transition-opacity duration-500 ${
+          className={`fixed top-6 left-6 z-10 transition-opacity duration-500 ${
             isAnimating ? "opacity-0" : "opacity-100"
           }`}
         >
@@ -262,9 +262,9 @@ export default function ProjectPage() {
                 {project.status}
               </p>
               <p>
-                <strong>Team</strong>
+                {/* <strong>Team</strong> */}
                 <br />
-                {project.team}
+                {/* {project.team} */}
               </p>
             </div>
 

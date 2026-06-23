@@ -242,8 +242,8 @@ export default function About() {
             Our Projects
           </h2>
 
-          <div className="flex flex-col md:flex-row items-center justify-center gap-[20px]">
-            <div className="w-full flex flex-col gap-[20px] items-center justify-between">
+          <div className="flex flex-wrap items-center justify-center gap-[20px]">
+            <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
               <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
                   className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
@@ -253,9 +253,7 @@ export default function About() {
               </div>
               <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">
-                    Hospitality & Entertainment
-                  </h3>
+                  <h3 className="text-[28px] text-[#563433]">Educational</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
@@ -285,7 +283,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="w-full flex flex-col gap-[20px] items-center justify-between">
+            <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
               <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
                   className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
@@ -295,7 +293,7 @@ export default function About() {
               </div>
               <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Commercial</h3>
+                  <h3 className="text-[28px] text-[#563433]">Infrastructure</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
@@ -325,7 +323,47 @@ export default function About() {
               </div>
             </div>
 
-            <div className="w-full flex flex-col gap-[20px] items-center justify-between">
+            <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+                <Image
+                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  src={services3}
+                  alt="studio"
+                />
+              </div>
+              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+                <div>
+                  <h3 className="text-[28px] text-[#563433]">Residential</h3>
+                </div>
+                <Link
+                  className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                  href={"/services"}
+                >
+                  <h3 className="text-[22px] font-light text-[#563433]">
+                    View More
+                  </h3>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <path
+                        d="M2 8h12M9 3l5 5-5 5"
+                        stroke="black"
+                        strokeWidth="1.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
               <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
                 <Image
                   className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
@@ -336,8 +374,88 @@ export default function About() {
               <div className="w-full flex flex-col items-start justify-start gap-[20px]">
                 <div>
                   <h3 className="text-[28px] text-[#563433]">
-                    Residential & Lifestyle
+                    Hospitality and Entertainment
                   </h3>
+                </div>
+                <Link
+                  className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                  href={"/services"}
+                >
+                  <h3 className="text-[22px] font-light text-[#563433]">
+                    View More
+                  </h3>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <path
+                        d="M2 8h12M9 3l5 5-5 5"
+                        stroke="black"
+                        strokeWidth="1.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+                <Image
+                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  src={services3}
+                  alt="studio"
+                />
+              </div>
+              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+                <div>
+                  <h3 className="text-[28px] text-[#563433]">Institutional</h3>
+                </div>
+                <Link
+                  className="flex w-[100%] max-w-[170px] items-center gap-2 group"
+                  href={"/services"}
+                >
+                  <h3 className="text-[22px] font-light text-[#563433]">
+                    View More
+                  </h3>
+                  <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      className="transition-transform duration-300 group-hover:translate-x-1"
+                    >
+                      <path
+                        d="M2 8h12M9 3l5 5-5 5"
+                        stroke="black"
+                        strokeWidth="1.2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
+              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+                <Image
+                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  src={services3}
+                  alt="studio"
+                />
+              </div>
+              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+                <div>
+                  <h3 className="text-[28px] text-[#563433]">Commercial</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
