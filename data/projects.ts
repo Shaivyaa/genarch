@@ -44,9 +44,9 @@ export const projects = [
     subtitle: "Hospitaility & Entertainment ",
     description:
       "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
-    image: "/services-images/chaayos1.jpg",
+    image: "/services-images/chaayos4.jpg",
     imageone: "/services-images/chaayos3.jpg",
-    imagetwo: "/services-images/chaayos4.jpg",
+    imagetwo: "/services-images/chaayos1.jpg",
     client: "Chaayos",
     // area: "--",
     status: "Completed",
