@@ -125,7 +125,7 @@ const slides = [
   },
   {
     title: "Airport Lounge",
-    image: "/services-images/airport-tri-out-new.jpeg",
+    image: "/services-images/airport-lounge-out.jpg",
     slug: "project-twentythree",
   },
   // {

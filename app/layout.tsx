@@ -10,6 +10,13 @@ const poppins = Crimson_Text({
   variable: "--font-poppins",
 });
 
+const montserrat = Crimson_Text({
+  weight: ["400", "600", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
+
 
 
 export const metadata: Metadata = {
@@ -24,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} antialiased`}>{children}</body>
+      <body className={`${montserrat.variable} antialiased`}>{children}</body>
     </html>
   );
 }
