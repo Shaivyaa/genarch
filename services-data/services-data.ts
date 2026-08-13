@@ -2,29 +2,29 @@ export const servicesdata = [
   {
     id: "1",
     slug: "project-one",
-    category: ["Hospitaility & Entertainment"],
     title: "PVR at Elan Miracle Mall",
-    subtitle: "Hospitaility & Entertainment | Gurgaon",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | Gurgaon",
     description:
       "A multiplex experience blending cinematic luxury with the warmth of a café-inspired social space.",
     image: "/services-images/pvr-ggn1-new.jpg",
     imageone: "/services-images/pvr-ggn2.jpg",
-    imagetwo: "/services-images/pvr-ggn3-new.jpg",
+    imagetwo: "/services-images/pvr-right-new.jpg",
     client: "PVR",
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/pvr-ggn4.jpg",
-    imageright: "/services-images/pvr-ggn5-new.jpg",
+    imageleft: "/services-images/pvr-left.jpg",
+    imageright: "/services-images/pvr-right.jpg",
     details:
       "The PVR Multiplex at Elan Miracle Mall, Gurgaon, designed by Genarch, reimagines the cinema environment by combining premium movie-going with the comfort of a café-style lounge setting. Spread across 20,545 sq. ft. with six mainstream screens, the design integrates greenery, warm lighting, and a refined palette of beige, brown, and deep greens to create a relaxed yet sophisticated ambience. Wooden textures, curated seating clusters, and café-style counters enhance the social experience in the foyer and waiting areas, while the auditoriums feature distinctive colour themes with fabric-finished walls and premium recliner seating in the last rows. The result is a contemporary multiplex that balances visual appeal, comfort, and operational efficiency while offering visitors an immersive and welcoming cinematic destination.",
   },
   {
     id: "2",
     slug: "project-two",
-    category: ["Hospitaility & Entertainment"],
     title: "PVR at DLF Midtown Plaza",
-    subtitle: "Hospitaility & Entertainment | New Delhi",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | New Delhi",
     description:
       "Reimagining the multiplex lobby as an immersive social and hospitality-driven space.",
     image: "/services-images/kindergarten1.jpg",
@@ -42,14 +42,14 @@ export const servicesdata = [
   {
     id: "3",
     slug: "project-three",
-    category: ["Hospitaility & Entertainment"],
     title: "Chaayos",
-    subtitle: "Hospitaility & Entertainment ",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment ",
     description:
       "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
-    image: "/services-images/chaayos1.jpg",
+    image: "/services-images/chaayos4.jpg",
     imageone: "/services-images/chaayos3.jpg",
-    imagetwo: "/services-images/chaayos4.jpg",
+    imagetwo: "/services-images/chaayos1.jpg",
     client: "Chaayos",
     // area: "--",
     status: "Completed",
@@ -62,19 +62,19 @@ export const servicesdata = [
   {
     id: "4",
     slug: "project-four",
-    category: ["Hospitaility & Entertainment"],
     title: "Third Wave Coffee at Lucknow Airport",
-    subtitle: "Hospitaility & Entertainment | Lucknow",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | Lucknow",
     description:
       "A contemporary airport café designed for comfort, convenience, and a refined coffee experience.",
-    image: "/services-images/thirdwave1.jpg",
+    image: "/services-images/thirdwave-new.jpg",
     imageone: "/services-images/thirdwave2.jpg",
-    imagetwo: "/services-images/thirdwave3.jpg",
+    imagetwo: "/services-images/thirdwave1.jpg",
     client: "Third Wave Coffee",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/thirdwave1.jpg",
+    imageleft: "/services-images/thirdwave-last-new.jpg",
     imageright: "/services-images/thirdwave3.jpg",
     details:
       "Genarch designed the Third Wave Coffee outlet at Lucknow Airport as a welcoming stop for travelers before their journey. The space features a clean, minimal façade with warm neutral tones and contemporary seating suited for quick dwell times. A well-lit service counter highlights the coffee experience, while subtle textures and patterns enhance the modern café aesthetic.",
@@ -82,9 +82,9 @@ export const servicesdata = [
   {
     id: "5",
     slug: "project-five",
-    category: ["Hospitaility & Entertainment"],
     title: "Costa Coffee",
-    subtitle: "Hospitaility & Entertainment | Retail Interior",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | Retail Interior",
     description:
       "A modern industrial café softened by biophilic warmth and community-focused design.",
     image: "/services-images/costa-goa1.jpg",
@@ -94,17 +94,17 @@ export const servicesdata = [
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/costa-goa4.jpg",
-    imageright: "/services-images/costa-goa5.jpg",
+    imageleft: "/services-images/costa-left.jpg",
+    imageright: "/services-images/costa-right.jpg",
     details:
       "This coffee outlet is designed around a modern industrial–biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
   },
   {
     id: "6",
     slug: "project-six",
-    category: ["Hospitaility & Entertainment"],
     title: "Absolute Barbeque",
-    subtitle: "Hospitaility & Entertainment | Noida",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | Noida",
     description:
       " A vibrant dining space inspired by the energy and rhythm of flame-led cooking.",
     image: "/services-images/bbq1-neww.jpg",
@@ -114,8 +114,8 @@ export const servicesdata = [
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/bbq-left-new.jpg",
-    imageright: "/services-images/bbq-right.jpg",
+    imageleft: "/services-images/bbq-left-new-img.jpg",
+    imageright: "/services-images/bbq-right-new-img.jpg",
     details:
       "Designed to capture the lively spirit of grill-based dining, the Absolute Barbeque outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café-like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort making it a welcoming destination where food, conversation, and positive vibes come together.",
   },
@@ -123,9 +123,9 @@ export const servicesdata = [
   {
     id: "7",
     slug: "project-seven",
-    category: ["Hospitaility & Entertainment"],
     title: "Clubhouse at Palampur",
-    subtitle: "Hospitaility & Entertainment | Palampur",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | Palampur",
     description:
       "A community clubhouse designed to bring recreation and social life to a serene Himalayan town.",
     image: "/services-images/clubhouse1-neww.jpg",
@@ -135,8 +135,8 @@ export const servicesdata = [
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/clubhouse-left-new.jpg",
-    imageright: "/services-images/clubhouse-right-neww.jpg",
+    imageleft: "/services-images/clubhouse-left.png",
+    imageright: "/services-images/clubhouse-right.png",
     details:
       "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all-day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
   },
@@ -144,9 +144,9 @@ export const servicesdata = [
   {
     id: "8",
     slug: "project-eight",
-    category: ["Hospitaility & Entertainment"],
     title: "Chilli’s",
-    subtitle: "Hospitaility & Entertainment | Bangalore",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment | Bangalore",
     description:
       "A vibrant dining space reflecting Chili’s bold and energetic brand experience.",
     image: "/services-images/chillis-blr1.jpg",
@@ -164,9 +164,9 @@ export const servicesdata = [
   {
     id: "9",
     slug: "project-nine",
-    category: ["Hospitaility & Entertainment"],
     title: "Cinnabon",
-    subtitle: "Hospitaility & Entertainment",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment",
     description:
       "A warm café environment designed to reflect Cinnabon’s indulgent and comforting brand experience.",
     image: "/services-images/cinnabon1.jpg",
@@ -184,9 +184,9 @@ export const servicesdata = [
   {
     id: "10",
     slug: "project-ten",
-    category: ["Hospitaility & Entertainment"],
     title: "Haldirams",
-    subtitle: "Hospitaility & Entertainment",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment",
     description:
       "A contemporary dining space celebrating Haldiram’s rich culinary heritage.",
     image: "/services-images/haldirams1-new.jpeg",
@@ -204,9 +204,9 @@ export const servicesdata = [
   {
     id: "11",
     slug: "project-eleven",
-    category: ["Hospitaility & Entertainment"],
     title: "Popeyes",
-    subtitle: "Hospitaility & Entertainment",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment",
     description:
       " A vibrant quick-service dining space reflecting Popeyes’ bold and energetic brand identity.",
     image: "/services-images/popyes1.jpg",
@@ -224,29 +224,29 @@ export const servicesdata = [
   {
     id: "12",
     slug: "project-twelve",
-    category: ["Hospitaility & Entertainment"],
     title: "Farzi Cafe at Airport Terminal",
-    subtitle: "Hospitaility & Entertainment",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment",
     description:
       "A refined airport dining space reflecting Farzi Cafe’s modern Indian bistro identity.",
     image: "/services-images/farzi5.jpg",
     imageone: "/services-images/farzi2.jpg",
-    imagetwo: "/services-images/farzi3.jpg",
+    imagetwo: "/services-images/farzi-cafe-new.jpg",
     client: "Farzi Cafe",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
     imageleft: "/services-images/farzi4.jpg",
-    imageright: "/services-images/farzi1-new.jpg",
+    imageright: "/services-images/farzi-cafe-right.jpg",
     details:
       "Genarch designed the Farzi Cafe outlet within an airport terminal to create a distinctive dining experience for travelers. Rich wood finishes, layered textures, and green accents establish a warm and premium ambience, while contemporary lighting and ceiling detailing add visual depth. The open dining layout accommodates high airport footfall while maintaining a comfortable and engaging environment.",
   },
   {
     id: "13",
     slug: "project-thirteen",
-    category: ["Hospitaility & Entertainment"],
     title: "Naivedyam",
-    subtitle: "Hospitaility & Entertainment",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment",
     description:
       "A heritage-inspired dining space celebrating the richness of Indian culture and tradition.",
     image: "/services-images/naivedyam1.jpg",
@@ -264,9 +264,9 @@ export const servicesdata = [
   {
     id: "14",
     slug: "project-fourteen",
-    category: ["Hospitaility & Entertainment"],
     title: "TGI Fridays",
-    subtitle: "Hospitaility & Entertainment",
+    category: ["Hospitality & Entertainment"],
+    subtitle: "Hospitality & Entertainment",
     description:
       "Adapting TGI Fridays’ global design language into a vibrant and engaging dining environment.",
     image: "/services-images/tgi4.jpg",
@@ -284,9 +284,9 @@ export const servicesdata = [
   {
     id: "15",
     slug: "project-fifteen",
-    category: ["Residential & Lifestyle"],
     title: "Wellness Centre – Nadaun",
-    subtitle: "Residential & Lifestyle | Himachal Pradesh",
+    category: ["Institutional"],
+    subtitle: "Institutional | Himachal Pradesh",
     description:
       "Architecture Rooted in Renewal - A riverside retreat where landscape, material, and mindful spaces come together",
     image: "/images/hero-img1.jpg",
@@ -304,9 +304,9 @@ export const servicesdata = [
   {
     id: "16",
     slug: "project-sixteen",
-    category: ["Residential & Lifestyle"],
     title: " Farmhouse at Greater Noida",
-    subtitle: "Residential & Lifestyle | Greater Noida",
+    category: ["Residential"],
+    subtitle: "Residential | Greater Noida",
     description:
       "A serene weekend retreat designed to balance privacy, nature, and shared family living.",
     image: "/images/farmhouse.jpg",
@@ -324,9 +324,9 @@ export const servicesdata = [
   {
     id: "17",
     slug: "project-seventeen",
-    category: ["Commercial"],
     title: "Corporate Office Building",
-    subtitle: "Corporate Office Building | Gurugram",
+    category: ["Commercial"],
+    subtitle: "Commercial | Gurugram",
     description:
       "A Place for Collaboration — Architecture that blends performance, sustainability, and well-being",
     image: "/images/office1.jpg",
@@ -345,9 +345,9 @@ export const servicesdata = [
   {
     id: "18",
     slug: "project-eighteen",
-    category: ["Commercial"],
     title: "Dharav School - Junior Wing",
-    subtitle: "Commercial | Gurugram",
+    category: ["Educational"],
+    subtitle: "Educational | Gurugram",
     description:
       "Little Minds, Timeless Spaces — An environment where learning begins with curiosity",
     image: "/images/dharav-school1-new.jpg",
@@ -357,7 +357,7 @@ export const servicesdata = [
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/images/school3.jpeg",
+    imageleft: "/services-images/dharav-junior-left.jpeg",
     imageright: "/images/school4.jpeg",
     details:
       "Located in the heart of Gurugram, the Junior Wing at Dharav School is designed as a carefully crafted learning ecosystem—rooted in heritage yet contemporary in function. Natural light, pastel tones, and thoughtfully scaled spaces create an environment that feels welcoming, familiar, and enduring. Brick façades, dappled greens, and sunlit interiors come together to form spaces children are excited to enter each day. Theme-based classrooms—such as Traffic, Marine, and Jungle—introduce narrative-driven settings that spark imagination and contextual learning. Every zone supports interactive, play-based education, designed to evolve with age and ability from early years through primary education. The architecture quietly supports growth, creativity, and confidence, creating spaces where little minds can flourish.",
@@ -365,9 +365,9 @@ export const servicesdata = [
   {
     id: "19",
     slug: "project-nineteen",
-    category: ["Residential & Lifestyle"],
     title: "Dubai Villa",
-    subtitle: "Residential & Lifestyle | Dubai",
+    category: ["Residential"],
+    subtitle: "Residential | Dubai",
     description:
       "Inspired by French Neoclassical architecture, luxury villa merging classical elegance with contemporary comfort.",
     image: "/services-images/dubai-villa1-neww.jpg",
@@ -378,7 +378,7 @@ export const servicesdata = [
     status: "WIP",
     team: "Genarch Design Team",
     imageleft: "/services-images/dubai-villa-left-new.jpg",
-    imageright: "/services-images/dubai-villa-right-new.jpg",
+    imageright: "/services-images/dubai-right.jpg",
     details:
       "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor–outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort-style luxury. Carefully adapted to Dubai climatic context, the architecture utilises light-toned exterior finishes, deep shaded openings, and energy-efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
   },
@@ -386,9 +386,9 @@ export const servicesdata = [
   {
     id: "20",
     slug: "project-twenty",
-    category: ["Commercial"],
     title: "Dharav School – Senior Wing",
-    subtitle: "Commercial | Gurgaon",
+    category: ["Educational"],
+    subtitle: "Educational | Gurgaon",
     description:
       "A neoclassical academic landmark defined by symmetry, scale, and institutional grandeur.",
     image: "/services-images/dharav-senior1.jpg",
@@ -406,18 +406,18 @@ export const servicesdata = [
   {
     id: "21",
     slug: "project-twentyone",
-    category: ["Commercial"],
     title: "Kindergarten & Playschool at Palampur",
-    subtitle: "Commercial | Palampur",
+    category: ["Educational"],
+    subtitle: "Educational | Palampur",
     description: "Where little steps begin their biggest journeys.",
     image: "/services-images/kindergarten1-new.jpg",
     imageone: "/services-images/kindergarten2.jpg",
-    imagetwo: "/services-images/kindergarten3.jpg",
+    imagetwo: "/services-images/kindergarten-last-new.jpg",
     client: "Dr. Sushma",
     // area: "--",
     status: "WIP",
     team: "Genarch Design Team",
-    imageleft: "/services-images/kindergarten-left.jpg",
+    imageleft: "/services-images/kindergarten3.jpg",
     imageright: "/services-images/kindergarten-right-new.jpg",
     details:
       "Designed by Genarch, this kindergarten and playschool is envisioned as a vibrant first world of discovery for young learners. Playful forms, bright colours, and ample natural light create an engaging, safe, and nurturing environment where little steps mark the start of big journeys. The architecture balances foundational educational values with contemporary expression, integrating indoor and outdoor spaces that encourage movement, curiosity, and social interaction. Thoughtfully planned layouts support cognitive and motor development, fostering exploration and creativity while shaping children’s earliest experiences of learning, play, and belonging",
@@ -426,48 +426,48 @@ export const servicesdata = [
   {
     id: "22",
     slug: "project-twentytwo",
-    category: ["Commercial "],
     title: "Corporate Office Interior – Medical Equipment Company",
+    category: ["Commercial"],
     subtitle: "Commercial",
     description:
       "A corporate workspace designed with the warmth and comfort of a home.",
     image: "/services-images/medical1.jpg",
     imageone: "/services-images/medical2.jpg",
-    imagetwo: "/services-images/medical3.jpg",
+    imagetwo: "/services-images/corporate-interior-right-new.jpg",
     client: "Medical Equipment Company",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/medical4.jpg",
-    imageright: "/services-images/medical5.jpg",
+    imageleft: "/services-images/corporate-interior-left.jpg",
+    imageright: "/services-images/corporate-right-new.jpg",
     details:
       "Genarch designed this office interior to move beyond the conventional corporate setting and create a welcoming, residential-inspired work environment. Lounge-style meeting spaces, warm lighting, and layered ceiling details introduce comfort and visual depth. A soft palette of wood, marble, and neutral tones enhances the refined atmosphere, supporting collaboration and everyday ease.",
   },
   {
     id: "23",
     slug: "project-twentythree",
-    category: ["Commercial"],
     title: "Airport Lounge",
-    subtitle: "Commercial | Trivandrum",
+    category: ["Hospitality & Entertainmentos"],
+    subtitle: "Hospitality & Entertainment | Trivandrum",
     description:
       " A premium airport lounge designed for comfort and a refined travel experience.",
     image: "/services-images/airport-tri1-new.jpeg",
     imageone: "/services-images/airport-tri2-new.jpeg",
-    imagetwo: "/services-images/airport-tri3-new.jpeg",
+    imagetwo: "/services-images/airport-lounge3.jpg",
     client: "Adani Group",
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/airport-tri4-new.jpeg",
-    imageright: "/services-images/airport-tri5-new.jpeg",
+    imageleft: "/services-images/airport-lounge-left.jpg",
+    imageright: "/services-images/airport-lounge-right.jpg",
     details:
       "Genarch designed this lounge at Trivandrum Airport to offer travelers a calm and comfortable space before their journey. Warm wood finishes, textured materials, and statement lighting create a sophisticated ambience. Thoughtfully planned lounge and dining seating zones, along with a clear spatial layout, ensure smooth movement and a seamless hospitality experience.",
   },
   {
     id: "24",
     slug: "project-twentyfour",
-    category: ["Hospitality & Entertainment"],
     title: "Haldirams at Nagpur Airport",
+    category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Nagpur",
     description:
       "A contemporary dining space inspired by Nagpur’s “Orange City” identity.",
@@ -486,8 +486,8 @@ export const servicesdata = [
   {
     id: "25",
     slug: "project-twentyfive",
-    category: ["Hospitality & Entertainment"],
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
+    category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | New Delhi",
     description:
       "An IPL-themed sports bar bringing the excitement of cricket into the airport experience.",
@@ -498,16 +498,16 @@ export const servicesdata = [
     // area: "--",
     status: "Completed",
     team: "Genarch Genesis Architects Pvt. Ltd.",
-    imageleft: "/services-images/delhi-daredevils4.jpg",
-    imageright: "/services-images/delhi-daredevils-out.jpg",
+    imageleft: "/services-images/delhi-daredevils-left-new.jpg",
+    imageright: "/services-images/delhi-daredevils-right-new.jpg",
     details:
       "Genarch designed this sports bar at IGI Airport Terminal 3 as a high-energy space where travelers can unwind between journeys. The design integrates cricket-inspired graphics and thematic elements with a vibrant bar layout and casual seating. Warm lighting and an open seating arrangement create an engaging atmosphere suited for airport dwell time, blending sports, entertainment, and travel into a lively stopover experience.",
   },
   {
     id: "26",
     slug: "project-twentysix",
-    category: ["Hospitality & Entertainment"],
     title: "KFC, Mount Abu",
+    category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Mount Abu",
     description:
       " A bold architectural statement amplifying KFC’s iconic brand presence.",

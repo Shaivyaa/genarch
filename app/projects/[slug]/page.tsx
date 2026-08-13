@@ -541,8 +541,8 @@ export default function ProjectPage() {
             />
           </div> */}
 
-          <div className="mx-auto text-center py-10">
-            <p className="text-2xl mb-4">{project.subtitle}</p>
+          <div className="mx-auto text-center border-t-2 border-[#563433] pb-10">
+            <p className="text-2xl my-4">{project.subtitle}</p>
             <p className="text-xl">{project.description}</p>
           </div>
 

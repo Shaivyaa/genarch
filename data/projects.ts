@@ -3,7 +3,7 @@ export const projects = [
     id: "1",
     slug: "project-one",
     title: "PVR at Elan Miracle Mall",
-    subtitle: "Hospitaility & Entertainment | Gurgaon",
+    subtitle: "Hospitality & Entertainment | Gurgaon",
     description:
       "A multiplex experience blending cinematic luxury with the warmth of a café-inspired social space.",
     image: "/services-images/pvr-ggn1-new.jpg",
@@ -22,7 +22,7 @@ export const projects = [
     id: "2",
     slug: "project-two",
     title: "PVR at DLF Midtown Plaza",
-    subtitle: "Hospitaility & Entertainment | New Delhi",
+    subtitle: "Hospitality & Entertainment | New Delhi",
     description:
       "Reimagining the multiplex lobby as an immersive social and hospitality-driven space.",
     image: "/services-images/kindergarten1.jpg",
@@ -41,7 +41,7 @@ export const projects = [
     id: "3",
     slug: "project-three",
     title: "Chaayos",
-    subtitle: "Hospitaility & Entertainment ",
+    subtitle: "Hospitality & Entertainment ",
     description:
       "Translating Chaayos’ modern chai culture into a warm and inviting café environment.",
     image: "/services-images/chaayos4.jpg",
@@ -60,7 +60,7 @@ export const projects = [
     id: "4",
     slug: "project-four",
     title: "Third Wave Coffee at Lucknow Airport",
-    subtitle: "Hospitaility & Entertainment | Lucknow",
+    subtitle: "Hospitality & Entertainment | Lucknow",
     description:
       "A contemporary airport café designed for comfort, convenience, and a refined coffee experience.",
     image: "/services-images/thirdwave-new.jpg",
@@ -79,7 +79,7 @@ export const projects = [
     id: "5",
     slug: "project-five",
     title: "Costa Coffee",
-    subtitle: "Hospitaility & Entertainment | Retail Interior",
+    subtitle: "Hospitality & Entertainment | Retail Interior",
     description:
       "A modern industrial café softened by biophilic warmth and community-focused design.",
     image: "/services-images/costa-goa1.jpg",
@@ -98,7 +98,7 @@ export const projects = [
     id: "6",
     slug: "project-six",
     title: "Absolute Barbeque",
-    subtitle: "Hospitaility & Entertainment | Noida",
+    subtitle: "Hospitality & Entertainment | Noida",
     description:
       " A vibrant dining space inspired by the energy and rhythm of flame-led cooking.",
     image: "/services-images/bbq1-neww.jpg",
@@ -118,7 +118,7 @@ export const projects = [
     id: "7",
     slug: "project-seven",
     title: "Clubhouse at Palampur",
-    subtitle: "Hospitaility & Entertainment | Palampur",
+    subtitle: "Hospitality & Entertainment | Palampur",
     description:
       "A community clubhouse designed to bring recreation and social life to a serene Himalayan town.",
     image: "/services-images/clubhouse1-neww.jpg",
@@ -138,7 +138,7 @@ export const projects = [
     id: "8",
     slug: "project-eight",
     title: "Chilli’s",
-    subtitle: "Hospitaility & Entertainment | Bangalore",
+    subtitle: "Hospitality & Entertainment | Bangalore",
     description:
       "A vibrant dining space reflecting Chili’s bold and energetic brand experience.",
     image: "/services-images/chillis-blr1.jpg",
@@ -157,7 +157,7 @@ export const projects = [
     id: "9",
     slug: "project-nine",
     title: "Cinnabon",
-    subtitle: "Hospitaility & Entertainment",
+    subtitle: "Hospitality & Entertainment",
     description:
       "A warm café environment designed to reflect Cinnabon’s indulgent and comforting brand experience.",
     image: "/services-images/cinnabon1.jpg",
@@ -176,7 +176,7 @@ export const projects = [
     id: "10",
     slug: "project-ten",
     title: "Haldirams",
-    subtitle: "Hospitaility & Entertainment",
+    subtitle: "Hospitality & Entertainment",
     description:
       "A contemporary dining space celebrating Haldiram’s rich culinary heritage.",
     image: "/services-images/haldirams1-new.jpeg",
@@ -195,7 +195,7 @@ export const projects = [
     id: "11",
     slug: "project-eleven",
     title: "Popeyes",
-    subtitle: "Hospitaility & Entertainment",
+    subtitle: "Hospitality & Entertainment",
     description:
       " A vibrant quick-service dining space reflecting Popeyes’ bold and energetic brand identity.",
     image: "/services-images/popyes1.jpg",
@@ -214,7 +214,7 @@ export const projects = [
     id: "12",
     slug: "project-twelve",
     title: "Farzi Cafe at Airport Terminal",
-    subtitle: "Hospitaility & Entertainment",
+    subtitle: "Hospitality & Entertainment",
     description:
       "A refined airport dining space reflecting Farzi Cafe’s modern Indian bistro identity.",
     image: "/services-images/farzi5.jpg",
@@ -233,7 +233,7 @@ export const projects = [
     id: "13",
     slug: "project-thirteen",
     title: "Naivedyam",
-    subtitle: "Hospitaility & Entertainment",
+    subtitle: "Hospitality & Entertainment",
     description:
       "A heritage-inspired dining space celebrating the richness of Indian culture and tradition.",
     image: "/services-images/naivedyam1.jpg",
@@ -252,7 +252,7 @@ export const projects = [
     id: "14",
     slug: "project-fourteen",
     title: "TGI Fridays",
-    subtitle: "Hospitaility & Entertainment",
+    subtitle: "Hospitality & Entertainment",
     description:
       "Adapting TGI Fridays’ global design language into a vibrant and engaging dining environment.",
     image: "/services-images/tgi4.jpg",
