@@ -271,7 +271,7 @@ export const projects = [
     id: "15",
     slug: "project-fifteen",
     title: "Wellness Centre – Nadaun",
-    subtitle: "Residential & Lifestyle | Himachal Pradesh",
+    subtitle: "Residential | Himachal Pradesh",
     description:
       "Architecture Rooted in Renewal - A riverside retreat where landscape, material, and mindful spaces come together",
     image: "/images/hero-img1.jpg",
@@ -290,7 +290,7 @@ export const projects = [
     id: "16",
     slug: "project-sixteen",
     title: " Farmhouse at Greater Noida",
-    subtitle: "Residential & Lifestyle | Greater Noida",
+    subtitle: "Residential | Greater Noida",
     description:
       "A serene weekend retreat designed to balance privacy, nature, and shared family living.",
     image: "/images/farmhouse.jpg",
@@ -309,7 +309,7 @@ export const projects = [
     id: "17",
     slug: "project-seventeen",
     title: "Corporate Office Building",
-    subtitle: "Corporate Office Building | Gurugram",
+    subtitle: "Commercial | Gurugram",
     description:
       "A Place for Collaboration — Architecture that blends performance, sustainability, and well-being",
     image: "/images/office1.jpg",
@@ -329,7 +329,7 @@ export const projects = [
     id: "18",
     slug: "project-eighteen",
     title: "Dharav School - Junior Wing",
-    subtitle: "Commercial | Gurugram",
+    subtitle: "Educational | Gurugram",
     description:
       "Little Minds, Timeless Spaces — An environment where learning begins with curiosity",
     image: "/images/dharav-school1-new.jpg",
@@ -348,7 +348,7 @@ export const projects = [
     id: "19",
     slug: "project-nineteen",
     title: "Dubai Villa",
-    subtitle: "Residential & Lifestyle | Dubai",
+    subtitle: "Residential | Dubai",
     description:
       "Inspired by French Neoclassical architecture, luxury villa merging classical elegance with contemporary comfort.",
     image: "/services-images/dubai-villa1-neww.jpg",
@@ -368,7 +368,7 @@ export const projects = [
     id: "20",
     slug: "project-twenty",
     title: "Dharav School – Senior Wing",
-    subtitle: "Commercial | Gurgaon",
+    subtitle: "Educational | Gurgaon",
     description:
       "A neoclassical academic landmark defined by symmetry, scale, and institutional grandeur.",
     image: "/services-images/dharav-senior1.jpg",
@@ -387,7 +387,7 @@ export const projects = [
     id: "21",
     slug: "project-twentyone",
     title: "Kindergarten & Playschool at Palampur",
-    subtitle: "Commercial | Palampur",
+    subtitle: "Educational | Palampur",
     description: "Where little steps begin their biggest journeys.",
     image: "/services-images/kindergarten1-new.jpg",
     imageone: "/services-images/kindergarten2.jpg",
@@ -425,7 +425,7 @@ export const projects = [
     id: "23",
     slug: "project-twentythree",
     title: "Airport Lounge",
-    subtitle: "Commercial | Trivandrum",
+    subtitle: "Residential | Trivandrum",
     description:
       " A premium airport lounge designed for comfort and a refined travel experience.",
     image: "/services-images/airport-tri1-new.jpeg",
