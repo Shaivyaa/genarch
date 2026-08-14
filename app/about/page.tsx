@@ -185,10 +185,10 @@ export default function About() {
                   />
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className="text-[28px] text-[#563433] font-semibold">
+                      <h3 className="text-[22px] text-[#563433] font-semibold">
                         {member.name}
                       </h3>
-                      <p className="text-[18px] text-[#8e5353] mt-1">
+                      <p className="text-[14px] text-[#8e5353] mt-1">
                         {member.role}
                       </p>
                     </div>
@@ -244,22 +244,22 @@ export default function About() {
 
           <div className="flex flex-wrap items-center justify-center gap-[20px]">
             <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+              <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
                   src={services2}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+              <div className="w-full flex flex-col items-start justify-start">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Educational</h3>
+                  <h3 className="text-[20px] text-[#563433]">Educational</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
                 >
-                  <h3 className="text-[22px] font-light text-[#563433]">
+                  <h3 className="text-[15px] font-light text-[#563433]">
                     View More
                   </h3>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -284,22 +284,22 @@ export default function About() {
             </div>
 
             <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+              <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
                   src={services1}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+              <div className="w-full flex flex-col items-start justify-start ">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Infrastructure</h3>
+                  <h3 className="text-[20px] text-[#563433]">Infrastructure</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
                 >
-                  <h3 className="text-[22px] font-light text-[#563433]">
+                  <h3 className="text-[15px] font-light text-[#563433]">
                     View More
                   </h3>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -324,22 +324,22 @@ export default function About() {
             </div>
 
             <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+              <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
                   src={services3}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+              <div className="w-full flex flex-col items-start justify-start ">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Residential</h3>
+                  <h3 className="text-[20px] text-[#563433]">Residential</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
                 >
-                  <h3 className="text-[22px] font-light text-[#563433]">
+                  <h3 className="text-[15px] font-light text-[#563433]">
                     View More
                   </h3>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -364,16 +364,16 @@ export default function About() {
             </div>
 
             <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+              <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
                   src={services3}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+              <div className="w-full flex flex-col items-start justify-start">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">
+                  <h3 className="text-[20px] text-[#563433]">
                     Hospitality and Entertainment
                   </h3>
                 </div>
@@ -381,7 +381,7 @@ export default function About() {
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
                 >
-                  <h3 className="text-[22px] font-light text-[#563433]">
+                  <h3 className="text-[15px] font-light text-[#563433]">
                     View More
                   </h3>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -406,22 +406,22 @@ export default function About() {
             </div>
 
             <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+              <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
                   src={services3}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+              <div className="w-full flex flex-col items-start justify-start ">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Institutional</h3>
+                  <h3 className="text-[20px] text-[#563433]">Institutional</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
                 >
-                  <h3 className="text-[22px] font-light text-[#563433]">
+                  <h3 className="text-[15px] font-light text-[#563433]">
                     View More
                   </h3>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -446,22 +446,22 @@ export default function About() {
             </div>
 
             <div className="w-full md:w-[calc(33.333%-14px)] flex flex-col gap-[20px] items-center justify-between">
-              <div className="w-full md:max-w-[452px] flex items-end justify-center min-h-[300px] md:min-h-[400px] bg-[#e5e5e5] rounded-[28px_28px_0_0]">
+              <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
-                  className="h-[250px] md:h-[350px] w-full max-w-[452px] rounded-[28px_28px_0_0] object-cover"
+                  className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
                   src={services3}
                   alt="studio"
                 />
               </div>
-              <div className="w-full flex flex-col items-start justify-start gap-[20px]">
+              <div className="w-full flex flex-col items-start justify-start">
                 <div>
-                  <h3 className="text-[28px] text-[#563433]">Commercial</h3>
+                  <h3 className="text-[20px] text-[#563433]">Commercial</h3>
                 </div>
                 <Link
                   className="flex w-[100%] max-w-[170px] items-center gap-2 group"
                   href={"/services"}
                 >
-                  <h3 className="text-[22px] font-light text-[#563433]">
+                  <h3 className="text-[15px] font-light text-[#563433]">
                     View More
                   </h3>
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -574,7 +574,7 @@ export default function About() {
             <h2 className="text-5xl font-light mb-12">
               Clients & Collaborations
             </h2>
-            <p className="text-xl opacity-90 leading-relaxed">
+            <p className="text-[15px] opacity-90 leading-relaxed">
               Over the years, Genarch has partnered with leading brands,
               institutions, and clients across sectors — ranging from corporate
               entities to private patrons.
@@ -591,7 +591,7 @@ export default function About() {
             <div
               className="flex gap-[20px] w-max"
               style={{
-                animation: "marquee 25s linear infinite",
+                animation: "marquee 45s linear infinite",
               }}
               onMouseEnter={(e) =>
                 ((e.currentTarget as HTMLDivElement).style.animationPlayState =
