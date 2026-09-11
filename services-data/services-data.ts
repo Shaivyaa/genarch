@@ -17,7 +17,7 @@ export const servicesdata = [
     imageleft: "/services-images/pvr-left.jpg",
     imageright: "/services-images/pvr-right.jpg",
     details:
-      "The PVR Multiplex at Elan Miracle Mall, Gurgaon, designed by Genarch, reimagines the cinema environment by combining premium movie-going with the comfort of a café-style lounge setting. Spread across 20,545 sq. ft. with six mainstream screens, the design integrates greenery, warm lighting, and a refined palette of beige, brown, and deep greens to create a relaxed yet sophisticated ambience. Wooden textures, curated seating clusters, and café-style counters enhance the social experience in the foyer and waiting areas, while the auditoriums feature distinctive colour themes with fabric-finished walls and premium recliner seating in the last rows. The result is a contemporary multiplex that balances visual appeal, comfort, and operational efficiency while offering visitors an immersive and welcoming cinematic destination.",
+      "The PVR Multiplex at Elan Miracle Mall, Gurgaon, designed by Genarch, reimagines the cinema environment by combining premium movie-going with the comfort of a café-style lounge setting. Spread across 20,545 sq. ft. with six mainstream screens, the design integrates greenery, warm lighting, and a refined palette of beige, brown, and deep green to create a relaxed yet sophisticated ambience. Wooden textures, curated seating clusters, and café-style counters enhance the social experience in the foyer and waiting areas, while the auditoriums feature distinctive colour themes with fabric-finished walls and premium recliner seating in the last rows. The result is a contemporary multiplex that balances visual appeal, comfort, and operational efficiency while offering visitors an immersive and welcoming cinematic destination.",
   },
   {
     id: "2",
@@ -117,7 +117,7 @@ export const servicesdata = [
     imageleft: "/services-images/bbq-left-new-img.jpg",
     imageright: "/services-images/bbq-right-new-img.jpg",
     details:
-      "Designed to capture the lively spirit of grill-based dining, the Absolute Barbeque outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café-like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort making it a welcoming destination where food, conversation, and positive vibes come together.",
+      "Designed to capture the lively spirit of grill-based dining, the Absolute Barbeque outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café-like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort, making it a welcoming destination where food, conversation, and positive vibes come together.",
   },
 
   {
@@ -299,7 +299,7 @@ export const servicesdata = [
     imageleft: "/images/left-img1.jpg",
     imageright: "/images/right-img1.jpg",
     details:
-      "Set along the banks of the Beas River in the tranquil foothills of Himachal Pradesh, this wellness centre is envisioned as a place of restoration—where architecture becomes a quiet facilitator of calm, balance, and inner well-being. The site’s natural assets—flowing water, mountain air, and expansive views—form the foundation of the design approach. Guided by principles of sustainable and landscape-led architecture, the built forms sit gently on the land, respecting natural contours and ecology. Locally resonant materials such as stone and wood are used to create warmth, tactility, and a seamless visual connection with the surroundings. Rejuvenation spaces are oriented toward the river, allowing light, breeze, and sound to become integral to the healing experience. Here, architecture does not dominate nature—it collaborates with it, shaping spaces that encourage reflection, renewal, and a deeper connection with self and place.",
+      "Set along the banks of the Beas River in the tranquil foothills of Himachal Pradesh, this wellness centre is envisioned as a place of restoration where architecture becomes a quiet facilitator of calm, balance, and inner well-being. The site’s natural assets flowing water, mountain air, and expansive views form the foundation of the design approach. Guided by principles of sustainable and landscape-led architecture, the built forms sit gently on the land, respecting natural contours and ecology. Locally resonant materials such as stone and wood are used to create warmth, tactility, and a seamless visual connection with the surroundings. Rejuvenation spaces are oriented toward the river, allowing light, breeze, and sound to become integral to the healing experience. Here, architecture does not dominate nature it collaborates with it, shaping spaces that encourage reflection, renewal, and a deeper connection with self and place.",
   },
   {
     id: "16",
@@ -319,7 +319,7 @@ export const servicesdata = [
     imageleft: "/images/farmhouse3.jpg",
     imageright: "/images/farmhouse4.jpg",
     details:
-      "Designed as a weekend retreat for two close-knit families, this farmhouse in Greater Noida is conceived as a home away from home—offering familiarity, comfort, and escape from the pace of urban life. The architecture emphasizes clarity, simplicity, and spatial harmony. Clean lines, open layouts, and natural wooden finishes define the design language, while large openings draw in light and greenery, fostering a constant dialogue with nature. The planning carefully respects individual privacy, with independent family zones that allow solitude and personal routines. Shared courtyards, common lounges, and visual connections act as the heart of the home—encouraging interaction, bonding, and collective moments. The result is a retreat that nurtures warmth and balance, where privacy and togetherness coexist with ease.",
+      "Designed as a weekend retreat for two close-knit families, this farmhouse in Greater Noida is conceived as a home away from home offering familiarity, comfort, and escape from the pace of urban life. The architecture emphasizes clarity, simplicity, and spatial harmony. Clean lines, open layouts, and natural wooden finishes define the design language, while large openings draw in light and greenery, fostering a constant dialogue with nature. The planning carefully respects individual privacy, with independent family zones that allow solitude and personal routines. Shared courtyards, common lounges, and visual connections act as the heart of the home encouraging interaction, bonding, and collective moments. The result is a retreat that nurtures warmth and balance, where privacy and togetherness coexist with ease.",
   },
   {
     id: "17",
@@ -328,7 +328,7 @@ export const servicesdata = [
     category: ["Commercial"],
     subtitle: "Commercial | Gurugram",
     description:
-      "A Place for Collaboration — Architecture that blends performance, sustainability, and well-being",
+      "A Place for Collaboration. Architecture that blends performance, sustainability, and well-being",
     image: "/images/office1.jpg",
     imageone: "/images/office-building.jpg",
     imagetwo: "/images/office2.jpg",
@@ -339,7 +339,7 @@ export const servicesdata = [
     imageleft: "/images/office3.jpg",
     imageright: "/images/office4.jpg",
     details:
-      "Designed as the corporate head office for one of India’s leading business groups, this development in Gurugram is envisioned as a contemporary workplace campus that reflects innovation, responsibility, and a strong organizational identity. The project comprises two architecturally aligned buildings unified by a garden-inspired landscape. Achieving GRIHA Gold compliance, the design integrates environmental performance with spatial quality. Mechanical louvers reduce solar heat gain while allowing generous daylight, and inner courtyards act as collaborative spill-out zones that promote interaction and informal exchange. Green terraces on nearly every floor provide moments of pause and connection to nature, blurring the boundaries between indoors and outdoors. Together, these elements create a workplace that supports productivity, sustainability, and human well-being—an environment designed for both performance and longevity.",
+      "Designed as the corporate head office for one of India’s leading business groups, this development in Gurugram is envisioned as a contemporary workplace campus that reflects innovation, responsibility, and a strong organizational identity. The project comprises two architecturally aligned buildings unified by a garden-inspired landscape. Achieving GRIHA Gold compliance, the design integrates environmental performance with spatial quality. Mechanical louvers reduce solar heat gain while allowing generous daylight, and inner courtyards act as collaborative spill-out zones that promote interaction and informal exchange. Green terraces on nearly every floor provide moments of pause and connection to nature, blurring the boundaries between indoors and outdoors. Together, these elements create a workplace that supports productivity, sustainability, and human well-being an environment designed for both performance and longevity.",
   },
 
   {
@@ -349,7 +349,7 @@ export const servicesdata = [
     category: ["Educational"],
     subtitle: "Educational | Gurugram",
     description:
-      "Little Minds, Timeless Spaces — An environment where learning begins with curiosity",
+      "Little Minds, Timeless Spaces. An environment where learning begins with curiosity",
     image: "/images/dharav-school1-new.jpg",
     imageone: "/images/img4.jpeg",
     imagetwo: "/images/dharav-school4-new.jpg",
@@ -360,7 +360,7 @@ export const servicesdata = [
     imageleft: "/services-images/dharav-junior-left.jpeg",
     imageright: "/images/school4.jpeg",
     details:
-      "Located in the heart of Gurugram, the Junior Wing at Dharav School is designed as a carefully crafted learning ecosystem—rooted in heritage yet contemporary in function. Natural light, pastel tones, and thoughtfully scaled spaces create an environment that feels welcoming, familiar, and enduring. Brick façades, dappled greens, and sunlit interiors come together to form spaces children are excited to enter each day. Theme-based classrooms—such as Traffic, Marine, and Jungle—introduce narrative-driven settings that spark imagination and contextual learning. Every zone supports interactive, play-based education, designed to evolve with age and ability from early years through primary education. The architecture quietly supports growth, creativity, and confidence, creating spaces where little minds can flourish.",
+      "Located in the heart of Gurugram, the Junior Wing at Dharav School is designed as a carefully crafted learning ecosystem rooted in heritage yet contemporary in function. Natural light, pastel tones, and thoughtfully scaled spaces create an environment that feels welcoming, familiar, and enduring. Brick façades, dappled greens, and sunlit interiors come together to form spaces children are excited to enter each day. Theme-based classrooms such as Traffic, Marine, and Jungle introduce narrative-driven settings that spark imagination and contextual learning. Every zone supports interactive, play-based education, designed to evolve with age and ability from early years through primary education. The architecture quietly supports growth, creativity, and confidence, creating spaces where little minds can flourish.",
   },
   {
     id: "19",
@@ -380,7 +380,7 @@ export const servicesdata = [
     imageleft: "/services-images/dubai-villa-left-new.jpg",
     imageright: "/services-images/dubai-right.jpg",
     details:
-      "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor–outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort-style luxury. Carefully adapted to Dubai climatic context, the architecture utilises light-toned exterior finishes, deep shaded openings, and energy-efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
+      "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor–outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort-style luxury. Carefully adapted to Dubai's climatic context, the architecture utilises light-toned exterior finishes, deep shaded openings, and energy-efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
   },
 
   {
@@ -420,7 +420,7 @@ export const servicesdata = [
     imageleft: "/services-images/kindergarten3.jpg",
     imageright: "/services-images/kindergarten-right-new.jpg",
     details:
-      "Designed by Genarch, this kindergarten and playschool is envisioned as a vibrant first world of discovery for young learners. Playful forms, bright colours, and ample natural light create an engaging, safe, and nurturing environment where little steps mark the start of big journeys. The architecture balances foundational educational values with contemporary expression, integrating indoor and outdoor spaces that encourage movement, curiosity, and social interaction. Thoughtfully planned layouts support cognitive and motor development, fostering exploration and creativity while shaping children’s earliest experiences of learning, play, and belonging",
+      "Designed by Genarch, this kindergarten and playschool is envisioned as a vibrant first world of discovery for young learners. Playful forms, bright colours, and ample natural light create an engaging, safe, and nurturing environment where little steps mark the start of big journeys. The architecture balances foundational educational values with contemporary expression, integrating indoor and outdoor spaces that encourage movement, curiosity, and social interaction. Thoughtfully planned layouts support cognitive and motor development, fostering exploration and creativity while shaping children’s earliest experiences of learning, play, and belonging.",
   },
 
   {
