@@ -8,7 +8,7 @@ import TeamImg from "@/public/images/aboutUs-team.jpg";
 import OfficeImg from "@/public/images/office.jpg";
 import AtulImg from "@/public/images/atulSharma.jpg";
 import NavjotImg from "@/public/images/navjyot.jpg";
-import services1 from "@/public/images/office-building.jpg";
+import services1 from "@/public/services-images/kindergarten1-new.jpg";
 import services2 from "@/public/images/service-img2.jpg";
 import services3 from "@/public/images/service-img3.jpg";
 import services4 from "@/public/services-images/farzi-out.jpg";
@@ -250,7 +250,7 @@ export default function About() {
               <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
                   className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
-                  src={services2}
+                  src={services1}
                   alt="studio"
                 />
               </div>
@@ -290,7 +290,7 @@ export default function About() {
               <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
                   className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
-                  src={services1}
+                  src={services2}
                   alt="studio"
                 />
               </div>
