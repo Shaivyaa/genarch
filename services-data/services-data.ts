@@ -89,7 +89,7 @@ export const servicesdata = [
       "A modern industrial café softened by biophilic warmth and community-focused design.",
     image: "/services-images/costa-goa1.jpg",
     imageone: "/services-images/costa-goa2.jpg",
-    imagetwo: "/services-images/costa-goa3-new.jpg",
+    imagetwo: "/services-images/costa-goa-neww.jpg",
     client: "Costa Coffee",
     // area: "--",
     status: "Completed",
@@ -97,7 +97,7 @@ export const servicesdata = [
     imageleft: "/services-images/costa-left.jpg",
     imageright: "/services-images/costa-right.jpg",
     details:
-      "This coffee outlet is designed around a modern industrial–biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
+      "This coffee outlet is designed around a modern industrial biophilic concept, balancing urban character with warmth and comfort. Exposed ceilings, visible service lines, and clean architectural geometry create an industrial base, softened through natural wood finishes, muted pastel accents, and thoughtfully integrated greenery across the space. Soft green pendant lighting, curved seating elements, and layered ambient lighting create a relaxed and welcoming café atmosphere. Custom wall graphics and open shelving introduce brand storytelling while adding visual depth and personality to the interior environment. The spatial layout combines communal tables, intimate lounge seating, and an efficient service counter, supporting both social interaction and individual work sessions. The result is a vibrant yet comfortable café setting designed to enhance everyday customer experience.",
   },
   {
     id: "6",

@@ -11,6 +11,9 @@ import NavjotImg from "@/public/images/navjyot.jpg";
 import services1 from "@/public/images/office-building.jpg";
 import services2 from "@/public/images/service-img2.jpg";
 import services3 from "@/public/images/service-img3.jpg";
+import services4 from "@/public/services-images/farzi-out.jpg";
+import services5 from "@/public/images/hero-img1.jpg";
+import services6 from "@/public/images/office1.jpg";
 import JourneyImg from "@/public/images/journey-image-new.jpg";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -367,7 +370,7 @@ export default function About() {
               <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
                   className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
-                  src={services3}
+                  src={services4}
                   alt="studio"
                 />
               </div>
@@ -409,7 +412,7 @@ export default function About() {
               <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
                   className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
-                  src={services3}
+                  src={services5}
                   alt="studio"
                 />
               </div>
@@ -449,7 +452,7 @@ export default function About() {
               <div className="w-full md:max-w-[360px] flex items-end justify-center min-h-[220px] md:min-h-[300px] bg-[#e5e5e5] rounded-[20px_20px_0_0]">
                 <Image
                   className="h-[180px] md:h-[260px] w-full max-w-[360px] rounded-[20px_20px_0_0] object-cover"
-                  src={services3}
+                  src={services6}
                   alt="studio"
                 />
               </div>
