@@ -6,7 +6,7 @@ export const servicesdata = [
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Gurgaon",
     description:
-      "A multiplex experience blending cinematic luxury with the warmth of a café-inspired social space.",
+      "A multiplex experience blending cinematic luxury with the warmth of a café inspired social space.",
     image: "/services-images/pvr-ggn1-new.jpg",
     imageone: "/services-images/pvr-ggn2.jpg",
     imagetwo: "/services-images/pvr-right-new.jpg",
@@ -17,7 +17,7 @@ export const servicesdata = [
     imageleft: "/services-images/pvr-left.jpg",
     imageright: "/services-images/pvr-right.jpg",
     details:
-      "The PVR Multiplex at Elan Miracle Mall, Gurgaon, designed by Genarch, reimagines the cinema environment by combining premium movie-going with the comfort of a café-style lounge setting. Spread across 20,545 sq. ft. with six mainstream screens, the design integrates greenery, warm lighting, and a refined palette of beige, brown, and deep green to create a relaxed yet sophisticated ambience. Wooden textures, curated seating clusters, and café-style counters enhance the social experience in the foyer and waiting areas, while the auditoriums feature distinctive colour themes with fabric-finished walls and premium recliner seating in the last rows. The result is a contemporary multiplex that balances visual appeal, comfort, and operational efficiency while offering visitors an immersive and welcoming cinematic destination.",
+      "The PVR Multiplex at Elan Miracle Mall, Gurgaon, designed by Genarch, reimagines the cinema environment by combining premium movie going with the comfort of a café style lounge setting. Spread across 20,545 sq. ft. with six mainstream screens, the design integrates greenery, warm lighting, and a refined palette of beige, brown, and deep green to create a relaxed yet sophisticated ambience. Wooden textures, curated seating clusters, and café style counters enhance the social experience in the foyer and waiting areas, while the auditoriums feature distinctive colour themes with fabric finished walls and premium recliner seating in the last rows. The result is a contemporary multiplex that balances visual appeal, comfort, and operational efficiency while offering visitors an immersive and welcoming cinematic destination.",
   },
   {
     id: "2",
@@ -57,7 +57,7 @@ export const servicesdata = [
     imageleft: "/services-images/chaayos2.jpg",
     imageright: "/services-images/chaayos5.jpg",
     details:
-      "Genarch adapted and refined the design language for Chaayos outlets to reflect the brand’s contemporary yet rooted identity. Signature elements such as the green lattice façade, warm wooden interiors, and rattan lighting establish a recognizable visual character. Comfortable café-style seating and natural textures enhance the casual chai experience while maintaining consistency across outlets.",
+      "Genarch adapted and refined the design language for Chaayos outlets to reflect the brand’s contemporary yet rooted identity. Signature elements such as the green lattice façade, warm wooden interiors, and rattan lighting establish a recognizable visual character. Comfortable café style seating and natural textures enhance the casual chai experience while maintaining consistency across outlets.",
   },
   {
     id: "4",
@@ -86,7 +86,7 @@ export const servicesdata = [
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Retail Interior",
     description:
-      "A modern industrial café softened by biophilic warmth and community-focused design.",
+      "A modern industrial café softened by biophilic warmth and community focused design.",
     image: "/services-images/costa-goa1.jpg",
     imageone: "/services-images/costa-goa2.jpg",
     imagetwo: "/services-images/costa-goa-neww.jpg",
@@ -106,7 +106,7 @@ export const servicesdata = [
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Noida",
     description:
-      " A vibrant dining space inspired by the energy and rhythm of flame-led cooking.",
+      " A vibrant dining space inspired by the energy and rhythm of flame led cooking.",
     image: "/services-images/bbq1-neww.jpg",
     imageone: "/services-images/bbq2-new.jpg",
     imagetwo: "/services-images/bbq3-new.jpg",
@@ -117,7 +117,7 @@ export const servicesdata = [
     imageleft: "/services-images/bbq-left-new-img.jpg",
     imageright: "/services-images/bbq-right-new-img.jpg",
     details:
-      "Designed to capture the lively spirit of grill-based dining, the Absolute Barbeque outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café-like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort, making it a welcoming destination where food, conversation, and positive vibes come together.",
+      "Designed to capture the lively spirit of grill based dining, the Absolute Barbeque outlet in Noida reflects an atmosphere of celebration, warmth, and social bonding. The interiors feature bold and vibrant colours complemented by pastel tones and rich material finishes, creating a lively café like ambience that appeals to all age groups. Thoughtfully planned to enhance the dining experience, the space blends festive energy with comfort, making it a welcoming destination where food, conversation, and positive vibes come together.",
   },
 
   {
@@ -130,15 +130,15 @@ export const servicesdata = [
       "A community clubhouse designed to bring recreation and social life to a serene Himalayan town.",
     image: "/services-images/clubhouse1-neww.jpg",
     imageone: "/services-images/clubhouse1-new.jpg",
-    imagetwo: "/services-images/clubhouse3-new.jpg",
+    imagetwo: "/services-images/clubhouse-last-new-img.png",
     client: "Infinitea Sports Club & Tea Garden Resort",
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/clubhouse-left.png",
-    imageright: "/services-images/clubhouse-right.png",
+    imageleft: "/services-images/clubhouse1-new.png",
+    imageright: "/services-images/clubhouse2-new.png",
     details:
-      "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all-day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
+      "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
   },
 
   {
@@ -248,7 +248,7 @@ export const servicesdata = [
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
     description:
-      "A heritage-inspired dining space celebrating the richness of Indian culture and tradition.",
+      "A heritage inspired dining space celebrating the richness of Indian culture and tradition.",
     image: "/services-images/naivedyam1.jpg",
     imageone: "/services-images/naivedyam2.jpg",
     imagetwo: "/services-images/naivedyam3.jpg",
@@ -284,11 +284,11 @@ export const servicesdata = [
   {
     id: "15",
     slug: "project-fifteen",
-    title: "Wellness Centre – Nadaun",
-    category: ["Institutional"],
-    subtitle: "Institutional | Himachal Pradesh",
+    title: "Wellness Centre, Nadaun",
+    category: ["Residential"],
+    subtitle: "Residential | Himachal Pradesh",
     description:
-      "Architecture Rooted in Renewal - A riverside retreat where landscape, material, and mindful spaces come together",
+      "Architecture Rooted in Renewal. A riverside retreat where landscape, material, and mindful spaces come together",
     image: "/images/hero-img1.jpg",
     imageone: "/images/wellness.jpg",
     imagetwo: "/images/hero-img2.jpg",
@@ -299,7 +299,7 @@ export const servicesdata = [
     imageleft: "/images/left-img1.jpg",
     imageright: "/images/right-img1.jpg",
     details:
-      "Set along the banks of the Beas River in the tranquil foothills of Himachal Pradesh, this wellness centre is envisioned as a place of restoration where architecture becomes a quiet facilitator of calm, balance, and inner well-being. The site’s natural assets flowing water, mountain air, and expansive views form the foundation of the design approach. Guided by principles of sustainable and landscape-led architecture, the built forms sit gently on the land, respecting natural contours and ecology. Locally resonant materials such as stone and wood are used to create warmth, tactility, and a seamless visual connection with the surroundings. Rejuvenation spaces are oriented toward the river, allowing light, breeze, and sound to become integral to the healing experience. Here, architecture does not dominate nature it collaborates with it, shaping spaces that encourage reflection, renewal, and a deeper connection with self and place.",
+      "Set along the banks of the Beas River in the tranquil foothills of Himachal Pradesh, this wellness centre is envisioned as a place of restoration where architecture becomes a quiet facilitator of calm, balance, and inner well-being. The site’s natural assets flowing water, mountain air, and expansive views form the foundation of the design approach. Guided by principles of sustainable and landscape led architecture, the built forms sit gently on the land, respecting natural contours and ecology. Locally resonant materials such as stone and wood are used to create warmth, tactility, and a seamless visual connection with the surroundings. Rejuvenation spaces are oriented toward the river, allowing light, breeze, and sound to become integral to the healing experience. Here, architecture does not dominate nature it collaborates with it, shaping spaces that encourage reflection, renewal, and a deeper connection with self and place.",
   },
   {
     id: "16",
@@ -319,7 +319,7 @@ export const servicesdata = [
     imageleft: "/images/farmhouse3.jpg",
     imageright: "/images/farmhouse4.jpg",
     details:
-      "Designed as a weekend retreat for two close-knit families, this farmhouse in Greater Noida is conceived as a home away from home offering familiarity, comfort, and escape from the pace of urban life. The architecture emphasizes clarity, simplicity, and spatial harmony. Clean lines, open layouts, and natural wooden finishes define the design language, while large openings draw in light and greenery, fostering a constant dialogue with nature. The planning carefully respects individual privacy, with independent family zones that allow solitude and personal routines. Shared courtyards, common lounges, and visual connections act as the heart of the home encouraging interaction, bonding, and collective moments. The result is a retreat that nurtures warmth and balance, where privacy and togetherness coexist with ease.",
+      "Designed as a weekend retreat for two close knit families, this farmhouse in Greater Noida is conceived as a home away from home offering familiarity, comfort, and escape from the pace of urban life. The architecture emphasizes clarity, simplicity, and spatial harmony. Clean lines, open layouts, and natural wooden finishes define the design language, while large openings draw in light and greenery, fostering a constant dialogue with nature. The planning carefully respects individual privacy, with independent family zones that allow solitude and personal routines. Shared courtyards, common lounges, and visual connections act as the heart of the home encouraging interaction, bonding, and collective moments. The result is a retreat that nurtures warmth and balance, where privacy and togetherness coexist with ease.",
   },
   {
     id: "17",
@@ -339,18 +339,18 @@ export const servicesdata = [
     imageleft: "/images/office3.jpg",
     imageright: "/images/office4.jpg",
     details:
-      "Designed as the corporate head office for one of India’s leading business groups, this development in Gurugram is envisioned as a contemporary workplace campus that reflects innovation, responsibility, and a strong organizational identity. The project comprises two architecturally aligned buildings unified by a garden-inspired landscape. Achieving GRIHA Gold compliance, the design integrates environmental performance with spatial quality. Mechanical louvers reduce solar heat gain while allowing generous daylight, and inner courtyards act as collaborative spill-out zones that promote interaction and informal exchange. Green terraces on nearly every floor provide moments of pause and connection to nature, blurring the boundaries between indoors and outdoors. Together, these elements create a workplace that supports productivity, sustainability, and human well-being an environment designed for both performance and longevity.",
+      "Designed as the corporate head office for one of India’s leading business groups, this development in Gurugram is envisioned as a contemporary workplace campus that reflects innovation, responsibility, and a strong organizational identity. The project comprises two architecturally aligned buildings unified by a garden inspired landscape. Achieving GRIHA Gold compliance, the design integrates environmental performance with spatial quality. Mechanical louvers reduce solar heat gain while allowing generous daylight, and inner courtyards act as collaborative spill out zones that promote interaction and informal exchange. Green terraces on nearly every floor provide moments of pause and connection to nature, blurring the boundaries between indoors and outdoors. Together, these elements create a workplace that supports productivity, sustainability, and human well-being an environment designed for both performance and longevity.",
   },
 
   {
     id: "18",
     slug: "project-eighteen",
-    title: "Dharav School - Junior Wing",
+    title: "Dharav School, Junior Wing",
     category: ["Educational"],
     subtitle: "Educational | Gurugram",
     description:
       "Little Minds, Timeless Spaces. An environment where learning begins with curiosity",
-    image: "/images/dharav-school1-new.jpg",
+    image: "/images/dharav-school-new1.jpeg",
     imageone: "/images/img4.jpeg",
     imagetwo: "/images/dharav-school4-new.jpg",
     client: "Dharav School",
@@ -360,7 +360,7 @@ export const servicesdata = [
     imageleft: "/services-images/dharav-junior-left.jpeg",
     imageright: "/images/school4.jpeg",
     details:
-      "Located in the heart of Gurugram, the Junior Wing at Dharav School is designed as a carefully crafted learning ecosystem rooted in heritage yet contemporary in function. Natural light, pastel tones, and thoughtfully scaled spaces create an environment that feels welcoming, familiar, and enduring. Brick façades, dappled greens, and sunlit interiors come together to form spaces children are excited to enter each day. Theme-based classrooms such as Traffic, Marine, and Jungle introduce narrative-driven settings that spark imagination and contextual learning. Every zone supports interactive, play-based education, designed to evolve with age and ability from early years through primary education. The architecture quietly supports growth, creativity, and confidence, creating spaces where little minds can flourish.",
+      "Located in the heart of Gurugram, the Junior Wing at Dharav School is designed as a carefully crafted learning ecosystem rooted in heritage yet contemporary in function. Natural light, pastel tones, and thoughtfully scaled spaces create an environment that feels welcoming, familiar, and enduring. Brick façades, dappled greens, and sunlit interiors come together to form spaces children are excited to enter each day. Theme based classrooms such as Traffic, Marine, and Jungle introduce narrative driven settings that spark imagination and contextual learning. Every zone supports interactive, play based education, designed to evolve with age and ability from early years through primary education. The architecture quietly supports growth, creativity, and confidence, creating spaces where little minds can flourish.",
   },
   {
     id: "19",
@@ -380,13 +380,13 @@ export const servicesdata = [
     imageleft: "/services-images/dubai-villa-left-new.jpg",
     imageright: "/services-images/dubai-right.jpg",
     details:
-      "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor–outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort-style luxury. Carefully adapted to Dubai's climatic context, the architecture utilises light-toned exterior finishes, deep shaded openings, and energy-efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
+      "Planned to maximise spatial openness and natural illumination, the villa incorporates expansive glazing, grand terraces, and seamless indoor outdoor transitions that enhance everyday living. The landscape design integrates manicured gardens with a bespoke swimming pool, creating a private sanctuary that reflects exclusivity, comfort, and resort style luxury. Carefully adapted to Dubai's climatic context, the architecture utilises light toned exterior finishes, deep shaded openings, and energy efficient material systems to enhance thermal performance and sustainability. Crafted as a statement of timeless elegance and modern functionality, the villa offers a sophisticated luxury living experience tailored for contemporary urban lifestyles.",
   },
 
   {
     id: "20",
     slug: "project-twenty",
-    title: "Dharav School – Senior Wing",
+    title: "Dharav School, Senior Wing",
     category: ["Educational"],
     subtitle: "Educational | Gurgaon",
     description:
@@ -401,7 +401,7 @@ export const servicesdata = [
     imageleft: "/services-images/dharav-senior4.jpg",
     imageright: "/services-images/dharav-senior5.jpg",
     details:
-      "Designed as a landmark educational development, the Dharav School campus adopts a formal neoclassical architectural language that conveys institutional strength, symmetry, and timeless academic character. The façade is articulated  in rich red brick masonry complemented by finely detailed Gwalior stone accents, creating a distinguished and heritage-inspired academic presence. A grand central entrance portico, defined by triple-height classical columns, establishes a strong visual focal point, while dormer windows along the sloped roofline introduce rhythm and architectural balance. The gated forecourt further reinforces the school’s prestigious and welcoming institutional identity. The larger campus masterplan integrates the Junior Block, Senior Block, Auditorium Building, and an extensive 2 lakh sq.ft. basement parking facility. All primary academic structures are organised around a central open courtyard, ensuring optimal natural light penetration and cross ventilation across learning environments. Interiors are developed using high-quality finishes, supported by advanced laboratory infrastructure and modern sports amenities. The campus includes expansive outdoor playfields for football, tennis, skating, and cricket, along with a dedicated 30,000 sq.ft. covered sports complex for indoor sports. Together, these elements create a holistic academic environment that balances learning, wellness, and recreational development within a thoughtfully designed educational ecosystem.",
+      "Designed as a landmark educational development, the Dharav School campus adopts a formal neoclassical architectural language that conveys institutional strength, symmetry, and timeless academic character. The façade is articulated  in rich red brick masonry complemented by finely detailed Gwalior stone accents, creating a distinguished and heritage inspired academic presence. A grand central entrance portico, defined by triple height classical columns, establishes a strong visual focal point, while dormer windows along the sloped roofline introduce rhythm and architectural balance. The gated forecourt further reinforces the school’s prestigious and welcoming institutional identity. The larger campus masterplan integrates the Junior Block, Senior Block, Auditorium Building, and an extensive 2 lakh sq.ft. basement parking facility. All primary academic structures are organised around a central open courtyard, ensuring optimal natural light penetration and cross ventilation across learning environments. Interiors are developed using high quality finishes, supported by advanced laboratory infrastructure and modern sports amenities. The campus includes expansive outdoor playfields for football, tennis, skating, and cricket, along with a dedicated 30,000 sq.ft. covered sports complex for indoor sports. Together, these elements create a holistic academic environment that balances learning, wellness, and recreational development within a thoughtfully designed educational ecosystem.",
   },
   {
     id: "21",
@@ -426,7 +426,7 @@ export const servicesdata = [
   {
     id: "22",
     slug: "project-twentytwo",
-    title: "Corporate Office Interior – Medical Equipment Company",
+    title: "Corporate Office Interior, Medical Equipment Company",
     category: ["Commercial"],
     subtitle: "Commercial",
     description:
@@ -441,14 +441,14 @@ export const servicesdata = [
     imageleft: "/services-images/corporate-interior-left.jpg",
     imageright: "/services-images/corporate-right-new.jpg",
     details:
-      "Genarch designed this office interior to move beyond the conventional corporate setting and create a welcoming, residential-inspired work environment. Lounge-style meeting spaces, warm lighting, and layered ceiling details introduce comfort and visual depth. A soft palette of wood, marble, and neutral tones enhances the refined atmosphere, supporting collaboration and everyday ease.",
+      "Genarch designed this office interior to move beyond the conventional corporate setting and create a welcoming, residential inspired work environment. Lounge style meeting spaces, warm lighting, and layered ceiling details introduce comfort and visual depth. A soft palette of wood, marble, and neutral tones enhances the refined atmosphere, supporting collaboration and everyday ease.",
   },
   {
     id: "23",
     slug: "project-twentythree",
     title: "Airport Lounge",
-    category: ["Hospitality & Entertainmentos"],
-    subtitle: "Hospitality & Entertainment | Trivandrum",
+    category: ["Residential"],
+    subtitle: "Residential | Trivandrum",
     description:
       " A premium airport lounge designed for comfort and a refined travel experience.",
     image: "/services-images/airport-tri1-new.jpeg",
@@ -501,7 +501,7 @@ export const servicesdata = [
     imageleft: "/services-images/delhi-daredevils-left-new.jpg",
     imageright: "/services-images/delhi-daredevils-right-new.jpg",
     details:
-      "Genarch designed this sports bar at IGI Airport Terminal 3 as a high-energy space where travelers can unwind between journeys. The design integrates cricket-inspired graphics and thematic elements with a vibrant bar layout and casual seating. Warm lighting and an open seating arrangement create an engaging atmosphere suited for airport dwell time, blending sports, entertainment, and travel into a lively stopover experience.",
+      "Genarch designed this sports bar at IGI Airport Terminal 3 as a high energy space where travelers can unwind between journeys. The design integrates cricket inspired graphics and thematic elements with a vibrant bar layout and casual seating. Warm lighting and an open seating arrangement create an engaging atmosphere suited for airport dwell time, blending sports, entertainment, and travel into a lively stopover experience.",
   },
   {
     id: "26",
