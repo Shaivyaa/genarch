@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "1",
-    slug: "project-one",
+    slug: "pvr-at-elan-miracle-mall",
     title: "PVR at Elan Miracle Mall",
     subtitle: "Hospitality & Entertainment | Gurgaon",
     description:
@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     id: "2",
-    slug: "project-two",
+    slug: "pvr-at-dlf-midtown-plaza",
     title: "PVR at DLF Midtown Plaza",
     subtitle: "Hospitality & Entertainment | New Delhi",
     description:
@@ -39,7 +39,7 @@ export const projects = [
   },
   {
     id: "3",
-    slug: "project-three",
+    slug: "chaayos",
     title: "Chaayos",
     subtitle: "Hospitality & Entertainment ",
     description:
@@ -58,7 +58,7 @@ export const projects = [
   },
   {
     id: "4",
-    slug: "project-four",
+    slug: "third-wave-coffee-at-lucknow-airport",
     title: "Third Wave Coffee at Lucknow Airport",
     subtitle: "Hospitality & Entertainment | Lucknow",
     description:
@@ -77,8 +77,8 @@ export const projects = [
   },
   {
     id: "5",
-    slug: "project-five",
-    title: "Costa Coffee",
+    slug: "costa-coffee",
+    title: "costa-coffee",
     subtitle: "Hospitality & Entertainment | Retail Interior",
     description:
       "A modern industrial café softened by biophilic warmth and community focused design.",
@@ -96,7 +96,7 @@ export const projects = [
   },
   {
     id: "6",
-    slug: "project-six",
+    slug: "absolute-barbeque",
     title: "Absolute Barbeque",
     subtitle: "Hospitality & Entertainment | Noida",
     description:
@@ -116,27 +116,27 @@ export const projects = [
 
   {
     id: "7",
-    slug: "project-seven",
+    slug: "clubhouse-at-palampur",
     title: "Clubhouse at Palampur",
     subtitle: "Hospitality & Entertainment | Palampur",
     description:
       "A community clubhouse designed to bring recreation and social life to a serene Himalayan town.",
     image: "/services-images/clubhouse1-neww.jpg",
     imageone: "/services-images/clubhouse1-new.jpg",
-    imagetwo: "/services-images/clubhouse-last-new-img.png",
+    imagetwo: "/services-images/clubhouse3-new.jpeg",
     client: "Infinitea Sports Club & Tea Garden Resort",
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/clubhouse1-new.png",
-    imageright: "/services-images/clubhouse2-new.png",
+    imageleft: "/services-images/clubhouse1-new.jpeg",
+    imageright: "/services-images/clubhouse2-new.jpeg",
     details:
       "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
   },
 
   {
     id: "8",
-    slug: "project-eight",
+    slug: "chillis",
     title: "Chilli’s",
     subtitle: "Hospitality & Entertainment | Bangalore",
     description:
@@ -155,7 +155,7 @@ export const projects = [
   },
   {
     id: "9",
-    slug: "project-nine",
+    slug: "cinnabon",
     title: "Cinnabon",
     subtitle: "Hospitality & Entertainment",
     description:
@@ -174,7 +174,7 @@ export const projects = [
   },
   {
     id: "10",
-    slug: "project-ten",
+    slug: "haldirams",
     title: "Haldirams",
     subtitle: "Hospitality & Entertainment",
     description:
@@ -193,7 +193,7 @@ export const projects = [
   },
   {
     id: "11",
-    slug: "project-eleven",
+    slug: "popeyes",
     title: "Popeyes",
     subtitle: "Hospitality & Entertainment",
     description:
@@ -212,7 +212,7 @@ export const projects = [
   },
   {
     id: "12",
-    slug: "project-twelve",
+    slug: "farzi-cafe-at-airport-terminal",
     title: "Farzi Cafe at Airport Terminal",
     subtitle: "Hospitality & Entertainment",
     description:
@@ -231,7 +231,7 @@ export const projects = [
   },
   {
     id: "13",
-    slug: "project-thirteen",
+    slug: "naivedyam",
     title: "Naivedyam",
     subtitle: "Hospitality & Entertainment",
     description:
@@ -250,7 +250,7 @@ export const projects = [
   },
   {
     id: "14",
-    slug: "project-fourteen",
+    slug: "tgi-fridays",
     title: "TGI Fridays",
     subtitle: "Hospitality & Entertainment",
     description:
@@ -269,7 +269,7 @@ export const projects = [
   },
   {
     id: "15",
-    slug: "project-fifteen",
+    slug: "wellness-centre-nadaun",
     title: "Wellness Centre, Nadaun",
     subtitle: "Residential | Himachal Pradesh",
     description:
@@ -288,7 +288,7 @@ export const projects = [
   },
   {
     id: "16",
-    slug: "project-sixteen",
+    slug: "farmhouse-at-greater-noida",
     title: " Farmhouse at Greater Noida",
     subtitle: "Residential | Greater Noida",
     description:
@@ -307,7 +307,7 @@ export const projects = [
   },
   {
     id: "17",
-    slug: "project-seventeen",
+    slug: "corporate-office-building",
     title: "Corporate Office Building",
     subtitle: "Commercial | Gurugram",
     description:
@@ -327,7 +327,7 @@ export const projects = [
 
   {
     id: "18",
-    slug: "project-eighteen",
+    slug: "dharav-school-juinor-wing",
     title: "Dharav School, Junior Wing",
     subtitle: "Educational | Gurugram",
     description:
@@ -346,7 +346,7 @@ export const projects = [
   },
   {
     id: "19",
-    slug: "project-nineteen",
+    slug: "dubai-villa",
     title: "Dubai Villa",
     subtitle: "Residential | Dubai",
     description:
@@ -366,7 +366,7 @@ export const projects = [
 
   {
     id: "20",
-    slug: "project-twenty",
+    slug: "dharav-school-senior-wing",
     title: "Dharav School, Senior Wing",
     subtitle: "Educational | Gurgaon",
     description:
@@ -385,7 +385,7 @@ export const projects = [
   },
   {
     id: "21",
-    slug: "project-twentyone",
+    slug: "kindergarten-and-playschool-at-palampur",
     title: "Kindergarten & Playschool at Palampur",
     subtitle: "Educational | Palampur",
     description: "Where little steps begin their biggest journeys.",
@@ -404,7 +404,7 @@ export const projects = [
 
   {
     id: "22",
-    slug: "project-twentytwo",
+    slug: "corporate-office-interior-medical-equipment-company",
     title: "Corporate Office Interior, Medical Equipment Company",
     subtitle: "Commercial",
     description:
@@ -423,7 +423,7 @@ export const projects = [
   },
   {
     id: "23",
-    slug: "project-twentythree",
+    slug: "airport-lounge",
     title: "Airport Lounge",
     subtitle: "Residential | Trivandrum",
     description:
@@ -442,7 +442,7 @@ export const projects = [
   },
   {
     id: "24",
-    slug: "project-twentyfour",
+    slug: "haldirams-at-nagpur-airport",
     title: "Haldirams at Nagpur Airport",
     subtitle: "Hospitality & Entertainment | Nagpur",
     description:
@@ -461,7 +461,7 @@ export const projects = [
   },
   {
     id: "25",
-    slug: "project-twentyfive",
+    slug: "delhi-daredevils-sports-bar-at-igi-airport-terminal",
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     subtitle: "Hospitality & Entertainment | New Delhi",
     description:
@@ -480,7 +480,7 @@ export const projects = [
   },
   {
     id: "26",
-    slug: "project-twentysix",
+    slug: "kfc-mount-abu",
     title: "KFC, Mount Abu",
     subtitle: "Hospitality & Entertainment | Mount Abu",
     description:

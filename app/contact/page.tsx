@@ -48,11 +48,6 @@ export default function Contact() {
             sizes="100vw"
             className="md:w-full  object-cover"
           />
-          {/* <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-4xl md:text-8xl font-bold md:font-light text-white tracking-wide">
-              Contact Us
-            </h1>
-          </div> */}
         </section>
 
         {/* Main Grid */}

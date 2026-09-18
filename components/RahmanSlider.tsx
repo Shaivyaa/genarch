@@ -571,136 +571,136 @@ const slides = [
   {
     title: "PVR at Elan Miracle Mall",
     image: "/services-images/pvr-ggn-out-new.jpg",
-    slug: "project-one",
+    slug: "pvr-at-elan-miracle-mall",
     hero: true,
   },
   // {
   //   title: "PVR at DLF Midtown Plaza",
   //   image: "/services-images/dharav-senior.jpg",
-  //   slug: "project-two",
+  //   slug: "pvr-at-dlf-midtown-plaza",
   // },
   {
     title: "Chaayos",
     image: "/services-images/chaayos-out.jpg",
-    slug: "project-three",
+    slug: "chaayos",
   },
   {
     title: "Third Wave Coffee at Lucknow Airport",
     image: "/services-images/thirdwave-out.jpg",
-    slug: "project-four",
+    slug: "third-wave-coffee-at-lucknow-airport",
   },
   {
     title: "Costa Coffee",
     image: "/services-images/costa-goa-neww.jpg",
-    slug: "project-five",
+    slug: "costa-coffee",
   },
   {
     title: "Absolute Barbeque",
     image: "/services-images/bbq-out-neww.jpg",
-    slug: "project-six",
+    slug: "absolute-barbeque",
   },
   {
     title: "Clubhouse at Palampur",
     image: "/services-images/clubhouse-out-neww.jpg",
-    slug: "project-seven",
+    slug: "clubhouse-at-palampur",
   },
 
   // {
   //   title: "Chilli’s",
   //   image: "/services-images/chillis-blr-out.jpg",
-  //   slug: "project-eight",
+  //   slug: "chillis",
   // },
   // {
   //   title: "Cinnabon",
   //   image: "/services-images/cinnabon-out.jpg",
-  //   slug: "project-nine",
+  //   slug: "cinnabon",
   // },
   // {
   //   title: "Haldirams",
   //   image: "/services-images/haldirams-new.svg",
-  //   slug: "project-ten",
+  //   slug: "haldirams",
   // },
   // {
   //   title: "Popeyes",
   //   image: "/services-images/popyes-out.jpg",
-  //   slug: "project-eleven",
+  //   slug: "popeyes",
   // },
   {
     title: "Farzi Cafe at Airport Terminal",
     image: "/services-images/farzi-out.jpg",
-    slug: "project-twelve",
+    slug: "farzi-cafe-at-airport-terminal",
   },
   {
     title: "Naivedyam",
     image: "/services-images/naivedyam-out-img.jpg",
-    slug: "project-thirteen",
+    slug: "naivedyam",
   },
   {
     title: "TGI Fridays",
     image: "/services-images/tgi-out.jpg",
-    slug: "project-fourteen",
+    slug: "tgi-fridays",
   },
 
   {
     title: "Wellness Center, Nadaun",
     image: "/images/img5.jpg",
-    slug: "project-fifteen",
+    slug: "wellness-centre-nadaun",
   },
   {
     title: " Farmhouse at Greater Noida",
     image: "/images/farmhouse-out-new.jpg",
-    slug: "project-sixteen",
+    slug: "farmhouse-at-greater-noida",
   },
   {
     title: "Corporate Office Building, Gurugram",
     image: "/images/img3.jpg",
-    slug: "project-seventeen",
+    slug: "corporate-office-building",
   },
   {
     title: "Dharav School, Junior Wing",
     image: "/images/dharav-school-out.jpg",
-    slug: "project-eighteen",
+    slug: "dharav-school-juinor-wing",
   },
   {
     title: "Dubai Villa",
     image: "/services-images/dubai-villa.jpg",
-    slug: "project-nineteen",
+    slug: "dubai-villa",
   },
 
   {
     title: "Dharav School, Senior Wing",
     image: "/services-images/dharav-senior.jpg",
-    slug: "project-twenty",
+    slug: "dharav-school-senior-wing",
   },
   {
     title: "Kindergarten & Playschool at Palampur",
     image: "/services-images/kindergarten.jpg",
-    slug: "project-twentyone",
+    slug: "kindergarten-and-playschool-at-palampur",
   },
   {
     title: "Corporate Office Interior",
     image: "/services-images/medical-out.jpg",
-    slug: "project-twentytwo",
+    slug: "corporate-office-interior-medical-equipment-company",
   },
   {
     title: "Airport Lounge",
     image: "/services-images/airport-lounge-out.jpg",
-    slug: "project-twentythree",
+    slug: "airport-lounge",
   },
   // {
   //   title: "Haldirams at Nagpur Airport",
   //   image: "/services-images/haldiram-nagpur-out-new.svg",
-  //   slug: "project-twentyfour",
+  //   slug: "haldirams-at-nagpur-airport",
   // },
   {
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     image: "/services-images/delhi-daredevils-out.jpg",
-    slug: "project-twentyfive",
+    slug: "delhi-daredevils-sports-bar-at-igi-airport-terminal",
   },
   // {
   //   title: "KFC, Mount Abu",
   //   image: "/services-images/kfc-abu-out.jpeg",
-  //   slug: "project-twentysix",
+  //   slug: "kfc-mount-abu",
   // },
 ];
 

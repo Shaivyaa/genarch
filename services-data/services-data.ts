@@ -1,7 +1,7 @@
 export const servicesdata = [
   {
     id: "1",
-    slug: "project-one",
+    slug: "pvr-at-elan-miracle-mall",
     title: "PVR at Elan Miracle Mall",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Gurgaon",
@@ -21,7 +21,7 @@ export const servicesdata = [
   },
   {
     id: "2",
-    slug: "project-two",
+    slug: "pvr-at-dlf-midtown-plaza",
     title: "PVR at DLF Midtown Plaza",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | New Delhi",
@@ -41,7 +41,7 @@ export const servicesdata = [
   },
   {
     id: "3",
-    slug: "project-three",
+    slug: "chaayos",
     title: "Chaayos",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment ",
@@ -61,7 +61,7 @@ export const servicesdata = [
   },
   {
     id: "4",
-    slug: "project-four",
+    slug: "third-wave-coffee-at-lucknow-airport",
     title: "Third Wave Coffee at Lucknow Airport",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Lucknow",
@@ -81,7 +81,7 @@ export const servicesdata = [
   },
   {
     id: "5",
-    slug: "project-five",
+    slug: "costa-coffee",
     title: "Costa Coffee",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Retail Interior",
@@ -101,7 +101,7 @@ export const servicesdata = [
   },
   {
     id: "6",
-    slug: "project-six",
+    slug: "absolute-barbeque",
     title: "Absolute Barbeque",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Noida",
@@ -122,7 +122,7 @@ export const servicesdata = [
 
   {
     id: "7",
-    slug: "project-seven",
+    slug: "clubhouse-at-palampur",
     title: "Clubhouse at Palampur",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Palampur",
@@ -130,20 +130,20 @@ export const servicesdata = [
       "A community clubhouse designed to bring recreation and social life to a serene Himalayan town.",
     image: "/services-images/clubhouse1-neww.jpg",
     imageone: "/services-images/clubhouse1-new.jpg",
-    imagetwo: "/services-images/clubhouse-last-new-img.png",
+    imagetwo: "/services-images/clubhouse3-new.jpeg",
     client: "Infinitea Sports Club & Tea Garden Resort",
     // area: "--",
     status: "Completed",
     team: "Genarch Design Team",
-    imageleft: "/services-images/clubhouse1-new.png",
-    imageright: "/services-images/clubhouse2-new.png",
+    imageleft: "/services-images/clubhouse1-new.jpeg",
+    imageright: "/services-images/clubhouse2-new.jpeg",
     details:
       "Located in the foothills of the Dhauladhar range, this clubhouse in Palampur was envisioned as a vibrant social hub offering all day recreational activities for the community. The design embraces the local context through the use of regionally sourced materials such as riverbed stones and reclaimed wooden planks, complemented by traditional sloping shingle roofs. With features like a heated swimming pool and thoughtfully curated landscape using native plant species, the project blends modern amenities with sustainable design principles to create a warm, locally rooted gathering space.",
   },
 
   {
     id: "8",
-    slug: "project-eight",
+    slug: "chillis",
     title: "Chilli’s",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Bangalore",
@@ -163,7 +163,7 @@ export const servicesdata = [
   },
   {
     id: "9",
-    slug: "project-nine",
+    slug: "cinnabon",
     title: "Cinnabon",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
@@ -183,7 +183,7 @@ export const servicesdata = [
   },
   {
     id: "10",
-    slug: "project-ten",
+    slug: "haldirams",
     title: "Haldirams",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
@@ -203,7 +203,7 @@ export const servicesdata = [
   },
   {
     id: "11",
-    slug: "project-eleven",
+    slug: "popeyes",
     title: "Popeyes",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
@@ -223,7 +223,7 @@ export const servicesdata = [
   },
   {
     id: "12",
-    slug: "project-twelve",
+    slug: "farzi-cafe-at-airport-terminal",
     title: "Farzi Cafe at Airport Terminal",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
@@ -243,7 +243,7 @@ export const servicesdata = [
   },
   {
     id: "13",
-    slug: "project-thirteen",
+    slug: "naivedyam",
     title: "Naivedyam",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
@@ -263,7 +263,7 @@ export const servicesdata = [
   },
   {
     id: "14",
-    slug: "project-fourteen",
+    slug: "tgi-fridays",
     title: "TGI Fridays",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment",
@@ -283,7 +283,7 @@ export const servicesdata = [
   },
   {
     id: "15",
-    slug: "project-fifteen",
+    slug: "wellness-centre-nadaun",
     title: "Wellness Centre, Nadaun",
     category: ["Residential"],
     subtitle: "Residential | Himachal Pradesh",
@@ -303,8 +303,8 @@ export const servicesdata = [
   },
   {
     id: "16",
-    slug: "project-sixteen",
-    title: " Farmhouse at Greater Noida",
+    slug: "farmhouse-at-greater-noida",
+    title: "Farmhouse at Greater Noida",
     category: ["Residential"],
     subtitle: "Residential | Greater Noida",
     description:
@@ -323,7 +323,7 @@ export const servicesdata = [
   },
   {
     id: "17",
-    slug: "project-seventeen",
+    slug: "corporate-office-building",
     title: "Corporate Office Building",
     category: ["Commercial"],
     subtitle: "Commercial | Gurugram",
@@ -344,7 +344,7 @@ export const servicesdata = [
 
   {
     id: "18",
-    slug: "project-eighteen",
+    slug: "dharav-school-junior-wing",
     title: "Dharav School, Junior Wing",
     category: ["Educational"],
     subtitle: "Educational | Gurugram",
@@ -364,7 +364,7 @@ export const servicesdata = [
   },
   {
     id: "19",
-    slug: "project-nineteen",
+    slug: "dubai-villa",
     title: "Dubai Villa",
     category: ["Residential"],
     subtitle: "Residential | Dubai",
@@ -385,7 +385,7 @@ export const servicesdata = [
 
   {
     id: "20",
-    slug: "project-twenty",
+    slug: "dharav-school-senior-wing",
     title: "Dharav School, Senior Wing",
     category: ["Educational"],
     subtitle: "Educational | Gurgaon",
@@ -405,7 +405,7 @@ export const servicesdata = [
   },
   {
     id: "21",
-    slug: "project-twentyone",
+    slug: "kindergarten-and-playschool-at-palampur",
     title: "Kindergarten & Playschool at Palampur",
     category: ["Educational"],
     subtitle: "Educational | Palampur",
@@ -425,7 +425,7 @@ export const servicesdata = [
 
   {
     id: "22",
-    slug: "project-twentytwo",
+    slug: "corporate-office-interior-medical-equipment-company",
     title: "Corporate Office Interior, Medical Equipment Company",
     category: ["Commercial"],
     subtitle: "Commercial",
@@ -445,7 +445,7 @@ export const servicesdata = [
   },
   {
     id: "23",
-    slug: "project-twentythree",
+    slug: "airport-lounge",
     title: "Airport Lounge",
     category: ["Residential"],
     subtitle: "Residential | Trivandrum",
@@ -465,7 +465,7 @@ export const servicesdata = [
   },
   {
     id: "24",
-    slug: "project-twentyfour",
+    slug: "haldirams-at-nagpur-airport",
     title: "Haldirams at Nagpur Airport",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Nagpur",
@@ -485,7 +485,7 @@ export const servicesdata = [
   },
   {
     id: "25",
-    slug: "project-twentyfive",
+    slug: "delhi-daredevils-sports-bar-at-igi-airport-terminal",
     title: "Delhi Daredevils Sports Bar at IGI Airport Terminal 3",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | New Delhi",
@@ -505,7 +505,7 @@ export const servicesdata = [
   },
   {
     id: "26",
-    slug: "project-twentysix",
+    slug: "kfc-mount-abu",
     title: "KFC, Mount Abu",
     category: ["Hospitality & Entertainment"],
     subtitle: "Hospitality & Entertainment | Mount Abu",
